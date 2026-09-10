@@ -47,68 +47,75 @@ class KiCadSchematicPDF(FPDF):
         """Draw a component box."""
         self.set_draw_color(*color)
         self.set_fill_color(255, 255, 240)
+        self.set_line_width(0.5)
         self.rect(x, y, w, h, 'DF')
-        self.set_font('Helvetica', 'B', 7)
+        self.set_font('Helvetica', 'B', 9)
         self.set_text_color(*BLACK)
-        self.text(x + 1, y + 4, ref)
-        self.set_font('Helvetica', '', 6)
-        self.text(x + 1, y + 8, value[:15])
+        self.text(x + 1, y + 5, ref)
+        self.set_font('Helvetica', '', 7)
+        self.text(x + 1, y + 10, value[:15])
 
     def draw_ic(self, ref, value, x, y, w=30, h=40, pins_left=0, pins_right=0, color=BLUE):
         """Draw an IC with pins."""
         self.set_draw_color(*color)
         self.set_fill_color(230, 240, 255)
+        self.set_line_width(0.5)
         self.rect(x, y, w, h, 'DF')
         # Notch
         self.set_fill_color(*color)
         self.ellipse(x + w/2 - 2, y, 4, 2, 'F')
         # Labels
-        self.set_font('Helvetica', 'B', 7)
+        self.set_font('Helvetica', 'B', 8)
         self.set_text_color(*BLACK)
         self.text(x + w/2 - 8, y + h/2, ref)
-        self.set_font('Helvetica', '', 5)
+        self.set_font('Helvetica', '', 6)
         self.text(x + 2, y + h/2 + 4, value[:20])
         # Pins
-        pin_len = 3
+        pin_len = 4
         for i in range(pins_left):
             py = y + h * (i + 1) / (pins_left + 1)
             self.set_draw_color(*RED)
+            self.set_line_width(0.4)
             self.line(x - pin_len, py, x, py)
         for i in range(pins_right):
             py = y + h * (i + 1) / (pins_right + 1)
             self.set_draw_color(*RED)
+            self.set_line_width(0.4)
             self.line(x + w, py, x + w + pin_len, py)
 
     def draw_resistor(self, x, y, value="", vertical=False):
         self.set_draw_color(*ORANGE)
+        self.set_line_width(0.4)
         if vertical:
             self.line(x, y, x, y + 2)
             self.rect(x - 1, y + 2, 2, 4)
             self.line(x, y + 6, x, y + 8)
-            self.set_font('Helvetica', '', 4)
+            self.set_font('Helvetica', '', 5)
             self.text(x + 2, y + 5, value)
         else:
             self.line(x, y, x + 2, y)
             self.rect(x + 2, y - 1, 4, 2)
             self.line(x + 6, y, x + 8, y)
-            self.set_font('Helvetica', '', 4)
-            self.text(x + 2, y - 2, value)
+            self.set_font('Helvetica', '', 5)
+            self.text(x + 2, y - 3, value)
 
     def draw_capacitor(self, x, y, value=""):
         self.set_draw_color(*CYAN)
+        self.set_line_width(0.4)
         self.line(x, y, x + 2, y)
         self.line(x + 2, y - 2, x + 2, y + 2)
         self.line(x + 3, y - 2, x + 3, y + 2)
         self.line(x + 3, y, x + 5, y)
-        self.set_font('Helvetica', '', 4)
-        self.text(x + 1, y - 3, value)
+        self.set_font('Helvetica', '', 5)
+        self.text(x + 1, y - 4, value)
 
     def draw_wire(self, x1, y1, x2, y2, color=GREEN):
         self.set_draw_color(*color)
+        self.set_line_width(0.3)
         self.line(x1, y1, x2, y2)
 
     def draw_net_label(self, x, y, name):
-        self.set_font('Helvetica', '', 5)
+        self.set_font('Helvetica', 'B', 7)
         self.set_text_color(*MAGENTA)
         self.text(x, y, name)
 
@@ -149,33 +156,36 @@ def parse_schematic_sheet(filepath):
     except Exception:
         return components, wires, labels
 
-    # Extract symbols (components)
-    # Pattern: (symbol (lib_id "LIB:SYMBOL") (at X Y ANGLE) ...
-    sym_pattern = r'\(symbol\s+\(lib_id\s+"([^"]+)"\)\s+\(at\s+([\d.]+)\s+([\d.]+)\s+[\d.]+\)'
+    # Extract symbols (components) - KiCad format: (symbol (lib_id "X:Y" (at X Y Z) (unit N)
+    sym_pattern = r'\(symbol \(lib_id "([^"]+)" \(at (-?[\d.]+) (-?[\d.]+) (-?[\d.]+)\)'
     for m in re.finditer(sym_pattern, content):
         lib_id = m.group(1)
         x = float(m.group(2))
         y = float(m.group(3))
-        # Extract reference and value
-        ref_match = re.search(r'\(property\s+"Reference"\s+"([^"]+)"', content[m.start():m.start()+500])
-        val_match = re.search(r'\(property\s+"Value"\s+"([^"]+)"', content[m.start():m.start()+500])
+        angle = float(m.group(4))
+        # Extract reference and value from nearby lines
+        block_start = m.start()
+        block_end = min(block_start + 800, len(content))
+        block = content[block_start:block_end]
+        ref_match = re.search(r'\(property "Reference" "([^"]+)"', block)
+        val_match = re.search(r'\(property "Value" "([^"]+)"', block)
         ref = ref_match.group(1) if ref_match else "?"
         val = val_match.group(1) if val_match else ""
-        components.append({'lib_id': lib_id, 'ref': ref, 'value': val, 'x': x, 'y': y})
+        components.append({'lib_id': lib_id, 'ref': ref, 'value': val, 'x': x, 'y': y, 'angle': angle})
 
-    # Extract wires
-    wire_pattern = r'\(wire\s+\(pts\s+\(xy\s+([\d.]+)\s+([\d.]+)\)\s+\(xy\s+([\d.]+)\s+([\d.]+)\)\)'
+    # Extract wires - KiCad format: (wire (pts (xy X1 Y1) (xy X2 Y2))
+    wire_pattern = r'\(wire \(pts \(xy (-?[\d.]+) (-?[\d.]+)\) \(xy (-?[\d.]+) (-?[\d.]+)\)\)'
     for m in re.finditer(wire_pattern, content):
         wires.append((float(m.group(1)), float(m.group(2)),
                       float(m.group(3)), float(m.group(4))))
 
-    # Extract labels
-    label_pattern = r'\(label\s+"([^"]+)"\s+\(at\s+([\d.]+)\s+([\d.]+)'
+    # Extract labels - KiCad format: (label "NAME" (at X Y ANGLE)
+    label_pattern = r'\(label "([^"]+)" \(at (-?[\d.]+) (-?[\d.]+)'
     for m in re.finditer(label_pattern, content):
         labels.append({'name': m.group(1), 'x': float(m.group(2)), 'y': float(m.group(3))})
 
-    # Global labels
-    glabel_pattern = r'\(global_label\s+"([^"]+)"\s+\(shape\s+[^)]+\)\s+\(at\s+([\d.]+)\s+([\d.]+)'
+    # Global labels - KiCad format: (global_label "NAME" (shape ...) (at X Y ANGLE)
+    glabel_pattern = r'\(global_label "([^"]+)" \(shape [^)]+\) \(at (-?[\d.]+) (-?[\d.]+)'
     for m in re.finditer(glabel_pattern, content):
         labels.append({'name': m.group(1), 'x': float(m.group(2)), 'y': float(m.group(3))})
 
@@ -190,47 +200,69 @@ def render_schematic_to_pdf(sheet_file, pdf_file, title):
     pdf.add_page()
     pdf.draw_title_block(title, f"File: {os.path.basename(sheet_file)}")
 
-    if not components and not wires:
+    if not components and not wires and not labels:
         pdf.set_font('Helvetica', 'I', 10)
         pdf.set_text_color(*GRAY)
         pdf.text(50, 50, "Schematic sheet (open in KiCad for full rendering)")
-        pdf.text(50, 60, f"Components: {len(components)}, Wires: {len(wires)}")
+        pdf.text(50, 60, f"Components: {len(components)}, Wires: {len(wires)}, Labels: {len(labels)}")
     else:
-        # Scale factor (KiCad uses mm, PDF uses mm)
-        scale = 0.35
-        offset_x = 15
-        offset_y = 20
+        # Scale factor - KiCad uses mm, fit to A3 page (420x297)
+        # Determine bounds from components
+        if components:
+            min_x = min(c['x'] for c in components) - 20
+            max_x = max(c['x'] for c in components) + 20
+            min_y = min(c['y'] for c in components) - 20
+            max_y = max(c['y'] for c in components) + 20
+        else:
+            min_x, max_x, min_y, max_y = 0, 200, 0, 200
 
-        # Draw wires first
+        range_x = max_x - min_x
+        range_y = max_y - min_y
+        scale_x = 380 / range_x if range_x > 0 else 1
+        scale_y = 250 / range_y if range_y > 0 else 1
+        scale = min(scale_x, scale_y, 3.0)  # cap at 3x
+        ox = 20 - min_x * scale
+        oy = 20 - min_y * scale
+
+        # Draw wires first (green lines)
         for x1, y1, x2, y2 in wires:
-            pdf.draw_wire(x1 * scale + offset_x, y1 * scale + offset_y,
-                         x2 * scale + offset_x, y2 * scale + offset_y)
+            pdf.draw_wire(x1 * scale + ox, y1 * scale + oy,
+                         x2 * scale + ox, y2 * scale + oy)
 
         # Draw components
         for comp in components:
-            x = comp['x'] * scale + offset_x
-            y = comp['y'] * scale + offset_y
+            x = comp['x'] * scale + ox
+            y = comp['y'] * scale + oy
             lib = comp['lib_id'].split(':')[-1] if ':' in comp['lib_id'] else comp['lib_id']
+            ref = comp['ref']
+            val = comp['value']
 
-            if 'R' in comp['ref'] and comp['ref'][0] == 'R':
-                pdf.draw_resistor(x, y, comp['value'])
-            elif 'C' in comp['ref'] and comp['ref'][0] == 'C':
-                pdf.draw_capacitor(x, y, comp['value'])
-            elif any(ic in lib.upper() for ic in ['ADC', 'FPGA', 'TPS', 'ISL', 'LMX', 'LMK', 'INA', 'TRF']):
-                pdf.draw_ic(comp['ref'], comp['value'], x - 10, y - 15, 30, 30)
-            elif 'J' in comp['ref']:
-                pdf.draw_connector(comp['ref'], x, y, 4, comp['value'])
-            elif 'L' in comp['ref'] and comp['ref'][0] == 'L':
-                pdf.draw_resistor(x, y, comp['value'])
-            elif 'FB' in comp['ref']:
-                pdf.draw_resistor(x, y, comp['value'])
+            # Determine component type from lib_id
+            if 'TPS7H5002' in lib or 'ISL70003' in lib or 'TPS7H1111' in lib or 'TPS7H1121' in lib or 'TPS7H3014' in lib:
+                pdf.draw_ic(ref, val, x - 15, y - 20, 30, 40)
+            elif 'ADC' in lib or 'LMX' in lib or 'LMK' in lib or 'INA' in lib or 'TRF' in lib:
+                pdf.draw_ic(ref, val, x - 12, y - 15, 24, 30)
+            elif 'Resistor' in lib:
+                pdf.draw_resistor(x, y, val)
+            elif 'Capacitor' in lib:
+                pdf.draw_capacitor(x, y, val)
+            elif 'Inductor' in lib:
+                pdf.draw_resistor(x, y, val)  # similar shape
+            elif 'MOSFET' in lib:
+                pdf.draw_ic(ref, val, x - 8, y - 10, 16, 20)
+            elif 'FPGA' in lib or 'XQRVC' in lib:
+                pdf.draw_ic(ref, val, x - 25, y - 30, 50, 60)
+            elif ref.startswith('J'):
+                pdf.draw_connector(ref, x - 5, y - 5, 4, val)
+            elif ref.startswith('Y'):
+                pdf.draw_ic(ref, val, x - 8, y - 6, 16, 12)
             else:
-                pdf.draw_component(comp['ref'], comp['value'], x - 5, y - 3)
+                pdf.draw_component(ref, val, x - 8, y - 4)
 
-        # Draw labels
+        # Draw labels (net names)
         for lbl in labels:
-            x = lbl['x'] * scale + offset_x
-            y = lbl['y'] * scale + offset_y
+            x = lbl['x'] * scale + ox
+            y = lbl['y'] * scale + oy
             pdf.draw_net_label(x, y, lbl['name'])
 
     # Info box
