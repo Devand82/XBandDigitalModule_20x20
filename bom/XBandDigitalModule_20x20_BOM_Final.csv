@@ -1,0 +1,108 @@
+Reference,Value,Footprint,Manufacturer,MPN,Quantity,Unit_Price_USD,Total_Price_USD,Description,Space_Grade,Notes
+U1,ADC12DJ5200-SP,QFN-64,Texas Instruments,ADC12DJ5200SPRJQV,1,$12500.00,$12500.00,12-bit 10.4GSPS ADC,Yes - Rad-Hard,MIL-PRF-38535 QML Class V; TID 100krad(Si); SEE LET 43MeV·cm²/mg
+U2,XQRVC1902-2FFVG1156E,BGA-1760,Xilinx (AMD),XQRVC1902-2FFVG1156E,1,$85000.00,$85000.00,Radiation-hardened FPGA,Yes - Rad-Hard,XQR series; 150krad TID; EDAC rated; 1.5M logic cells
+U3,TRF0208-SP,QFN-16,Texas Instruments,TRF0208SPRQV,1,$850.00,$850.00,Differential amplifier/balun,Yes - Space Qualified,SP suffix; rad-hard to 100krad(Si); QML Class V
+U4,LMX2615-SP,QFN-40,Texas Instruments,LMX2615SPRQV,1,$650.00,$650.00,15GHz frequency synthesizer,Yes - Space Qualified,SP suffix; rad-hard PLL; QML Class V
+U5,LMK04832-SP,QFN-64,Texas Instruments,LMK04832SPRQV,1,$750.00,$750.00,Clock jitter cleaner,Yes - Space Qualified,SP suffix; rad-hard to 100krad(Si); QML Class V
+U6,TPS7H5002-SP,QFN-40,Texas Instruments,TPS7H5002SPRQV,1,$250.00,$250.00,40A buck converter,Yes - Space Qualified,SP suffix; rad-hard; QML Class V; integrated FET
+U7,ISL70003ASEH,CQFP-64,Intersil (Renesas),ISL70003ASEH,1,$320.00,$320.00,9A buck converter,Yes - Rad-Hard,ASEH suffix; rad-hard to 300krad(Si); MIL-PRF-38535
+U8,ISL70003ASEH,CQFP-64,Intersil (Renesas),ISL70003ASEH,1,$320.00,$320.00,9A buck converter,Yes - Rad-Hard,ASEH suffix; rad-hard to 300krad(Si); MIL-PRF-38535
+U9,TPS7H1111-SP,HTSSOP-20,Texas Instruments,TPS7H1111SPWP,1,$95.00,$95.00,1.5A ultra-low noise LDO,Yes - Space Qualified,SP suffix; rad-hard; QML Class V
+U10,TPS7H1111-SP,HTSSOP-20,Texas Instruments,TPS7H1111SPWP,1,$95.00,$95.00,1.5A ultra-low noise LDO,Yes - Space Qualified,SP suffix; rad-hard; QML Class V
+U11,TPS7H1121-SP,CFP-22,Texas Instruments,TPS7H1121SPHFT,1,$110.00,$110.00,2A general LDO,Yes - Space Qualified,SP suffix; rad-hard; QML Class V
+U12,TPS7H3014-SP,HFT-22,Texas Instruments,TPS7H3014SPHFT,1,$180.00,$180.00,4-ch power sequencer,Yes - Space Qualified,SP suffix; rad-hard; QML Class V
+U13,TPS7H3014-SP,HFT-22,Texas Instruments,TPS7H3014SPHFT,1,$180.00,$180.00,4-ch power sequencer,Yes - Space Qualified,SP suffix; rad-hard; QML Class V
+U14,INA214-SP,SOT-23-8,Texas Instruments,INA214AIDRQV,2,$45.00,$90.00,Current sense amplifier,Yes - Space Qualified,SP suffix; rad-hard; QML Class V
+Y1,CVHD-950-122.880,HC49-SD,TXC,CVHD-950-122.880,1,$185.00,$185.00,122.88MHz VCXO 45fs jitter,Yes - Radiation Tolerant,High-reliability grade; G-sensitivity 0.5ppb/g; not fully rad-hard
+"R1,R2",10.0kΩ,0402,Generic,Generic,2,$0.02,$0.02,Feedback divider,No - Commercial,1% thick-film; standard commercial passive
+R3,15.8kΩ,0402,Generic,Generic,1,$0.01,$0.01,Feedback divider 1.0V core,No - Commercial,1% thick-film; voltage setting resistor
+R4,20.0kΩ,0402,Generic,Generic,1,$0.01,$0.01,Feedback divider 1.8V aux,No - Commercial,1% thick-film; voltage setting resistor
+R5,10.0kΩ,0402,Generic,Generic,1,$0.01,$0.01,Feedback divider 1.8V aux,No - Commercial,1% thick-film; voltage setting resistor
+R6,45.3kΩ,0402,Generic,Generic,1,$0.01,$0.01,Feedback divider 3.3V,No - Commercial,1% thick-film; voltage setting resistor
+R7,10.0kΩ,0402,Generic,Generic,1,$0.01,$0.01,Feedback divider 3.3V,No - Commercial,1% thick-film; voltage setting resistor
+R8,10.0kΩ 0.1%,0603,Generic,Generic,1,$0.05,$0.05,RSET AVDD 1.0V,No - Commercial,0.1% precision; critical for voltage accuracy
+R9,18.0kΩ 0.1%,0603,Generic,Generic,1,$0.05,$0.05,RSET DVDD 1.8V,No - Commercial,0.1% precision; critical for voltage accuracy
+R10,31.6kΩ,0402,Generic,Generic,1,$0.01,$0.01,Feedback divider 2.5V,No - Commercial,1% thick-film; voltage setting resistor
+R11,10.0kΩ,0402,Generic,Generic,1,$0.01,$0.01,Feedback divider 2.5V,No - Commercial,1% thick-film; voltage setting resistor
+R12,100kΩ,0402,Generic,Generic,1,$0.01,$0.01,fsw setting TPS7H5002,No - Commercial,1% thick-film; switching frequency set
+R13,390kΩ,0402,Generic,Generic,1,$0.01,$0.01,Loop compensation,No - Commercial,1% thick-film; control loop
+R14,10kΩ,0402,Generic,Generic,1,$0.01,$0.01,Slope compensation,No - Commercial,1% thick-film; current mode control
+"R15,R16",4.02kΩ,0603,Generic,Generic,2,$0.02,$0.02,OCP setting,No - Commercial,1% thick-film; overcurrent protection threshold
+R17,22kΩ,0603,Generic,Generic,1,$0.01,$0.01,Timing ISL70003,No - Commercial,1% thick-film; oscillator timing
+R18,4.7kΩ,0603,Generic,Generic,1,$0.01,$0.01,Loop compensation,No - Commercial,1% thick-film; control loop
+R19,3.3kΩ,0603,Generic,Generic,1,$0.01,$0.01,Loop compensation,No - Commercial,1% thick-film; control loop
+"R20,R21",6.49kΩ,0402,Generic,Generic,2,$0.02,$0.02,SENSE divider 1.0V,No - Commercial,1% thick-film; voltage sense
+"R22,R23",19.6kΩ,0402,Generic,Generic,2,$0.02,$0.02,SENSE divider 1.8V,No - Commercial,1% thick-film; voltage sense
+R24,44.2kΩ,0402,Generic,Generic,1,$0.01,$0.01,SENSE divider 3.3V,No - Commercial,1% thick-film; voltage sense
+"R25,R26",10.0kΩ,0402,Generic,Generic,2,$0.02,$0.02,SENSE divider bottom,No - Commercial,1% thick-film; voltage sense
+"R27,R28",150kΩ,0402,Generic,Generic,2,$0.02,$0.02,DLY_TMR,No - Commercial,1% thick-film; sequencing delay
+"R29,R30",619kΩ,0402,Generic,Generic,2,$0.02,$0.02,REG_TMR,No - Commercial,1% thick-film; regulation timer
+"R31,R32",10kΩ,0402,Generic,Generic,2,$0.02,$0.02,FAULT pull-up,No - Commercial,1% thick-film; fault indicator
+"R33,R34",50kΩ,0402,Generic,Generic,2,$0.02,$0.02,HYS,No - Commercial,1% thick-film; hysteresis setting
+R35,5mΩ,2512,Generic,Generic,1,$0.50,$0.50,Current sense,No - Commercial,1% metal element; precision current sense
+R36-R45,50Ω,0402,Generic,Generic,10,$0.10,$0.10,RF termination,No - Commercial,1% thick-film; 50Ω match
+R46-R50,10kΩ,0402,Generic,Generic,5,$0.05,$0.05,SPI pull-ups,No - Commercial,1% thick-film; digital bus
+C1-C4,100nF C0G,0402,Generic,Generic,4,$0.08,$0.08,RF coupling,No - Commercial,C0G dielectric; excellent HF performance
+C5-C8,100nF C0G,0603,Generic,Generic,4,$0.08,$0.08,ADC bypass,No - Commercial,C0G dielectric; low ESR/ESL
+C9-C16,100nF X7R,0402,Generic,Generic,8,$0.16,$0.16,FPGA bypass,No - Commercial,X7R dielectric; decoupling
+C17-C26,10µF X5R,0805,Generic,Generic,10,$0.50,$0.50,FPGA bulk,No - Commercial,X5R dielectric; bulk storage
+C27-C36,100nF C0G,0402,Generic,Generic,10,$0.20,$0.20,FPGA bypass,No - Commercial,C0G dielectric; HF bypass
+C37-C40,22µF X5R,1210,Generic,Generic,4,$1.20,$1.20,Buck 1.0V input,No - Commercial,X5R dielectric; input filter
+C41-C42,470µF polymer,7x4mm,Generic,Generic,2,$6.00,$6.00,Buck 1.0V output bulk,No - Commercial,Polymer; low ESR for transient response
+C43-C52,10µF X5R,1210,Generic,Generic,10,$3.00,$3.00,Buck 1.0V output ceramic,No - Commercial,X5R dielectric; output filter
+C53-C55,470nF C0G,0603,Generic,Generic,3,$0.15,$0.15,TPS7H5002 bypass,No - Commercial,C0G dielectric; bypass
+C56,4.7nF C0G,0402,Generic,Generic,1,$0.01,$0.01,Loop compensation,No - Commercial,C0G dielectric; compensation network
+C57,330pF C0G,0402,Generic,Generic,1,$0.01,$0.01,HF filter,No - Commercial,C0G dielectric; high-frequency filter
+C58,10nF X7R,0402,Generic,Generic,1,$0.01,$0.01,Soft-start,No - Commercial,X7R dielectric; startup timing
+C59,3.3nF X7R,0402,Generic,Generic,1,$0.01,$0.01,Hiccup timer,No - Commercial,X7R dielectric; fault timing
+C60-C62,470nF C0G,0603,Generic,Generic,3,$0.15,$0.15,ISL70003 bypass,No - Commercial,C0G dielectric; bypass
+C63-C65,0.47µF,0805,Generic,Generic,3,$0.15,$0.15,ISL70003 input,No - Commercial,X7R dielectric; input filter
+C66-C67,150µF tantalum,7x4mm,Generic,Generic,2,$8.00,$8.00,Buck 1.8V output,No - Commercial,Tantalum; bulk storage
+C68-C69,10µF X7R,1812,Generic,Generic,2,$1.00,$1.00,Buck 1.8V ceramic,No - Commercial,X7R dielectric; ceramic output
+C70-C72,100nF,0603,Generic,Generic,3,$0.06,$0.06,Buck 1.8V HF,No - Commercial,X7R dielectric; HF bypass
+C73-C74,150µF tantalum,7x4mm,Generic,Generic,2,$8.00,$8.00,Buck 3.3V output,No - Commercial,Tantalum; bulk storage
+C75-C76,10µF X7R,1812,Generic,Generic,2,$1.00,$1.00,Buck 3.3V ceramic,No - Commercial,X7R dielectric; ceramic output
+C77-C79,100nF,0603,Generic,Generic,3,$0.06,$0.06,Buck 3.3V HF,No - Commercial,X7R dielectric; HF bypass
+C80,10µF X7R,0805,Generic,Generic,1,$0.30,$0.30,LDO 1.0V input,No - Commercial,X7R dielectric; input filter
+C81,100nF,0603,Generic,Generic,1,$0.02,$0.02,LDO 1.0V HF input,No - Commercial,X7R dielectric; HF bypass
+C82,220µF tantalum,7x4mm,Generic,Generic,1,$4.00,$4.00,LDO 1.0V output,No - Commercial,Tantalum; bulk storage
+C83,100nF,0603,Generic,Generic,1,$0.02,$0.02,LDO 1.0V HF output,No - Commercial,X7R dielectric; HF bypass
+C84,10µF X7R,0805,Generic,Generic,1,$0.30,$0.30,LDO 1.0V bias,No - Commercial,X7R dielectric; bias capacitor
+C85,4.7µF,0603,Generic,Generic,1,$0.10,$0.10,LDO 1.0V soft-set,No - Commercial,X7R dielectric; soft-start
+C86,4.7nF,0603,Generic,Generic,1,$0.02,$0.02,LDO 1.0V compensation,No - Commercial,X7R dielectric; compensation
+C87,10µF X7R,0805,Generic,Generic,1,$0.30,$0.30,LDO 1.8V input,No - Commercial,X7R dielectric; input filter
+C88,220µF tantalum,7x4mm,Generic,Generic,1,$4.00,$4.00,LDO 1.8V output,No - Commercial,Tantalum; bulk storage
+C89,10µF X7R,0805,Generic,Generic,1,$0.30,$0.30,LDO 1.8V bias,No - Commercial,X7R dielectric; bias capacitor
+C90,10µF X7R,0805,Generic,Generic,1,$0.30,$0.30,LDO 2.5V input,No - Commercial,X7R dielectric; input filter
+C91,100nF,0603,Generic,Generic,1,$0.02,$0.02,LDO 2.5V HF input,No - Commercial,X7R dielectric; HF bypass
+C92,47µF tantalum,5x4mm,Generic,Generic,1,$3.00,$3.00,LDO 2.5V output,No - Commercial,Tantalum; bulk storage
+C93,100nF,0603,Generic,Generic,1,$0.02,$0.02,LDO 2.5V HF output,No - Commercial,X7R dielectric; HF bypass
+C94,470nF,0603,Generic,Generic,1,$0.03,$0.03,LDO 2.5V VLDO,No - Commercial,X7R dielectric; internal LDO bypass
+C95,33nF,0603,Generic,Generic,1,$0.02,$0.02,LDO 2.5V soft-start,No - Commercial,X7R dielectric; startup timing
+C96-C99,470nF C0G,0603,Generic,Generic,4,$0.12,$0.12,Sequencer bypass,No - Commercial,C0G dielectric; bypass
+C100-C103,1µF X7R,0603,Generic,Generic,4,$0.08,$0.08,Sequencer VLDO/PULL_UP,No - Commercial,X7R dielectric; internal rail bypass
+C104-C107,100nF,0603,Generic,Generic,4,$0.08,$0.08,Sequencer input,No - Commercial,X7R dielectric; input bypass
+C108-C111,10µF,0805,Generic,Generic,4,$1.20,$1.20,Sequencer input bulk,No - Commercial,X5R dielectric; bulk storage
+C112-C115,100nF,0603,Generic,Generic,4,$0.08,$0.08,Sequencer REFCAP,No - Commercial,X7R dielectric; reference bypass
+C116-C135,100nF,0402,Generic,Generic,20,$0.40,$0.40,Additional bypass,No - Commercial,X7R dielectric; general bypass
+C136-C155,10µF,0805,Generic,Generic,20,$6.00,$6.00,Additional bulk,No - Commercial,X5R dielectric; bulk storage
+C156-C165,100nF C0G,0603,Generic,Generic,10,$0.20,$0.20,Clock bypass,No - Commercial,C0G dielectric; low-jitter clock supply
+C166-C168,1µF,0603,Generic,Generic,3,$0.06,$0.06,Clock bypass,No - Commercial,X7R dielectric; clock supply
+L1,100nH 55A,6x6mm,Vishay,XAL1010-102,1,$8.50,$8.50,Buck 1.0V power inductor,No - Commercial,Metal composite; 55A saturation
+L2,2.2µH 8A,12x12mm,Vishay,IHLP5050CEER2R2M01,1,$5.00,$5.00,Buck 1.8V power inductor,No - Commercial,Metal composite; 8A saturation
+L3,4.7µH 4A,10x10mm,Vishay,IHLP4040CEER4R7M01,1,$4.00,$4.00,Buck 3.3V power inductor,No - Commercial,Metal composite; 4A saturation
+FB1,120Ω@100MHz,0805,Murata,BLM18AG121SN1D,2,$0.10,$0.10,Power input filter,No - Commercial,Ferrite bead; power line filtering
+FB2-FB5,600Ω@100MHz,0402,Murata,BLM18AG601SN1D,4,$0.20,$0.20,Clock power filter,No - Commercial,Ferrite bead; high-impedance clock supply
+FB6-FB10,100Ω@100MHz,0603,Murata,BLM18AG101SN1D,5,$0.25,$0.25,Analog power filter,No - Commercial,Ferrite bead; analog supply isolation
+TVS1,SMBJ6.0A,SMB,Littelfuse,SMBJ6.0A,1,$0.50,$0.50,Input TVS,No - Commercial,Unidirectional; 6.0V standoff; ESD protection
+TVS2,SMBJ6.0A,SMB,Littelfuse,SMBJ6.0A,1,$0.50,$0.50,Backup TVS,No - Commercial,Unidirectional; redundant input protection
+D1-D4,BAT54S,SOT-23,Nexperia,BAT54S,4,$0.40,$0.40,ESD protection,No - Commercial,Dual Schottky; low-capacitance ESD clamp
+J1,SMPA,Edge-mount,Amphenol,132289,4,$20.00,$20.00,RF connectors,No - Commercial,SMPA push-on; 40GHz rated; 50Ω
+J2,SpaceWire 6-pin,Header,Alpha Wire,MS3102A32-6P,2,$85.00,$85.00,SpaceWire,No - MIL Qualified,MIL-DTL-38999 qualified; SpaceWire protocol
+J3,JTAG 10-pin,Header,Samtec,FTSH-105-01-F-DV-K,1,$2.50,$2.50,JTAG debug,No - Commercial,1.27mm pitch; debug interface only
+J4,Power 4-pin,Molex,Molex,39-00-0080,1,$1.50,$1.50,Power input,No - Commercial,Micro-Fit 3.0; 8A rated
+J5,UART 4-pin,Header,Generic,1x4 2.54mm,1,$0.50,$0.50,Debug UART,No - Commercial,2.54mm pitch; debug only
+MH1-MH4,M3x6mm standoff,-,Generic,-,4,$2.00,$2.00,Mounting,No - Commercial,Stainless steel; panel mount
+MH5-MH8,M3x5mm screw,-,Generic,-,4,$1.00,$1.00,Mounting,No - Commercial,Stainless steel; panel mount
+HS1,Heatsink 40x40x5mm,-,Aavid (Boyd),-,1,$8.00,$8.00,FPGA cooling,No - Commercial,Aluminum; forced-air compatible
+Shield1,EMC shield box,206x206x15mm,Custom,-,1,$150.00,$150.00,RF shielding,No - Custom,Tin-plated steel; custom enclosure
