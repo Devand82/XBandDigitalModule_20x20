@@ -21,7 +21,7 @@
     (property "Value" "XQRVC1902-SP" (at 200 210 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "" (at 200 200 0) (effects (font (size 1.27 1.27)) hide))
   )
-  (global_label "JESD_DA0_P" (shape input) (at 100 40 180) (effects (font (size 1.27 1.27)) (justify right)))  (global_label "JESD_DA0_N" (shape input) (at 100 50 180) (effects (font (size 1.27 1.27)) (justify right)))  (global_label "JESD_DA1_P" (shape input) (at 100 60 180) (effects (font (size 1.27 1.27)) (justify right)))  (global_label "JESD_DA1_N" (shape input) (at 100 70 180) (effects (font (size 1.27 1.27)) (justify right)))  (global_label "JESD_DA2_P" (shape input) (at 100 80 180) (effects (font (size 1.27 1.27)) (justify right)))  (global_label "JESD_DA2_N" (shape input) (at 100 90 180) (effects (font (size 1.27 1.27)) (justify right)))  (global_label "JESD_DA3_P" (shape input) (at 100 100 180) (effects (font (size 1.27 1.27)) (justify right)))  (global_label "JESD_DA3_N" (shape input) (at 100 110 180) (effects (font (size 1.27 1.27)) (justify right)))  (global_label "ADC_CS" (shape output) (at 100 130 180) (effects (font (size 1.27 1.27)) (justify right)))  (global_label "ADC_SCLK" (shape output) (at 100 140 180) (effects (font (size 1.27 1.27)) (justify right)))  (global_label "ADC_SDI" (shape output) (at 100 150 180) (effects (font (size 1.27 1.27)) (justify right)))  (global_label "ADC_SDO" (shape input) (at 100 160 180) (effects (font (size 1.27 1.27)) (justify right)))  (global_label "ADC_PD" (shape output) (at 100 170 180) (effects (font (size 1.27 1.27)) (justify right)))  (global_label "ADC_SYNC_P" (shape output) (at 100 180 180) (effects (font (size 1.27 1.27)) (justify right)))  (global_label "ADC_SYNC_N" (shape output) (at 100 190 180) (effects (font (size 1.27 1.27)) (justify right)))  (global_label "ADC_CALTRIG" (shape output) (at 100 200 180) (effects (font (size 1.27 1.27)) (justify right)))  (global_label "ADC_CALSTAT" (shape input) (at 100 210 180) (effects (font (size 1.27 1.27)) (justify right)))  (global_label "ADC_ORA0" (shape input) (at 100 220 180) (effects (font (size 1.27 1.27)) (justify right)))  (global_label "ADC_ORA1" (shape input) (at 100 230 180) (effects (font (size 1.27 1.27)) (justify right)))  (global_label "ADC_ORB0" (shape input) (at 100 240 180) (effects (font (size 1.27 1.27)) (justify right)))  (global_label "ADC_ORB1" (shape input) (at 100 250 180) (effects (font (size 1.27 1.27)) (justify right)))  (global_label "ADC_TEMP_P" (shape input) (at 100 260 180) (effects (font (size 1.27 1.27)) (justify right)))  (global_label "ADC_TEMP_N" (shape input) (at 100 270 180) (effects (font (size 1.27 1.27)) (justify right)))  (global_label "FPGA_REFCLK_P" (shape input) (at 300 40 0) (effects (font (size 1.27 1.27)) (justify left)))  (global_label "FPGA_REFCLK_N" (shape input) (at 300 50 0) (effects (font (size 1.27 1.27)) (justify left)))  (global_label "FPGA_SPWCLK_P" (shape input) (at 300 60 0) (effects (font (size 1.27 1.27)) (justify left)))  (global_label "FPGA_SPWCLK_N" (shape input) (at 300 70 0) (effects (font (size 1.27 1.27)) (justify left)))  (global_label "LMX_CS" (shape output) (at 300 90 0) (effects (font (size 1.27 1.27)) (justify left)))  (global_label "LMX_SCK" (shape output) (at 300 100 0) (effects (font (size 1.27 1.27)) (justify left)))  (global_label "LMX_SDI" (shape output) (at 300 110 0) (effects (font (size 1.27 1.27)) (justify left)))  (global_label "LMX_MUXOUT" (shape input) (at 300 120 0) (effects (font (size 1.27 1.27)) (justify left)))  (global_label "LMX_CAL" (shape output) (at 300 130 0) (effects (font (size 1.27 1.27)) (justify left)))  (global_label "LMX_SYNC" (shape output) (at 300 140 0) (effects (font (size 1.27 1.27)) (justify left)))  (global_label "LMK_CS" (shape output) (at 300 160 0) (effects (font (size 1.27 1.27)) (justify left)))  (global_label "LMK_SCK" (shape output) (at 300 170 0) (effects (font (size 1.27 1.27)) (justify left)))  (global_label "LMK_SDIO" (shape bidirectional) (at 300 180 0) (effects (font (size 1.27 1.27)) (justify left)))  (global_label "LMK_RESET" (shape output) (at 300 190 0) (effects (font (size 1.27 1.27)) (justify left)))  (global_label "LMK_SYNC" (shape output) (at 300 200 0) (effects (font (size 1.27 1.27)) (justify left)))  (global_label "SPW_TX_P" (shape output) (at 300 220 0) (effects (font (size 1.27 1.27)) (justify left)))  (global_label "SPW_TX_N" (shape output) (at 300 230 0) (effects (font (size 1.27 1.27)) (justify left)))  (global_label "SPW_RX_P" (shape input) (at 300 240 0) (effects (font (size 1.27 1.27)) (justify left)))  (global_label "SPW_RX_N" (shape input) (at 300 250 0) (effects (font (size 1.27 1.27)) (justify left)))  (global_label "SPW_TX2_P" (shape output) (at 300 260 0) (effects (font (size 1.27 1.27)) (justify left)))  (global_label "SPW_TX2_N" (shape output) (at 300 270 0) (effects (font (size 1.27 1.27)) (justify left)))  (global_label "SPW_RX2_P" (shape input) (at 300 280 0) (effects (font (size 1.27 1.27)) (justify left)))  (global_label "SPW_RX2_N" (shape input) (at 300 290 0) (effects (font (size 1.27 1.27)) (justify left)))  (global_label "PWRGD_SEQ" (shape input) (at 100 290 180) (effects (font (size 1.27 1.27)) (justify right)))  (global_label "SEQ_DONE" (shape input) (at 100 300 180) (effects (font (size 1.27 1.27)) (justify right)))  (symbol (lib_id "Device:C") (at 350 40 0) (unit 1)
+                                                                                                  (symbol (lib_id "Device:C") (at 350 40 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "999518fc-7890-4479-9eb8-d89597e8b107")
     (property "Reference" "C20" (at 350 30 0) (effects (font (size 1.27 1.27))))
@@ -70,29 +70,58 @@
     (pin "1" (uuid "0503bee2-af68-4d33-b8b2-82bbf9a3d897"))
     (pin "2" (uuid "c3d40ed8-9105-402e-85b2-08fb49aa2c27"))
   )  
-  (wire (pts (xy 350.00 43.81) (xy 350.00 48.89)) (stroke (width 0) (type default)) (uuid "16e28baaea524b5697e9492ab86e95ac"))
-  (label "~" (at 350.00 48.89 0) (effects (font (size 1.27 1.27))) (uuid "4160d7dd04a54643a52495389ac5adca"))
-  (wire (pts (xy 350.00 36.19) (xy 350.00 31.11)) (stroke (width 0) (type default)) (uuid "ed74db9fb14b41eb945422a725663655"))
-  (label "~" (at 350.00 31.11 0) (effects (font (size 1.27 1.27))) (uuid "add677abfcc943298526c5b8eedc296f"))
-  (wire (pts (xy 350.00 58.81) (xy 350.00 63.89)) (stroke (width 0) (type default)) (uuid "5f1e1565dc074e17a30624e478961f72"))
-  (label "~" (at 350.00 63.89 0) (effects (font (size 1.27 1.27))) (uuid "f8d72bcc0b994c75a7984905e31bff62"))
-  (wire (pts (xy 350.00 51.19) (xy 350.00 46.11)) (stroke (width 0) (type default)) (uuid "ee73d69c90f5494dbb3c68201fe06ba7"))
-  (label "~" (at 350.00 46.11 0) (effects (font (size 1.27 1.27))) (uuid "4cc92583120a4c0fbfbc12fddbb857d8"))
-  (wire (pts (xy 350.00 73.81) (xy 350.00 78.89)) (stroke (width 0) (type default)) (uuid "10bf9de52a27414ab4ec2634b47fe358"))
-  (label "~" (at 350.00 78.89 0) (effects (font (size 1.27 1.27))) (uuid "61dc85e609724664a1511aa24f614c57"))
-  (wire (pts (xy 350.00 66.19) (xy 350.00 61.11)) (stroke (width 0) (type default)) (uuid "6daecc7618574cf68d493766d81ab128"))
-  (label "~" (at 350.00 61.11 0) (effects (font (size 1.27 1.27))) (uuid "150f0588175a4e4fb19e926d37734f93"))
-  (wire (pts (xy 350.00 88.81) (xy 350.00 93.89)) (stroke (width 0) (type default)) (uuid "923365dc5c37440eb6b00c6c8fadc202"))
-  (label "~" (at 350.00 93.89 0) (effects (font (size 1.27 1.27))) (uuid "6a9e8ce50f4346ddaa4d284bfb6b116f"))
-  (wire (pts (xy 350.00 81.19) (xy 350.00 76.11)) (stroke (width 0) (type default)) (uuid "ca0add79922d4af09c4b086d7a010888"))
-  (label "~" (at 350.00 76.11 0) (effects (font (size 1.27 1.27))) (uuid "0054b7a9fcff4443bd4c6e69781764df"))
-  (wire (pts (xy 350.00 103.81) (xy 350.00 108.89)) (stroke (width 0) (type default)) (uuid "86e2337544ba4738a38392b714008018"))
-  (label "~" (at 350.00 108.89 0) (effects (font (size 1.27 1.27))) (uuid "05c6f55382bd4d59bcb9ee2c58a424a9"))
-  (wire (pts (xy 350.00 96.19) (xy 350.00 91.11)) (stroke (width 0) (type default)) (uuid "df50c26f29d9473ba321dff53de5c44c"))
-  (label "~" (at 350.00 91.11 0) (effects (font (size 1.27 1.27))) (uuid "5a16ff3f7b8641899e57522cd9ac8352"))
-  (wire (pts (xy 350.00 118.81) (xy 350.00 123.89)) (stroke (width 0) (type default)) (uuid "b9254f560f4c4978b9222562f742e429"))
-  (label "~" (at 350.00 123.89 0) (effects (font (size 1.27 1.27))) (uuid "ef4df6a2d5cb476198c2d2d10873d2c2"))
-  (wire (pts (xy 350.00 111.19) (xy 350.00 106.11)) (stroke (width 0) (type default)) (uuid "3770db9ec5e643888f75e4103828587c"))
-  (label "~" (at 350.00 106.11 0) (effects (font (size 1.27 1.27))) (uuid "c4574a9f807748fdb1df44c99cb383d9"))
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  (wire (pts (xy 200.0000 200.0000) (xy 200.0000 192.3800)) (stroke (width 0) (type default)) (uuid "e946b7467eb44857a8464bc10c537051"))
+  (label "GND" (at 200.0000 192.3800 0) (effects (font (size 1.27 1.27))) (uuid "ec362f1b729a42f4bc8276f27afa06db"))
+  (wire (pts (xy 350.0000 36.1900) (xy 350.0000 28.5700)) (stroke (width 0) (type default)) (uuid "55acdb091d72401daf46fd12680a3828"))
+  (label "~" (at 350.0000 28.5700 0) (effects (font (size 1.27 1.27))) (uuid "0610f6ff177044babdc0b2ab01e6bf3d"))
+  (wire (pts (xy 350.0000 43.8100) (xy 350.0000 51.4300)) (stroke (width 0) (type default)) (uuid "dc6787d91eec49c58f332074fa75c48b"))
+  (label "~" (at 350.0000 51.4300 0) (effects (font (size 1.27 1.27))) (uuid "4b818d6dd0a040f084b8a40a91416316"))
+  (wire (pts (xy 350.0000 51.1900) (xy 350.0000 43.5700)) (stroke (width 0) (type default)) (uuid "4b545be751c4496a918f85f3b6dc640d"))
+  (label "~" (at 350.0000 43.5700 0) (effects (font (size 1.27 1.27))) (uuid "65861121638a49a09eaae5d6c8cdd0ee"))
+  (wire (pts (xy 350.0000 58.8100) (xy 350.0000 66.4300)) (stroke (width 0) (type default)) (uuid "136d3a056c7f49518287a3b9a9b6d35a"))
+  (label "~" (at 350.0000 66.4300 0) (effects (font (size 1.27 1.27))) (uuid "9008c5e11d804b5a92410f77904e331b"))
+  (wire (pts (xy 350.0000 66.1900) (xy 350.0000 58.5700)) (stroke (width 0) (type default)) (uuid "9bf7dd5938dd4ac4aa3c6a575debc975"))
+  (label "~" (at 350.0000 58.5700 0) (effects (font (size 1.27 1.27))) (uuid "f08300b5c32a4d2385ebb450e9d267a9"))
+  (wire (pts (xy 350.0000 73.8100) (xy 350.0000 81.4300)) (stroke (width 0) (type default)) (uuid "b450e40d714b4a95b391f7b311c6ce05"))
+  (label "~" (at 350.0000 81.4300 0) (effects (font (size 1.27 1.27))) (uuid "cf68cb5255064dc8a4aa6a667a35a8f5"))
+  (wire (pts (xy 350.0000 81.1900) (xy 350.0000 73.5700)) (stroke (width 0) (type default)) (uuid "4d3d1b2738434922ba803d30c8d9bb10"))
+  (label "~" (at 350.0000 73.5700 0) (effects (font (size 1.27 1.27))) (uuid "faa51519d1234b6aa6a910bd65ec8e0e"))
+  (wire (pts (xy 350.0000 88.8100) (xy 350.0000 96.4300)) (stroke (width 0) (type default)) (uuid "9cf9be0f3b674d019cd7afba23c086b3"))
+  (label "~" (at 350.0000 96.4300 0) (effects (font (size 1.27 1.27))) (uuid "c01faadef1d84e4a8e066e744f16dfe8"))
+  (wire (pts (xy 350.0000 96.1900) (xy 350.0000 88.5700)) (stroke (width 0) (type default)) (uuid "42d3d4908f734a20a42442ae05a78a8f"))
+  (label "~" (at 350.0000 88.5700 0) (effects (font (size 1.27 1.27))) (uuid "6f6a7bb56a624a318ca8acc691e9fa9d"))
+  (wire (pts (xy 350.0000 103.8100) (xy 350.0000 111.4300)) (stroke (width 0) (type default)) (uuid "2f24b1fb31da43da88b6cd41250ddd41"))
+  (label "~" (at 350.0000 111.4300 0) (effects (font (size 1.27 1.27))) (uuid "d1831c8daac143d888c18c6029c956bd"))
+  (wire (pts (xy 350.0000 111.1900) (xy 350.0000 103.5700)) (stroke (width 0) (type default)) (uuid "9e96f41c2bf647fc957239c304c37006"))
+  (label "~" (at 350.0000 103.5700 0) (effects (font (size 1.27 1.27))) (uuid "63b9cdb060af4648bd4541c07c518fec"))
+  (wire (pts (xy 350.0000 118.8100) (xy 350.0000 126.4300)) (stroke (width 0) (type default)) (uuid "0fd36971b42d4dbdb7bd52d9a0a28d70"))
+  (label "~" (at 350.0000 126.4300 0) (effects (font (size 1.27 1.27))) (uuid "abf14ef54ba84bc791a3ed443b24d7fc"))
   (sheet_instances (path "/" (page "1")))
 )
