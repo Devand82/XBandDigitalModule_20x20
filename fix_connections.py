@@ -322,19 +322,17 @@ def process_sheet(filepath):
             ex, ey = sx + px, sy - py
             net_name = get_net_name(pname, inst['ref'], inst['value'])
             
-            # Wire goes outward from pin (away from symbol body)
-            # KiCad Y-inversion: angle 90 wire goes +Y (down), 270 goes -Y (up)
+            # Skip pins with unnamed (~) pins - these are passive component pins
+            # that should keep their original connections
+            if net_name == '~':
+                continue
+            
+            # ALWAYS use horizontal stub going LEFT to avoid wire overlap.
+            # Vertical wires from angle=90 pins overlap when pins are stacked
+            # vertically (e.g. 1.27mm spacing with 7.62mm wires), causing
+            # KiCad to merge them into one net.
             wire_len = 7.62
-            if angle == 0:
-                lx, ly = ex - wire_len, ey
-            elif angle == 180:
-                lx, ly = ex + wire_len, ey
-            elif angle == 90:
-                lx, ly = ex, ey + wire_len
-            elif angle == 270:
-                lx, ly = ex, ey - wire_len
-            else:
-                lx, ly = ex - wire_len, ey
+            lx, ly = ex - wire_len, ey
             
             new_elements.append(
                 f'(wire (pts (xy {ex:.4f} {ey:.4f}) (xy {lx:.4f} {ly:.4f})) '
