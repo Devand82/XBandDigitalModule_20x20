@@ -12,365 +12,91 @@
   )
   (symbol (lib_id "Device:C") (at 280 40 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "ca323cd1-9f38-4787-9fcb-cfb2356152b4")
+    (uuid "98d65771-6c58-4c5f-895f-f2f68ec2193a")
     (property "Reference" "DC40" (at 280 30 0) (effects (font (size 1.27 1.27))))
     (property "Value" "100nF" (at 280 50 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "C_0402" (at 280 40 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "bc95bed6-9bca-40ff-babc-f52b0af988a7"))
-    (pin "2" (uuid "a6ca05a6-7547-432e-b144-91c49ad725c7"))
-  )      (symbol (lib_id "Device:C") (at 280 60 0) (unit 1)
+    (pin "1" (uuid "0ca5ae76-d31a-4f67-acbf-906cdcc6189b"))
+    (pin "2" (uuid "57475a93-0843-4d19-a7b6-8cd62f783ed2"))
+  )  (global_label "U1 ADC12DJ5200-SP" (shape input) (at 80 40 180) (effects (font (size 1.27 1.27)) (justify right)))  (global_label "100nF x8, 10uF x4" (shape input) (at 380 40 0) (effects (font (size 1.27 1.27)) (justify left)))  (symbol (lib_id "Device:C") (at 280 60 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "88f96c9a-a2fc-4fdb-a340-911c443983d6")
+    (uuid "16bf68de-3214-4c2c-95f1-c743140a97c0")
     (property "Reference" "DC60" (at 280 50 0) (effects (font (size 1.27 1.27))))
     (property "Value" "100nF" (at 280 70 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "C_0402" (at 280 60 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "fd3a9552-4f97-4743-aef1-00d643321c11"))
-    (pin "2" (uuid "248622fa-4c9a-4f8a-8286-53d143c57a92"))
-  )      (symbol (lib_id "Device:C") (at 280 80 0) (unit 1)
+    (pin "1" (uuid "dd619264-9296-4c09-8fd3-0b55f552839e"))
+    (pin "2" (uuid "04d915b3-102a-45d7-be63-18510a04d028"))
+  )  (global_label "U2 FPGA XQRVC1902-SP" (shape input) (at 80 60 180) (effects (font (size 1.27 1.27)) (justify right)))  (global_label "100nF x20, 10uF x10" (shape input) (at 380 60 0) (effects (font (size 1.27 1.27)) (justify left)))  (symbol (lib_id "Device:C") (at 280 80 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "ad24be13-0d1e-447f-8cdb-c6c08fff4ae7")
+    (uuid "042782bf-0c93-4451-9c6e-7ecab98ff4aa")
     (property "Reference" "DC80" (at 280 70 0) (effects (font (size 1.27 1.27))))
     (property "Value" "100nF" (at 280 90 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "C_0402" (at 280 80 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "375793fa-219c-48ef-8cf4-7b7175f8dfeb"))
-    (pin "2" (uuid "d1031f7f-c281-48ac-9245-423762a0bafe"))
-  )      (symbol (lib_id "Device:C") (at 280 100 0) (unit 1)
+    (pin "1" (uuid "3ff50f67-d057-48c2-8e68-1004d0f5b8b1"))
+    (pin "2" (uuid "bb00976f-e2d6-4462-9b4e-b441cfc9c885"))
+  )  (global_label "U3 LMX2615-SP" (shape input) (at 80 80 180) (effects (font (size 1.27 1.27)) (justify right)))  (global_label "100nF x10, 4.7uF x2" (shape input) (at 380 80 0) (effects (font (size 1.27 1.27)) (justify left)))  (symbol (lib_id "Device:C") (at 280 100 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "f7a0f18e-c0d1-4672-b26a-21ce28b06567")
+    (uuid "948f03b2-a9ef-4366-827f-165e72d7a96c")
     (property "Reference" "DC100" (at 280 90 0) (effects (font (size 1.27 1.27))))
     (property "Value" "100nF" (at 280 110 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "C_0402" (at 280 100 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "01938122-71d1-486e-a94b-1b85c89fd614"))
-    (pin "2" (uuid "18dad0b3-9d89-47e6-ae96-a3bedca86d6f"))
-  )      (symbol (lib_id "Device:C") (at 280 120 0) (unit 1)
+    (pin "1" (uuid "ea8b3424-e60d-4d84-873b-3dc5a1a3c5b3"))
+    (pin "2" (uuid "ac8ea68c-d150-45d6-aea7-67cbcfa91e10"))
+  )  (global_label "U4 LMK04832-SP" (shape input) (at 80 100 180) (effects (font (size 1.27 1.27)) (justify right)))  (global_label "100nF x12, 10uF x2" (shape input) (at 380 100 0) (effects (font (size 1.27 1.27)) (justify left)))  (symbol (lib_id "Device:C") (at 280 120 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "835ed3c2-40ea-4dbc-bc69-2e53c5a7e9ec")
+    (uuid "affba2b3-ecc0-4da9-854d-f0d8bb5831c0")
     (property "Reference" "DC120" (at 280 110 0) (effects (font (size 1.27 1.27))))
     (property "Value" "100nF" (at 280 130 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "C_0402" (at 280 120 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "54aa6a2b-f048-4977-aa8a-cf4df52536e9"))
-    (pin "2" (uuid "59446d2e-bb8d-4fa8-9c76-ea63cbb9ac34"))
-  )      (symbol (lib_id "Device:C") (at 280 140 0) (unit 1)
+    (pin "1" (uuid "d5e68cae-4bb7-4a3e-8f01-0451c74ff4fb"))
+    (pin "2" (uuid "da093dff-c524-48e8-baac-e1aba1648bb4"))
+  )  (global_label "U5 TPS7H5001-SP" (shape input) (at 80 120 180) (effects (font (size 1.27 1.27)) (justify right)))  (global_label "22uF x2, 100nF x2" (shape input) (at 380 120 0) (effects (font (size 1.27 1.27)) (justify left)))  (symbol (lib_id "Device:C") (at 280 140 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "158c6648-a3a7-4614-9c2a-d297c7bb8d45")
+    (uuid "a0ee4202-35bf-4ee6-9fc5-d0cbcbeb7d83")
     (property "Reference" "DC140" (at 280 130 0) (effects (font (size 1.27 1.27))))
     (property "Value" "100nF" (at 280 150 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "C_0402" (at 280 140 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "ff03a2e0-b422-4bcf-814e-5e0b54c736fa"))
-    (pin "2" (uuid "d5023403-aaf7-4d4e-8dc9-03ed45990fac"))
-  )      (symbol (lib_id "Device:C") (at 280 160 0) (unit 1)
+    (pin "1" (uuid "1e79cd01-1ce5-4dcc-ad62-32727f3f00c7"))
+    (pin "2" (uuid "ebee70d8-932f-45ab-893d-3c0f1a67fda2"))
+  )  (global_label "U6 ISL70003ASEH (1.8V)" (shape input) (at 80 140 180) (effects (font (size 1.27 1.27)) (justify right)))  (global_label "22uF x2, 100nF x2" (shape input) (at 380 140 0) (effects (font (size 1.27 1.27)) (justify left)))  (symbol (lib_id "Device:C") (at 280 160 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "f5e8deff-6982-40e9-944b-2c82a465a09e")
+    (uuid "1423b4c1-013a-4ae6-9729-f6f9a517a7a0")
     (property "Reference" "DC160" (at 280 150 0) (effects (font (size 1.27 1.27))))
     (property "Value" "100nF" (at 280 170 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "C_0402" (at 280 160 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "b1079366-6b0c-4a11-9b27-0665af2b6484"))
-    (pin "2" (uuid "07b0e67e-0488-4aa8-bf00-543796aedfc6"))
-  )      (symbol (lib_id "Device:C") (at 280 180 0) (unit 1)
+    (pin "1" (uuid "aa840e58-8e8e-49a0-8802-700c13691fe3"))
+    (pin "2" (uuid "484ab46c-3948-4829-9da2-79548e0df5e9"))
+  )  (global_label "U7 ISL70003ASEH (3.3V)" (shape input) (at 80 160 180) (effects (font (size 1.27 1.27)) (justify right)))  (global_label "22uF x2, 100nF x2" (shape input) (at 380 160 0) (effects (font (size 1.27 1.27)) (justify left)))  (symbol (lib_id "Device:C") (at 280 180 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "b57941aa-e7e3-4cc4-a0e3-87d63503409c")
+    (uuid "a39ac591-254a-4387-b03d-28f110403b94")
     (property "Reference" "DC180" (at 280 170 0) (effects (font (size 1.27 1.27))))
     (property "Value" "100nF" (at 280 190 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "C_0402" (at 280 180 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "a5843bb4-96e9-455a-8b6e-9f3822772a95"))
-    (pin "2" (uuid "488eb90e-715e-46f3-b4f2-ab82af5b5479"))
-  )      (symbol (lib_id "Device:C") (at 280 200 0) (unit 1)
+    (pin "1" (uuid "c005102e-c2a4-4f97-97a4-130bb3a2f9f5"))
+    (pin "2" (uuid "4fc21a64-08dc-41b1-80ab-9cc7d2c483ed"))
+  )  (global_label "U8 TPS7H1111-SP (1.0V)" (shape input) (at 80 180 180) (effects (font (size 1.27 1.27)) (justify right)))  (global_label "10uF x2, 100nF x2" (shape input) (at 380 180 0) (effects (font (size 1.27 1.27)) (justify left)))  (symbol (lib_id "Device:C") (at 280 200 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "303c5e28-dcab-4ffe-973c-78be8b2a55b1")
+    (uuid "6c85fc83-79bc-4b34-8ebc-37225cd4b522")
     (property "Reference" "DC200" (at 280 190 0) (effects (font (size 1.27 1.27))))
     (property "Value" "100nF" (at 280 210 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "C_0402" (at 280 200 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "0cee6c8a-83e6-4382-b111-38866bdb204a"))
-    (pin "2" (uuid "c13dab73-82fc-4fba-b916-db870c226860"))
-  )      (symbol (lib_id "Device:C") (at 280 220 0) (unit 1)
+    (pin "1" (uuid "45aa9de4-4135-46cc-91a0-2ea18c80647b"))
+    (pin "2" (uuid "7301536a-e4cd-469e-9f6f-170e1fb7a737"))
+  )  (global_label "U9 TPS7H1111-SP (1.8V)" (shape input) (at 80 200 180) (effects (font (size 1.27 1.27)) (justify right)))  (global_label "10uF x2, 100nF x2" (shape input) (at 380 200 0) (effects (font (size 1.27 1.27)) (justify left)))  (symbol (lib_id "Device:C") (at 280 220 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "cc436329-1a48-43bb-9bdd-28f59dbb5662")
+    (uuid "15a463c6-bf8b-45bb-ae4b-a50f057e66cc")
     (property "Reference" "DC220" (at 280 210 0) (effects (font (size 1.27 1.27))))
     (property "Value" "100nF" (at 280 230 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "C_0402" (at 280 220 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "0a731a13-73c0-4e59-b6eb-646776003ac6"))
-    (pin "2" (uuid "76b58cfb-a523-480e-822a-63a648a2e9a6"))
-  )      (symbol (lib_id "Device:C") (at 280 240 0) (unit 1)
+    (pin "1" (uuid "33a8373f-8bd3-4bc5-999a-8f13715cc692"))
+    (pin "2" (uuid "1e184d0f-0087-4be0-9a12-7b682d56d187"))
+  )  (global_label "U10 TPS7H1121-SP (2.5V)" (shape input) (at 80 220 180) (effects (font (size 1.27 1.27)) (justify right)))  (global_label "10uF x3, 100nF x3" (shape input) (at 380 220 0) (effects (font (size 1.27 1.27)) (justify left)))  (symbol (lib_id "Device:C") (at 280 240 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "0b514e2a-30b2-452f-bfde-ba9956511199")
+    (uuid "b5249c91-8053-44bf-a1b5-c4aa06903186")
     (property "Reference" "DC240" (at 280 230 0) (effects (font (size 1.27 1.27))))
     (property "Value" "100nF" (at 280 250 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "C_0402" (at 280 240 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "57e46400-a35c-4484-a517-ac8805a165bc"))
-    (pin "2" (uuid "66934856-ed7d-4b82-9ee2-a67df0df6ae6"))
-  )      
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  (global_label "~" (at 280.0000 28.5700 0) (effects (font (size 1.27 1.27))) (uuid "55e9a2b7062a4b3cb15d153b7bb439a3"))
-  (global_label "~" (at 280.0000 51.4300 0) (effects (font (size 1.27 1.27))) (uuid "05551c55097b45faad2fa21870e999ee"))
-  (global_label "~" (at 280.0000 48.5700 0) (effects (font (size 1.27 1.27))) (uuid "637e68a5a3e745e1beb166c36e0b014c"))
-  (global_label "~" (at 280.0000 71.4300 0) (effects (font (size 1.27 1.27))) (uuid "c02d55164b5e44d0b2f4a021719208be"))
-  (global_label "~" (at 280.0000 68.5700 0) (effects (font (size 1.27 1.27))) (uuid "4d7b56ea398f44e891ca85a7b7f8ba75"))
-  (global_label "~" (at 280.0000 91.4300 0) (effects (font (size 1.27 1.27))) (uuid "339b87cff8b448c5b698fd98c06da5e2"))
-  (global_label "~" (at 280.0000 88.5700 0) (effects (font (size 1.27 1.27))) (uuid "9ad74d2b02124dc98d8caf8aa71d4023"))
-  (global_label "~" (at 280.0000 111.4300 0) (effects (font (size 1.27 1.27))) (uuid "5bfb2e0eafb94021bdec93f4b9fd3a3b"))
-  (global_label "~" (at 280.0000 108.5700 0) (effects (font (size 1.27 1.27))) (uuid "60295ea589854dc28fb432a74cb17dae"))
-  (global_label "~" (at 280.0000 131.4300 0) (effects (font (size 1.27 1.27))) (uuid "088baf7663434ed788696d110600979f"))
-  (global_label "~" (at 280.0000 128.5700 0) (effects (font (size 1.27 1.27))) (uuid "b4c79afbcbd347cf9530865dce6e10d2"))
-  (global_label "~" (at 280.0000 151.4300 0) (effects (font (size 1.27 1.27))) (uuid "85f4092eefe34938aded639cec3317c7"))
-  (global_label "~" (at 280.0000 148.5700 0) (effects (font (size 1.27 1.27))) (uuid "ea7bbed6a38a42d98423c64fbb0bd30a"))
-  (global_label "~" (at 280.0000 171.4300 0) (effects (font (size 1.27 1.27))) (uuid "b759e19ada284bee915b9f2379c18b83"))
-  (global_label "~" (at 280.0000 168.5700 0) (effects (font (size 1.27 1.27))) (uuid "f0a87ba7ea9f4f649ef4180e43c1ccca"))
-  (global_label "~" (at 280.0000 191.4300 0) (effects (font (size 1.27 1.27))) (uuid "e9bf82c6c5c0409f8d769c1621993132"))
-  (global_label "~" (at 280.0000 188.5700 0) (effects (font (size 1.27 1.27))) (uuid "dae54e6f1bed49cfa8b42f9f1769fc60"))
-  (global_label "~" (at 280.0000 211.4300 0) (effects (font (size 1.27 1.27))) (uuid "81b1e660bed84348b74ebb372656346b"))
-  (global_label "~" (at 280.0000 208.5700 0) (effects (font (size 1.27 1.27))) (uuid "e145409fe5d84d068e57386971ee4aa1"))
-  (global_label "~" (at 280.0000 231.4300 0) (effects (font (size 1.27 1.27))) (uuid "b95e1edd41ac4276a564052d5a6a8831"))
-  (global_label "~" (at 280.0000 228.5700 0) (effects (font (size 1.27 1.27))) (uuid "d5c35a5b82a447f38ea0706cd9d94b4b"))
-  (global_label "~" (at 280.0000 251.4300 0) (effects (font (size 1.27 1.27))) (uuid "5a73bf7437a64e3dbc46df00afcf80eb"))
-  (sheet_instances (path "/" (page "1")))
+    (pin "1" (uuid "6f91a919-15ed-47e0-baf8-248780593132"))
+    (pin "2" (uuid "71141d09-1a9d-4f40-a9db-ef7c780d9690"))
+  )  (global_label "U13 TPS7H3014-SP x2" (shape input) (at 80 240 180) (effects (font (size 1.27 1.27)) (justify right)))  (global_label "100nF x2, 10uF x2" (shape input) (at 380 240 0) (effects (font (size 1.27 1.27)) (justify left)))  (sheet_instances (path "/" (page "1")))
 )

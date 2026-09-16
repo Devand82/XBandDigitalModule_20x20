@@ -198,15 +198,26 @@ def get_net_name(pname, ref, value):
     if pn == 'CSB': return 'SPI_CS_LMX'
     if pn == 'SCK': return 'SPI_SCK'
     if pn == 'CAL': return 'LMX_CAL'
-    if pn == 'SYNC': return 'LMX_SYNC'
+    # SYNC pin: LMX_SYNC for LMX2615, buck-specific for power ICs
+    if pn == 'SYNC':
+        if value and 'TPS' in value.upper():
+            return f'{ref}_SYNC'
+        return 'LMX_SYNC'
     if pn in ('SYSREFREQ', 'SYNC/SYSREF_REQ'): return 'LMK_SYNC'
     if pn in ('RECAL_EN',): return 'GND'
     
-    clk_names = {}
-    for i in range(8):
-        clk_names[f'CLKOUT{i}'] = f'LMK_CLK{i}_P'
-        clk_names[f'CLKOUT{i}*'] = f'LMK_CLK{i}_N'
-    if pn in clk_names: return clk_names[pn]
+    # LMK04832 clock outputs — map to destination signals
+    lmk_clk_map = {
+        'CLKOUT0': 'ADC_CLK_P', 'CLKOUT0*': 'ADC_CLK_N',
+        'CLKOUT1': 'ADC_SYSREF_P', 'CLKOUT1*': 'ADC_SYSREF_N',
+        'CLKOUT2': 'FPGA_REFCLK_P', 'CLKOUT2*': 'FPGA_REFCLK_N',
+        'CLKOUT3': 'FPGA_SPWCLK_P', 'CLKOUT3*': 'FPGA_SPWCLK_N',
+        'CLKOUT4': 'LMK_CLK4_P', 'CLKOUT4*': 'LMK_CLK4_N',
+        'CLKOUT5': 'LMK_CLK5_P', 'CLKOUT5*': 'LMK_CLK5_N',
+        'CLKOUT6': 'LMK_CLK6_P', 'CLKOUT6*': 'LMK_CLK6_N',
+        'CLKOUT7': 'LMK_CLK7_P', 'CLKOUT7*': 'LMK_CLK7_N',
+    }
+    if pn in lmk_clk_map: return lmk_clk_map[pn]
     if pn in ('CS*',): return 'SPI_CS_LMK'
     if pn == 'SDIO': return 'SPI_SDIO'
     if pn in ('RESET/GPO', 'RESET'): return 'LMK_RESET'
@@ -297,6 +308,183 @@ PWR_SYMBOL_MAP = {
     '+4V5': '+4V5', 'VIN': '+4V5',
 }
 
+# Passive component topology: which nets each passive pin connects to.
+# Format: {sheet_name: {ref: {'1': net_name, '2': net_name}}}
+# Pin 1 = top (y-3.81 for C/R, y-5.08 for L/FB), Pin 2 = bottom (y+3.81/+5.08)
+PASSIVE_TOPOLOGY = {
+    'Sheet02_RF_Input': {
+        'R1': {'1': 'RF_IN', '2': 'ADC_INA_P'},
+        'C1': {'1': 'ADC_INA_P', '2': 'GND'},
+        'C2': {'1': 'ADC_INA_N', '2': 'GND'},
+    },
+    'Sheet03_ADC': {
+        'C10': {'1': '+1V0_ANA', '2': 'GND'},
+        'C11': {'1': '+1V0_ANA', '2': 'GND'},
+        'FB1': {'1': '+1V0_ANA', '2': 'GND'},
+        'C12': {'1': '+1V0_ANA', '2': 'GND'},
+        'C13': {'1': '+1V0_ANA', '2': 'GND'},
+        'C14': {'1': '+1V9_ANA', '2': 'GND'},
+        'C15': {'1': '+1V9_ANA', '2': 'GND'},
+        'C16': {'1': '+1V1_DIG', '2': 'GND'},
+        'C17': {'1': '+1V1_DIG', '2': 'GND'},
+        'C18': {'1': 'ADC_VBG', '2': 'GND'},
+        'R10': {'1': 'ADC_INB_P', '2': 'GND'},
+        'R11': {'1': 'ADC_INB_N', '2': 'GND'},
+        'R12': {'1': 'ADC_NCOA0', '2': 'GND'},
+        'R13': {'1': 'ADC_NCOA1', '2': 'GND'},
+    },
+    'Sheet04_FPGA': {
+        'C20': {'1': '+1V1_DIG', '2': 'GND'},
+        'C21': {'1': '+1V1_DIG', '2': 'GND'},
+        'C22': {'1': '+3V3', '2': 'GND'},
+        'C23': {'1': '+3V3', '2': 'GND'},
+        'C24': {'1': '+3V3', '2': 'GND'},
+        'C25': {'1': '+3V3', '2': 'GND'},
+    },
+    'Sheet05_Clock': {
+        'C40': {'1': '+2V5_LDO', '2': 'GND'},
+        'C41': {'1': '+2V5_LDO', '2': 'GND'},
+        'C42': {'1': '+3V3', '2': 'GND'},
+        'C43': {'1': '+3V3', '2': 'GND'},
+        'C44': {'1': '+3V3', '2': 'GND'},
+        'C45': {'1': '+3V3', '2': 'GND'},
+        'C46': {'1': '+3V3', '2': 'GND'},
+        'C47': {'1': '+3V3', '2': 'GND'},
+        'C48': {'1': '+3V3', '2': 'GND'},
+        'C49': {'1': '+3V3', '2': 'GND'},
+        'C50': {'1': '+3V3', '2': 'GND'},
+        'C51': {'1': '+3V3', '2': 'GND'},
+        'C52': {'1': 'PLL_CPOUT1', '2': 'GND'},
+        'C53': {'1': 'PLL_CPOUT1', '2': 'GND'},
+        'R30': {'1': 'LMX_FS0', '2': 'GND'},
+        'R31': {'1': 'LMX_FS1', '2': 'GND'},
+        'R32': {'1': 'LMX_FS2', '2': 'GND'},
+        'R33': {'1': 'LMX_FS3', '2': 'GND'},
+        'R34': {'1': 'LMX_FS4', '2': 'GND'},
+        'R35': {'1': 'LMX_FS5', '2': 'GND'},
+        'R36': {'1': 'LMX_FS6', '2': 'GND'},
+        'R37': {'1': 'LMX_FS7', '2': 'GND'},
+        'R38': {'1': 'GND', '2': 'GND'},
+        'C54': {'1': '+3V3', '2': 'GND'},
+        'C55': {'1': '+3V3', '2': 'GND'},
+        'C56': {'1': '+3V3', '2': 'GND'},
+        'C57': {'1': '+3V3', '2': 'GND'},
+        'C58': {'1': '+3V3', '2': 'GND'},
+        'C59': {'1': '+3V3', '2': 'GND'},
+        'C60': {'1': '+3V3', '2': 'GND'},
+        'C61': {'1': '+3V3', '2': 'GND'},
+        'C62': {'1': '+3V3', '2': 'GND'},
+        'C63': {'1': '+3V3', '2': 'GND'},
+        'C64': {'1': '+3V3', '2': 'GND'},
+        'C65': {'1': '+3V3', '2': 'GND'},
+        'C66': {'1': '+3V3', '2': 'GND'},
+        'C67': {'1': '+3V3', '2': 'GND'},
+    },
+    'Sheet06_PowerInput': {
+        'D1':  {'1': 'VIN', '2': 'GND'},
+        'C100': {'1': 'VIN', '2': 'GND'},
+        'C101': {'1': 'VIN', '2': 'GND'},
+        'C102': {'1': 'VIN', '2': 'GND'},
+        'R100': {'1': 'VIN', '2': 'VIN_SENSE_R'},
+        'R101': {'1': 'ISENSE_P', '2': 'ISENSE_N'},
+        'C103': {'1': 'ISENSE_P', '2': 'ISENSE_N'},
+    },
+    'Sheet07_Buck_1V0': {
+        'Buck1C1':  {'1': 'VIN', '2': 'GND'},
+        'Buck1C2':  {'1': 'VIN', '2': 'GND'},
+        'Buck1C10': {'1': 'VCCINT_1V0', '2': 'GND'},
+        'Buck1C11': {'1': 'VCCINT_1V0', '2': 'GND'},
+        'Buck1C12': {'1': 'VCCINT_1V0', '2': 'GND'},
+        'Buck1C13': {'1': 'VCCINT_1V0', '2': 'GND'},
+        'Buck1L1':  {'1': 'TPS_HISON', '2': 'VCCINT_1V0'},
+        'Buck1R1':  {'1': 'VCCINT_1V0', '2': 'TPS_VSENSE'},
+        'Buck1R2':  {'1': 'TPS_VSENSE', '2': 'GND'},
+        'Buck1C20': {'1': 'TPS_COMP', '2': 'GND'},
+        'Buck1C21': {'1': 'TPS_COMP', '2': 'GND'},
+        'Buck1R3':  {'1': 'TPS_COMP', '2': 'TPS_VSENSE'},
+        'Buck1C22': {'1': 'TPS_SS', '2': 'GND'},
+    },
+    'Sheet08_Buck_1V8': {
+        'C70': {'1': 'VIN', '2': 'GND'},
+        'C71': {'1': 'VIN', '2': 'GND'},
+        'C72': {'1': 'VIN', '2': 'GND'},
+        'L1':  {'1': 'U6_LX1', '2': 'VCCAUX_1V8'},
+        'C73': {'1': 'VCCAUX_1V8', '2': 'GND'},
+        'C74': {'1': 'VCCAUX_1V8', '2': 'GND'},
+        'C75': {'1': 'VCCAUX_1V8', '2': 'GND'},
+        'R50': {'1': 'VCCAUX_1V8', '2': 'U6_FB'},
+        'R51': {'1': 'U6_FB', '2': 'GND'},
+        'C76': {'1': 'U6_VERR', '2': 'GND'},
+        'C77': {'1': 'U6_VERR', '2': 'GND'},
+        'R52': {'1': 'U6_VERR', '2': 'U6_FB'},
+        'C78': {'1': 'U6_SS_CAP', '2': 'GND'},
+        'FB2': {'1': 'VCCAUX_1V8', '2': '+1V8_ANA'},
+    },
+    'Sheet09_Buck_3V3': {
+        'C80': {'1': 'VIN', '2': 'GND'},
+        'C81': {'1': 'VIN', '2': 'GND'},
+        'C82': {'1': 'VIN', '2': 'GND'},
+        'L2':  {'1': 'U7_LX1', '2': 'VCCIO_3V3'},
+        'C83': {'1': 'VCCIO_3V3', '2': 'GND'},
+        'C84': {'1': 'VCCIO_3V3', '2': 'GND'},
+        'C85': {'1': 'VCCIO_3V3', '2': 'GND'},
+        'R53': {'1': 'VCCIO_3V3', '2': 'U7_FB'},
+        'R54': {'1': 'U7_FB', '2': 'GND'},
+        'C86': {'1': 'U7_VERR', '2': 'GND'},
+        'C87': {'1': 'U7_VERR', '2': 'GND'},
+        'R55': {'1': 'U7_VERR', '2': 'U7_FB'},
+        'C88': {'1': 'U7_SS_CAP', '2': 'GND'},
+        'FB3': {'1': 'VCCIO_3V3', '2': '+3V3'},
+    },
+    'Sheet10_LDO_1V0': {
+        'C90': {'1': 'VCCIO_3V3', '2': 'GND'},
+        'C91': {'1': 'VCCIO_3V3', '2': 'GND'},
+        'C92': {'1': '+1V0_ANA', '2': 'GND'},
+        'C93': {'1': '+1V0_ANA', '2': 'GND'},
+        'C94': {'1': 'U8_STAB', '2': 'GND'},
+        'R60': {'1': '+1V0_ANA', '2': 'U8_REF'},
+        'R61': {'1': 'U8_REF', '2': 'GND'},
+    },
+    'Sheet11_LDO_1V8': {
+        'C95': {'1': '+3V3', '2': 'GND'},
+        'C96': {'1': '+3V3', '2': 'GND'},
+        'C97': {'1': '+1V8_ANA', '2': 'GND'},
+        'C98': {'1': '+1V8_ANA', '2': 'GND'},
+        'C99': {'1': 'U9_STAB', '2': 'GND'},
+        'R62': {'1': '+1V8_ANA', '2': 'U9_REF'},
+        'R63': {'1': 'U9_REF', '2': 'GND'},
+    },
+    'Sheet12_LDO_2V5': {
+        'C110': {'1': '+3V3', '2': 'GND'},
+        'C111': {'1': '+3V3', '2': 'GND'},
+        'C112': {'1': '+3V3', '2': 'GND'},
+        'C113': {'1': '+2V5_LDO', '2': 'GND'},
+        'C114': {'1': '+2V5_LDO', '2': 'GND'},
+        'C115': {'1': '+2V5_LDO', '2': 'GND'},
+        'C116': {'1': 'U10_STAB', '2': 'GND'},
+        'R64': {'1': '+2V5_LDO', '2': 'U10_FB'},
+        'R65': {'1': 'U10_FB', '2': 'GND'},
+    },
+    'Sheet13_Sequencer': {
+        'C120': {'1': 'VIN_4V5', '2': 'GND'},
+        'C121': {'1': 'VIN_4V5', '2': 'GND'},
+        'R70': {'1': 'VCCINT_1V0', '2': 'U13A_S2'},
+        'R71': {'1': 'U13A_S2', '2': 'GND'},
+        'R72': {'1': 'VCCAUX_1V8', '2': 'U13A_S3'},
+        'R73': {'1': 'U13A_S3', '2': 'GND'},
+        'C122': {'1': 'U13A_VLDO', '2': 'GND'},
+        'C123': {'1': 'VIN_4V5', '2': 'GND'},
+        'C124': {'1': 'VIN_4V5', '2': 'GND'},
+    },
+    'Sheet14_Connectors': {
+        'J2': {'1': 'JESD_DA0_P', '2': 'GND', '3': 'JESD_DA0_N', '4': 'GND'},
+        'J3': {'1': 'SPW_TX1_P', '2': 'GND', '3': 'SPW_TX1_N', '4': 'GND'},
+        'J4': {'1': 'SPW_TX2_P', '2': 'GND', '3': 'SPW_TX2_N', '4': 'GND'},
+        'J5': {'1': 'FPGA_TCK', '2': 'GND', '3': 'FPGA_TMS', '4': 'FPGA_TDO', '5': 'FPGA_TDI', '6': 'GND'},
+        'J6': {'1': 'SPI_CS_ADC', '2': 'GND', '3': 'SPI_SCK', '4': 'GND', '5': 'SPI_MOSI', '6': 'SPI_MISO'},
+    },
+}
+
 def extract_labels(content):
     """Extract all (label ...) and (global_label ...) entries from after lib_symbols."""
     lib_end = find_lib_end(content)
@@ -373,6 +561,36 @@ def process_sheet(filepath):
             )
             
             connected_count += 1
+    
+    # Step 2a: Wire passive components from PASSIVE_TOPOLOGY
+    sheet_name = os.path.basename(filepath).replace('.kicad_sch', '')
+    if sheet_name in PASSIVE_TOPOLOGY:
+        topo = PASSIVE_TOPOLOGY[sheet_name]
+        for inst in instances:
+            ref = inst['ref']
+            if ref not in topo:
+                continue
+            lib_id = inst['lib_id']
+            if not lib_id.startswith('Device:'):
+                continue
+            # Get pin definitions from lib_symbols
+            pins = all_pin_defs.get(lib_id, all_pin_defs.get(lib_id.split(":")[-1], {}))
+            if not pins:
+                continue
+            sx, sy = inst['x'], inst['y']
+            pin_map = topo[ref]
+            for pnum, pin in pins.items():
+                pname = pin['name']
+                if pname == '~' and pnum in pin_map:
+                    # Passive pin — place label at pin endpoint
+                    px, py = pin['x'], pin['y']
+                    ex, ey = sx + px, sy - py
+                    net_name = pin_map[pnum]
+                    new_elements.append(
+                        f'(global_label "{net_name}" (at {ex:.4f} {ey:.4f} 0) '
+                        f'(effects (font (size 1.27 1.27))) (uuid "{uid()}"))'
+                    )
+                    connected_count += 1
     
     # Step 2b: For sheets without IC pins, convert existing labels to global_labels
     # This preserves inter-sheet connectivity for sheets like Sheet04_FPGA

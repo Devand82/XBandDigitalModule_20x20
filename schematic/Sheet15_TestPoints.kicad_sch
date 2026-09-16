@@ -17,525 +17,131 @@
   )
   (symbol (lib_id "Device:R") (at 60 40 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "8c6cd362-865b-49f7-9060-2ff7d74880d5")
+    (uuid "9949f824-112c-4b89-a387-dcd0b4ae75cd")
     (property "Reference" "TP1" (at 60 30 0) (effects (font (size 1.27 1.27))))
     (property "Value" "0R" (at 60 50 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "R_0402" (at 60 40 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "c285ad73-2248-48e1-8baa-96a10eb10996"))
-    (pin "2" (uuid "5bde3521-4008-4bf4-9217-8659597223c2"))
-  )    (symbol (lib_id "Device:R") (at 60 60 0) (unit 1)
+    (pin "1" (uuid "fcd60d92-1e76-4f69-8c6f-b483a9efa4c1"))
+    (pin "2" (uuid "18bd45ea-98b9-46b8-837d-75ecc8ccaea2"))
+  )  (global_label "VIN_4V5" (shape bidirectional) (at 40 40 180) (effects (font (size 1.27 1.27)) (justify right)))  (symbol (lib_id "Device:R") (at 60 60 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "b9e86984-4ba9-48dd-a633-5f0b826761ca")
+    (uuid "67527e55-e09e-4cf4-904f-c59554e5e482")
     (property "Reference" "TP2" (at 60 50 0) (effects (font (size 1.27 1.27))))
     (property "Value" "0R" (at 60 70 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "R_0402" (at 60 60 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "0febcba0-d8de-4b73-a155-056a8a2e8333"))
-    (pin "2" (uuid "22e89cc3-3a9a-48d6-9eb9-1a593d118889"))
-  )    (symbol (lib_id "Device:R") (at 60 80 0) (unit 1)
+    (pin "1" (uuid "939df39a-64cc-4d3c-93f1-6dccd8fcb051"))
+    (pin "2" (uuid "d3b7656b-9938-4d98-9cfc-fff3dc7dc2a9"))
+  )  (global_label "VCCINT_1V0" (shape bidirectional) (at 40 60 180) (effects (font (size 1.27 1.27)) (justify right)))  (symbol (lib_id "Device:R") (at 60 80 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "259640dd-4653-4000-9146-59c32fd47d69")
+    (uuid "ae7818a8-213f-406f-96ba-1f3198867d0e")
     (property "Reference" "TP3" (at 60 70 0) (effects (font (size 1.27 1.27))))
     (property "Value" "0R" (at 60 90 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "R_0402" (at 60 80 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "b71dc2bd-172a-4a75-ae6e-f01ca5a63612"))
-    (pin "2" (uuid "9507d261-578a-43d9-85f2-1f8af1d74f5f"))
-  )    (symbol (lib_id "Device:R") (at 60 100 0) (unit 1)
+    (pin "1" (uuid "38517c08-fc02-4beb-bd0f-8a36230de377"))
+    (pin "2" (uuid "ec6fe582-1295-4573-b160-0e70b37e2c8b"))
+  )  (global_label "VCCAUX_1V8" (shape bidirectional) (at 40 80 180) (effects (font (size 1.27 1.27)) (justify right)))  (symbol (lib_id "Device:R") (at 60 100 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "adf3f60b-bb22-4175-bddc-87003c9d45f0")
+    (uuid "509e3125-3495-477d-b266-461b7def4e4f")
     (property "Reference" "TP4" (at 60 90 0) (effects (font (size 1.27 1.27))))
     (property "Value" "0R" (at 60 110 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "R_0402" (at 60 100 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "4e28f93f-ae80-42f0-9056-2380f1b157b6"))
-    (pin "2" (uuid "9b2645ce-b047-4019-95f8-4cd6ce793135"))
-  )    (symbol (lib_id "Device:R") (at 60 120 0) (unit 1)
+    (pin "1" (uuid "2627eca2-b844-403c-aeaa-f81e36115252"))
+    (pin "2" (uuid "95aaabaa-12a2-4b05-8917-731484ff00c9"))
+  )  (global_label "VCCIO_3V3" (shape bidirectional) (at 40 100 180) (effects (font (size 1.27 1.27)) (justify right)))  (symbol (lib_id "Device:R") (at 60 120 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "bbb9f120-ed25-4029-a3d4-aaa140454d15")
+    (uuid "239de2e8-1706-4239-abc3-c13add34cc34")
     (property "Reference" "TP5" (at 60 110 0) (effects (font (size 1.27 1.27))))
     (property "Value" "0R" (at 60 130 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "R_0402" (at 60 120 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "58d02fe5-7114-442c-aaa4-949ede73adfe"))
-    (pin "2" (uuid "688fbf93-1fd9-4ec1-96e9-f8ecf3277ccc"))
-  )    (symbol (lib_id "Device:R") (at 60 140 0) (unit 1)
+    (pin "1" (uuid "023cd46b-4358-4afa-8663-abf311eec997"))
+    (pin "2" (uuid "2577ce5e-5bfa-4b94-81fd-76f80b75e375"))
+  )  (global_label "+1V0" (shape bidirectional) (at 40 120 180) (effects (font (size 1.27 1.27)) (justify right)))  (symbol (lib_id "Device:R") (at 60 140 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "c567b37f-d016-4481-8b2b-6a30d7b107a5")
+    (uuid "9cc68fdf-9885-4ed7-9f57-aaf678d544b8")
     (property "Reference" "TP6" (at 60 130 0) (effects (font (size 1.27 1.27))))
     (property "Value" "0R" (at 60 150 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "R_0402" (at 60 140 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "f6a574ed-309a-4187-9dbf-933e505ec225"))
-    (pin "2" (uuid "0eb230f3-2be6-490d-b3ed-361f3a395625"))
-  )    (symbol (lib_id "Device:R") (at 60 160 0) (unit 1)
+    (pin "1" (uuid "f18405b2-f972-4542-be69-49b28428a6a1"))
+    (pin "2" (uuid "81e46237-4292-4b77-b2e1-c3d1a193b08d"))
+  )  (global_label "+1V8" (shape bidirectional) (at 40 140 180) (effects (font (size 1.27 1.27)) (justify right)))  (symbol (lib_id "Device:R") (at 60 160 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "522e8349-38f6-4556-96e3-0dfff623c439")
+    (uuid "9e199f5c-e0f0-43a1-b368-c361d61ea9e5")
     (property "Reference" "TP7" (at 60 150 0) (effects (font (size 1.27 1.27))))
     (property "Value" "0R" (at 60 170 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "R_0402" (at 60 160 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "bff85d4b-a814-49fb-b5f3-b3e5ea8081d7"))
-    (pin "2" (uuid "0abad8c5-4e02-48ee-823c-a5e36b17514d"))
-  )    (symbol (lib_id "Device:R") (at 60 180 0) (unit 1)
+    (pin "1" (uuid "4c5532e1-e13c-4548-8502-48b5e8b6f561"))
+    (pin "2" (uuid "c42b2ea7-e382-4e78-b62d-81d8d0d4d08b"))
+  )  (global_label "+2V5" (shape bidirectional) (at 40 160 180) (effects (font (size 1.27 1.27)) (justify right)))  (symbol (lib_id "Device:R") (at 60 180 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "efdbb873-a7f5-4603-9d4f-ee96929c2166")
+    (uuid "a83f205d-e881-47ac-bf05-b5ac5a2a2e22")
     (property "Reference" "TP8" (at 60 170 0) (effects (font (size 1.27 1.27))))
     (property "Value" "0R" (at 60 190 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "R_0402" (at 60 180 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "097467db-08c7-4c25-93f9-19161d681469"))
-    (pin "2" (uuid "17de6295-e9df-4499-8087-9eb487c179da"))
-  )    (symbol (lib_id "Device:R") (at 200 40 0) (unit 1)
+    (pin "1" (uuid "64b8a459-be11-4ea9-9db6-b00995c41be3"))
+    (pin "2" (uuid "46b8cecf-51aa-46f6-8c93-e10e410bba71"))
+  )  (global_label "GND" (shape bidirectional) (at 40 180 180) (effects (font (size 1.27 1.27)) (justify right)))  (symbol (lib_id "Device:R") (at 200 40 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "71e5fb90-cefd-4959-8027-e89b701b0ed0")
+    (uuid "fc3d8deb-e4e4-45ef-b981-b58f767224f3")
     (property "Reference" "TP9" (at 200 30 0) (effects (font (size 1.27 1.27))))
     (property "Value" "0R" (at 200 50 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "R_0402" (at 200 40 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "100fc835-c250-4be4-9e5d-8a2ec08b9148"))
-    (pin "2" (uuid "12675949-f436-4e03-b5e8-07fcb51a7ed3"))
-  )    (symbol (lib_id "Device:R") (at 200 60 0) (unit 1)
+    (pin "1" (uuid "f76d375c-760f-4e90-be2b-be4b683c86c9"))
+    (pin "2" (uuid "25882e19-2d1f-448b-aeb2-9d070c946cce"))
+  )  (global_label "ADC_CLK_P" (shape bidirectional) (at 180 40 180) (effects (font (size 1.27 1.27)) (justify right)))  (symbol (lib_id "Device:R") (at 200 60 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "874d4737-f0cd-4104-bc2f-df38b6af3588")
+    (uuid "4c612dfa-4acc-4b4b-8bc4-294d6c57f1a5")
     (property "Reference" "TP10" (at 200 50 0) (effects (font (size 1.27 1.27))))
     (property "Value" "0R" (at 200 70 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "R_0402" (at 200 60 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "52c3f9e2-91ff-4e5e-b5ae-1495c4e9e669"))
-    (pin "2" (uuid "091eee22-7c59-4417-aa15-81b281c433b1"))
-  )    (symbol (lib_id "Device:R") (at 200 80 0) (unit 1)
+    (pin "1" (uuid "b102a496-8c50-4f47-8a8b-98d51bc67e33"))
+    (pin "2" (uuid "c163cc23-fe85-44e0-bc0b-b54f232055b9"))
+  )  (global_label "ADC_SYSREF_P" (shape bidirectional) (at 180 60 180) (effects (font (size 1.27 1.27)) (justify right)))  (symbol (lib_id "Device:R") (at 200 80 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "c2d0e68a-4799-4e58-bc95-dac836a369f8")
+    (uuid "ada80311-3f0d-4c47-8744-84226d754d0f")
     (property "Reference" "TP11" (at 200 70 0) (effects (font (size 1.27 1.27))))
     (property "Value" "0R" (at 200 90 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "R_0402" (at 200 80 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "76b25f99-3ec3-4fa3-9673-9ca1771f88bf"))
-    (pin "2" (uuid "5fe61192-c9e0-4b83-8ec1-2e3bed2631d4"))
-  )    (symbol (lib_id "Device:R") (at 200 100 0) (unit 1)
+    (pin "1" (uuid "0e384010-549d-4194-b815-24ee6fbaca87"))
+    (pin "2" (uuid "36d57d0b-b226-40fd-b6ac-fb847cab5cb6"))
+  )  (global_label "FPGA_REFCLK_P" (shape bidirectional) (at 180 80 180) (effects (font (size 1.27 1.27)) (justify right)))  (symbol (lib_id "Device:R") (at 200 100 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "700af591-d016-42e6-9827-7ccc7f0442ef")
+    (uuid "98d43593-613e-456a-89e3-aecae848c3d4")
     (property "Reference" "TP12" (at 200 90 0) (effects (font (size 1.27 1.27))))
     (property "Value" "0R" (at 200 110 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "R_0402" (at 200 100 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "e8ef5af3-566a-4063-98f2-ed0b0a55221f"))
-    (pin "2" (uuid "a994aa7d-cafa-4288-aa20-dd9b349182eb"))
-  )    (symbol (lib_id "Device:R") (at 200 120 0) (unit 1)
+    (pin "1" (uuid "42e97739-9a19-4160-81ae-def4abf0c1b5"))
+    (pin "2" (uuid "8a62ca06-af56-4fd0-ac0b-edd391cac49d"))
+  )  (global_label "FPGA_SPWCLK_P" (shape bidirectional) (at 180 100 180) (effects (font (size 1.27 1.27)) (justify right)))  (symbol (lib_id "Device:R") (at 200 120 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "5dc30560-6748-4d5e-b44c-f3b1a7e4511c")
+    (uuid "9d0e00f6-f2ce-4c7f-9786-9c72074caa88")
     (property "Reference" "TP13" (at 200 110 0) (effects (font (size 1.27 1.27))))
     (property "Value" "0R" (at 200 130 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "R_0402" (at 200 120 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "f86bf898-017c-4e53-8d8e-5898e86eaec8"))
-    (pin "2" (uuid "e9280d11-7304-4d89-91dd-a5023aa6618e"))
-  )    (symbol (lib_id "Device:R") (at 200 140 0) (unit 1)
+    (pin "1" (uuid "98302a65-6ac4-4505-a9d3-b7a30171329b"))
+    (pin "2" (uuid "0f908f2d-8457-4225-9b2e-500d826f84b5"))
+  )  (global_label "ADC_CS" (shape bidirectional) (at 180 120 180) (effects (font (size 1.27 1.27)) (justify right)))  (symbol (lib_id "Device:R") (at 200 140 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "03823849-cbf3-4e6c-b738-7bb9197cb3f6")
+    (uuid "b470efe0-2446-4348-a516-9e7f3fa3e528")
     (property "Reference" "TP14" (at 200 130 0) (effects (font (size 1.27 1.27))))
     (property "Value" "0R" (at 200 150 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "R_0402" (at 200 140 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "e824d604-d795-499c-bdb1-1e62ddda1b3c"))
-    (pin "2" (uuid "f6138010-3fbb-4759-929d-c69c0b95fa33"))
-  )    (symbol (lib_id "Device:R") (at 200 160 0) (unit 1)
+    (pin "1" (uuid "267735e2-6fac-423e-bfbb-8bd117c1fa62"))
+    (pin "2" (uuid "7c73bd42-5d22-405d-a832-80630c5effa0"))
+  )  (global_label "LMX_MUXOUT" (shape bidirectional) (at 180 140 180) (effects (font (size 1.27 1.27)) (justify right)))  (symbol (lib_id "Device:R") (at 200 160 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "5f79847b-69d0-4498-b288-2dc433c84f6a")
+    (uuid "22bec56b-22b6-4a5a-954a-b315a51f929c")
     (property "Reference" "TP15" (at 200 150 0) (effects (font (size 1.27 1.27))))
     (property "Value" "0R" (at 200 170 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "R_0402" (at 200 160 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "7aa682b6-506e-4d07-9f7a-5e99b6badb6b"))
-    (pin "2" (uuid "65869b11-a652-4cfa-9f35-4c81c243c018"))
-  )    (symbol (lib_id "Device:R") (at 200 180 0) (unit 1)
+    (pin "1" (uuid "e79a57d7-c7da-4907-951c-dc71dce43db0"))
+    (pin "2" (uuid "714e58b5-59a7-4e12-b8c0-e7d9a610d492"))
+  )  (global_label "PWRGD_SEQ" (shape bidirectional) (at 180 160 180) (effects (font (size 1.27 1.27)) (justify right)))  (symbol (lib_id "Device:R") (at 200 180 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "099cb404-f855-4406-8b4b-1e7af277d804")
+    (uuid "f195370d-34cf-4e66-a7be-2d6668212884")
     (property "Reference" "TP16" (at 200 170 0) (effects (font (size 1.27 1.27))))
     (property "Value" "0R" (at 200 190 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "R_0402" (at 200 180 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "875e4797-3d68-4ca5-9200-0f9f335de496"))
-    (pin "2" (uuid "f1fd0f18-ec15-4b30-b644-c6d43d4a5d2d"))
-  )    
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  (global_label "~" (at 60.0000 28.5700 0) (effects (font (size 1.27 1.27))) (uuid "df9ba42d58f14eadaea6098e8ebd3ee3"))
-  (global_label "~" (at 60.0000 51.4300 0) (effects (font (size 1.27 1.27))) (uuid "b565841a643041598861f28330c65a50"))
-  (global_label "~" (at 60.0000 48.5700 0) (effects (font (size 1.27 1.27))) (uuid "856b0237739c4fa597971864d5b35fdd"))
-  (global_label "~" (at 60.0000 71.4300 0) (effects (font (size 1.27 1.27))) (uuid "8836194012344cc18a7cf194bab6164f"))
-  (global_label "~" (at 60.0000 68.5700 0) (effects (font (size 1.27 1.27))) (uuid "35096b599c6e4bc8bb7140e5d6d2df1f"))
-  (global_label "~" (at 60.0000 91.4300 0) (effects (font (size 1.27 1.27))) (uuid "a793a11b88eb4624bd932d09938f71d4"))
-  (global_label "~" (at 60.0000 88.5700 0) (effects (font (size 1.27 1.27))) (uuid "f823d957143d464d8636699acdb9d320"))
-  (global_label "~" (at 60.0000 111.4300 0) (effects (font (size 1.27 1.27))) (uuid "e440294e50384f10a036d3b684a31d4b"))
-  (global_label "~" (at 60.0000 108.5700 0) (effects (font (size 1.27 1.27))) (uuid "d89f190cf08f4e748defb4caabd63017"))
-  (global_label "~" (at 60.0000 131.4300 0) (effects (font (size 1.27 1.27))) (uuid "6d4e53340f604052b727db019148807f"))
-  (global_label "~" (at 60.0000 128.5700 0) (effects (font (size 1.27 1.27))) (uuid "e64ea60512fa46fdbb58335b67b82032"))
-  (global_label "~" (at 60.0000 151.4300 0) (effects (font (size 1.27 1.27))) (uuid "e30d8a7c69734fa2a24bf38086cee0cc"))
-  (global_label "~" (at 60.0000 148.5700 0) (effects (font (size 1.27 1.27))) (uuid "59ce3c9b53744e2e9c75577d64224904"))
-  (global_label "~" (at 60.0000 171.4300 0) (effects (font (size 1.27 1.27))) (uuid "609f9efe573544d1bc851cf58fa35ab2"))
-  (global_label "~" (at 60.0000 168.5700 0) (effects (font (size 1.27 1.27))) (uuid "3546905e86e143f2bfe359bbbfef5ca0"))
-  (global_label "~" (at 60.0000 191.4300 0) (effects (font (size 1.27 1.27))) (uuid "6b50cef11e6542bfa5e236c04a538a48"))
-  (global_label "~" (at 200.0000 28.5700 0) (effects (font (size 1.27 1.27))) (uuid "0e0aa13cd21a490ea71de190c45cf2bb"))
-  (global_label "~" (at 200.0000 51.4300 0) (effects (font (size 1.27 1.27))) (uuid "d6e4dc770b2343ab9b4f606fbac1412f"))
-  (global_label "~" (at 200.0000 48.5700 0) (effects (font (size 1.27 1.27))) (uuid "720976892b60443287b5b0c0314f11fd"))
-  (global_label "~" (at 200.0000 71.4300 0) (effects (font (size 1.27 1.27))) (uuid "eec507743ddc422ab7510b11a1a8a5d0"))
-  (global_label "~" (at 200.0000 68.5700 0) (effects (font (size 1.27 1.27))) (uuid "6f5fb3385ed447f399951db28279f06d"))
-  (global_label "~" (at 200.0000 91.4300 0) (effects (font (size 1.27 1.27))) (uuid "a2749904abd0404a8bd62fc3c8453ba2"))
-  (global_label "~" (at 200.0000 88.5700 0) (effects (font (size 1.27 1.27))) (uuid "2adbf2dcde214eb3b9145ca623ea0050"))
-  (global_label "~" (at 200.0000 111.4300 0) (effects (font (size 1.27 1.27))) (uuid "d992c29e941142119cefabcfef5f263b"))
-  (global_label "~" (at 200.0000 108.5700 0) (effects (font (size 1.27 1.27))) (uuid "dabf091ad82a4729b264223d350eba41"))
-  (global_label "~" (at 200.0000 131.4300 0) (effects (font (size 1.27 1.27))) (uuid "f0b371a226cf478abef3d70ea9fb2cc3"))
-  (global_label "~" (at 200.0000 128.5700 0) (effects (font (size 1.27 1.27))) (uuid "11ac0f27e69544e9a17ea4624e1db389"))
-  (global_label "~" (at 200.0000 151.4300 0) (effects (font (size 1.27 1.27))) (uuid "f90eec7e38ea4899bb094d3597a7dcec"))
-  (global_label "~" (at 200.0000 148.5700 0) (effects (font (size 1.27 1.27))) (uuid "6c0fde077f694539bd7785499ac3de71"))
-  (global_label "~" (at 200.0000 171.4300 0) (effects (font (size 1.27 1.27))) (uuid "78d45d7fc1b940d0b0d447063ae2f63a"))
-  (global_label "~" (at 200.0000 168.5700 0) (effects (font (size 1.27 1.27))) (uuid "4d37859174744e6eab3606e4f00e07eb"))
-  (global_label "~" (at 200.0000 191.4300 0) (effects (font (size 1.27 1.27))) (uuid "78f61f8cc2bf4a8f98c21b987e7842d6"))
-  (sheet_instances (path "/" (page "1")))
+    (pin "1" (uuid "e0ce7c8f-71f4-4ec3-afdb-af6b227e5250"))
+    (pin "2" (uuid "eee9d0c3-8645-44e4-bb78-2f3c280de475"))
+  )  (global_label "SEQ_DONE" (shape bidirectional) (at 180 180 180) (effects (font (size 1.27 1.27)) (justify right)))  (sheet_instances (path "/" (page "1")))
 )

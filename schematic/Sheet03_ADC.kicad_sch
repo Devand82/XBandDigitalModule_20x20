@@ -162,152 +162,152 @@
   )
   (symbol (lib_id "Custom:ADC12DJ5200-SP") (at 200 120 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "c5fcdfab-3f08-4b3f-88a4-2ad6c1ea89a6")
+    (uuid "9477d72d-03c8-4b3f-bb98-eaf1be4ad50e")
     (property "Reference" "U1" (at 200 110 0) (effects (font (size 1.27 1.27))))
     (property "Value" "ADC12DJ5200-SP" (at 200 130 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "Package_BGA:BGA-144_12x12_8.0x8.0mm_P0.65mm" (at 200 120 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "A4" (uuid "41ffa2b3-f88e-4ba4-893b-c16f8d928368"))
-    (pin "A5" (uuid "4c093d66-a06d-458e-904d-49e13519b382"))
-    (pin "L4" (uuid "b189ed08-d1d6-419c-90c1-eda47edb6b9b"))
-    (pin "L5" (uuid "b39b0073-bc09-4c44-9002-9aa5c61483be"))
-    (pin "F1" (uuid "91703886-cf8e-4cd6-850c-cd45f690c4bc"))
-    (pin "G1" (uuid "85c14daf-dc66-4e92-8d8a-37a6f37e1198"))
-    (pin "K1" (uuid "d1f222a7-1564-4dbb-b4a5-8b1d9e42a0a1"))
-    (pin "L1" (uuid "780e77ae-bedf-4810-8248-193f4c701cae"))
-    (pin "E8" (uuid "b35482ab-c7f9-4620-ae45-d64f8f297566"))
-    (pin "F8" (uuid "07cdbfd5-6c7a-46b4-b816-aba9aa5eceb3"))
-    (pin "G8" (uuid "8b2dca8a-e078-4fd7-ad90-7af6be6aa12c"))
-    (pin "H8" (uuid "013524d6-097c-4b90-96c9-d1f902e0b6ce"))
-    (pin "K6" (uuid "07a17c4f-fc9c-433d-8f6e-d270df91c4fe"))
-    (pin "C7" (uuid "e5a2a368-d1ad-40d4-b4ef-285383b71c48"))
-    (pin "D7" (uuid "09aa1258-c079-4de1-8f50-5e7a70de7075"))
-    (pin "K7" (uuid "21163c35-9594-4371-8a6a-efba436ddad4"))
-    (pin "J7" (uuid "c34dc368-a7e7-445c-bc5a-8f4012c69735"))
-    (pin "E7" (uuid "684cee73-0c0e-4714-9808-8d65f8f72aa0"))
-    (pin "F7" (uuid "1fe042d9-a36f-4b8b-82a1-1cbb23ad7824"))
-    (pin "C2" (uuid "253946b8-ed2e-4230-bdfa-3b965f8d9d06"))
-    (pin "B1" (uuid "19075dc1-1907-473b-b6e9-d411bcc876fa"))
-    (pin "C1" (uuid "04e16e1f-0015-4d08-b636-5821de244988"))
-    (pin "B2" (uuid "37e71f3e-be40-4085-a62f-4395b3a4a917"))
-    (pin "C3" (uuid "73c914fb-876a-4daa-abf2-9de3370388e4"))
-    (pin "K2" (uuid "9a07b259-fc4e-475b-9f38-f80579c21428"))
-    (pin "K3" (uuid "be6f316e-cde1-42aa-8d68-5167248f0f52"))
-    (pin "C8" (uuid "51477b7a-1976-4867-92da-9931dc16650a"))
-    (pin "D8" (uuid "4aea125e-ecaa-476a-bc98-4e3f806da6a9"))
-    (pin "K8" (uuid "b9a0db4b-632f-4ece-b8b8-b36f360d49a6"))
-    (pin "J8" (uuid "03f5885d-cec0-4e85-8a6d-1eb542491787"))
+    (pin "A4" (uuid "f78dd909-45d3-4352-ac86-2189d12329d5"))
+    (pin "A5" (uuid "15f58b81-419e-4f59-aad2-dd17ffcf4084"))
+    (pin "L4" (uuid "393a77bb-647a-46d0-8a73-64a136dd3265"))
+    (pin "L5" (uuid "c9bca0f8-b463-4e50-9d62-67651ddfe936"))
+    (pin "F1" (uuid "44a91b0a-90c3-4498-ab1b-396c396ba47f"))
+    (pin "G1" (uuid "ca45abc4-85b8-4bcd-ad1b-7419f5efa9bd"))
+    (pin "K1" (uuid "25612c47-6051-4c67-89a6-9c961803cf47"))
+    (pin "L1" (uuid "93545434-f12e-4ad4-b14a-e03329772584"))
+    (pin "E8" (uuid "e9093465-ba94-44fe-ae4b-c826e4d6f2e0"))
+    (pin "F8" (uuid "98ee7b94-74ed-41be-acaf-906b72183fe2"))
+    (pin "G8" (uuid "848361aa-7ef6-4cbe-ba61-6908fc899d86"))
+    (pin "H8" (uuid "1eefa39f-8871-4b56-a431-d8a9cbff01f8"))
+    (pin "K6" (uuid "a1103df7-7c16-484f-ae94-7a94072a3502"))
+    (pin "C7" (uuid "74ddaa83-2097-40b2-a56c-eeec9c3cd9be"))
+    (pin "D7" (uuid "d1a9b361-7ca8-4d29-a385-cc6a9932321d"))
+    (pin "K7" (uuid "40d12b09-7b4d-4272-8227-628ebf80e7dc"))
+    (pin "J7" (uuid "113b9a65-93e0-413d-9b5d-9a3c4682f094"))
+    (pin "E7" (uuid "9b1c648d-60b6-4ccb-a592-8540ba0a8f75"))
+    (pin "F7" (uuid "eaffd7bf-da28-483b-91e9-a5e604d00ff5"))
+    (pin "C2" (uuid "18d65830-b0b8-4bec-bce9-dc930af86942"))
+    (pin "B1" (uuid "02f6f5e6-73fb-48a6-9f4e-db439c7d5e1e"))
+    (pin "C1" (uuid "d8548d90-ffae-4269-bb64-947e60c65721"))
+    (pin "B2" (uuid "6a16b161-5043-4c62-b60a-7bdfdc55842c"))
+    (pin "C3" (uuid "51e7b59f-0b40-4882-be5e-a383a4958c67"))
+    (pin "K2" (uuid "2868e3ee-1cda-4677-834c-e04c8133d0fc"))
+    (pin "K3" (uuid "4f63ac37-a5bd-4e1d-92d8-076cede89a7f"))
+    (pin "C8" (uuid "ebdd1b8f-96c4-43ad-993b-90016f95bf74"))
+    (pin "D8" (uuid "b9ccd5dd-6389-49ed-b505-552f363990a3"))
+    (pin "K8" (uuid "d0aedb46-1d7f-41ae-9a8b-14cb59f93178"))
+    (pin "J8" (uuid "0ca864e7-c1bf-4147-af31-b78c9145b38c"))
   )  (symbol (lib_id "Device:C") (at 80 40 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "1135dd1c-332b-466d-8b56-d8d9b606028d")
+    (uuid "b4838ad4-0101-4249-8f05-cd4ad0facf5f")
     (property "Reference" "C10" (at 80 30 0) (effects (font (size 1.27 1.27))))
     (property "Value" "100nF" (at 80 50 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "C_0402" (at 80 40 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "5fc4cf83-02a0-4e2d-b453-b51246581d07"))
-    (pin "2" (uuid "8f5d0b60-5178-4bd4-a098-15654b3c897c"))
+    (pin "1" (uuid "38c0f57c-e9e2-4306-8e4f-792acddb0446"))
+    (pin "2" (uuid "eeb9bff4-97b4-466b-8992-aea882d77974"))
   )  (symbol (lib_id "Device:C") (at 80 55 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "09289014-dda2-40b2-a77a-ab1cbb585be8")
+    (uuid "f315f9c5-c72e-4b80-b4ad-62d1dd60228a")
     (property "Reference" "C11" (at 80 45 0) (effects (font (size 1.27 1.27))))
     (property "Value" "10uF" (at 80 65 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "C_0603" (at 80 55 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "d7688fe5-39ee-4a92-b37a-59d28cbbf89a"))
-    (pin "2" (uuid "38b7edd3-5ef9-40f2-a348-682f51bea346"))
+    (pin "1" (uuid "628504d4-f8d3-4625-9ea8-6bebe7954d6b"))
+    (pin "2" (uuid "a0d5e297-9f5d-4e98-88bd-9583d08f304c"))
   )  (symbol (lib_id "Device:FerriteBead") (at 80 70 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "1baa7f36-c56c-46c6-baa7-36f2e9bce40b")
+    (uuid "e572e3da-1333-45c3-8c78-726fabc78c20")
     (property "Reference" "FB1" (at 80 60 0) (effects (font (size 1.27 1.27))))
     (property "Value" "600R" (at 80 80 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "L_0402" (at 80 70 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "3e7c818b-a5d0-458b-bc3d-c91433f0d66f"))
-    (pin "2" (uuid "f04a8bce-622d-4fa0-86ee-1c8f48bcd7ec"))
+    (pin "1" (uuid "c95ae3b8-dac0-43f6-9716-4807e05fa504"))
+    (pin "2" (uuid "dddb2663-46ba-44f8-8788-c0b0016ab254"))
   )  (symbol (lib_id "Device:C") (at 80 85 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "bb68aa8f-2844-42a7-882e-75615482631d")
+    (uuid "64b796d5-63bd-43cc-ab66-80a8ef9316b3")
     (property "Reference" "C12" (at 80 75 0) (effects (font (size 1.27 1.27))))
     (property "Value" "100nF" (at 80 95 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "C_0402" (at 80 85 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "b93f9656-7098-400e-81d5-52753389ee10"))
-    (pin "2" (uuid "8f106c10-06fa-4549-b9b3-0a12bc819bf8"))
+    (pin "1" (uuid "d1f25bd4-e23f-4d3f-92c6-54f8f53291a2"))
+    (pin "2" (uuid "655169b1-cb3e-4c87-b28c-b6e1fd7e27d2"))
   )  (symbol (lib_id "Device:C") (at 80 100 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "abbea8a0-8629-42c7-99d6-2b1181c9efaa")
+    (uuid "1f373e9f-6a8f-42f5-b004-4879f6b8201a")
     (property "Reference" "C13" (at 80 90 0) (effects (font (size 1.27 1.27))))
     (property "Value" "10uF" (at 80 110 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "C_0603" (at 80 100 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "51ad5780-94e1-46b8-9063-11c5323ff0e2"))
-    (pin "2" (uuid "ff8ee88e-0314-4c00-8481-cbc974138726"))
+    (pin "1" (uuid "ed17ff43-b381-4dfd-9bd9-8220cf9665c3"))
+    (pin "2" (uuid "fdfa9b29-3f0f-41fc-aa89-6060146d9cf6"))
   )  (symbol (lib_id "Device:C") (at 80 120 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "8a403ca1-b800-4873-80e6-c1a2677c7093")
+    (uuid "027db5e8-a35b-40f6-8558-875b6fe4fb42")
     (property "Reference" "C14" (at 80 110 0) (effects (font (size 1.27 1.27))))
     (property "Value" "100nF" (at 80 130 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "C_0402" (at 80 120 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "8a22c140-aa0c-4977-b792-80f604dac297"))
-    (pin "2" (uuid "e6a4ae60-5ab5-4647-9004-e737a413e570"))
+    (pin "1" (uuid "ef1d2d3e-87f8-4b22-8517-44d8cc871214"))
+    (pin "2" (uuid "131a9f6b-7c0f-437a-a030-637884382e9e"))
   )  (symbol (lib_id "Device:C") (at 80 135 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "9b292f2a-4bc8-40d4-9519-54c4d3ac07a4")
+    (uuid "238ab563-d4f8-4cd8-9ba4-d755ae98b41d")
     (property "Reference" "C15" (at 80 125 0) (effects (font (size 1.27 1.27))))
     (property "Value" "10uF" (at 80 145 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "C_0603" (at 80 135 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "37dc8d71-33a1-4282-9c1d-9e8be0b12e6f"))
-    (pin "2" (uuid "21d9e1fa-3def-46b5-86d9-594bc0643984"))
+    (pin "1" (uuid "583f7373-6771-45ab-8f91-6d10eb02c0e3"))
+    (pin "2" (uuid "e9f07343-7ac8-4eee-a2a5-48b58efa8f8f"))
   )  (symbol (lib_id "Device:C") (at 80 155 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "2b7a8f56-5e12-4eba-a41a-e60e33e19d23")
+    (uuid "98c6bc6e-0467-401c-9d33-3a2577374801")
     (property "Reference" "C16" (at 80 145 0) (effects (font (size 1.27 1.27))))
     (property "Value" "100nF" (at 80 165 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "C_0402" (at 80 155 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "f52b24bf-301c-462a-8b75-4fd9082e5c77"))
-    (pin "2" (uuid "540ba759-2bbc-485a-a53e-96c40cdd2c59"))
+    (pin "1" (uuid "2a30762b-350a-4487-91ee-1afc71ac31e5"))
+    (pin "2" (uuid "ce2a2646-f59e-4615-ae01-0d63d109ce69"))
   )  (symbol (lib_id "Device:C") (at 80 170 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "dc27c581-49ad-40e3-a948-622040bce7fa")
+    (uuid "50cbc1e9-3741-4936-b3d5-2909c78ae5a1")
     (property "Reference" "C17" (at 80 160 0) (effects (font (size 1.27 1.27))))
     (property "Value" "4.7uF" (at 80 180 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "C_0402" (at 80 170 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "3562acac-4e6a-4475-b298-24bcf2291b30"))
-    (pin "2" (uuid "abf143e7-448c-46ed-a9f7-04d99c228f83"))
+    (pin "1" (uuid "d827edf2-dd2d-4aae-8168-639fe5b54fb9"))
+    (pin "2" (uuid "30d92294-085d-4032-a8d8-17a3b26313ba"))
   )  (symbol (lib_id "Device:C") (at 320 120 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "417e8603-5b27-4760-afa1-a501339ad02f")
+    (uuid "0e74c0b1-830b-49d4-8a72-eb6eda0acaba")
     (property "Reference" "C18" (at 320 110 0) (effects (font (size 1.27 1.27))))
     (property "Value" "100nF" (at 320 130 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "C_0402" (at 320 120 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "bd57eb53-8129-425f-80e7-20d6029b16db"))
-    (pin "2" (uuid "cb346c17-0ad8-43ef-a931-0b336ec6d3c8"))
+    (pin "1" (uuid "1bc17dcd-a1a1-4daf-8866-3721d25a3ea0"))
+    (pin "2" (uuid "fd249ef6-72ff-42f7-9345-63c244a76305"))
   )  (symbol (lib_id "Device:R") (at 320 60 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "4b49b5d5-78fd-4926-9eca-3b2efb90deb7")
+    (uuid "53d03061-86f0-4c81-8183-6640b561b396")
     (property "Reference" "R10" (at 320 50 0) (effects (font (size 1.27 1.27))))
     (property "Value" "50" (at 320 70 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "R_0402" (at 320 60 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "673ddc1a-952a-464f-81e0-c300abfbf940"))
-    (pin "2" (uuid "c0679409-2677-4b64-9954-c8859cb052fc"))
+    (pin "1" (uuid "5442f938-87d4-43e8-8ec8-47143125c3bd"))
+    (pin "2" (uuid "d9b0d73d-a523-4421-855d-cef9071c1d19"))
   )  (symbol (lib_id "Device:R") (at 320 75 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "17c89513-1d80-47ea-8bd6-b11c69881e14")
+    (uuid "58acd180-c6c1-40e5-9ec1-c672502c9dfb")
     (property "Reference" "R11" (at 320 65 0) (effects (font (size 1.27 1.27))))
     (property "Value" "50" (at 320 85 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "R_0402" (at 320 75 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "93d92117-7aa6-4a3c-9901-4bb08278953c"))
-    (pin "2" (uuid "b7d540d4-47e5-4871-8d76-97dc24e791db"))
+    (pin "1" (uuid "de2d3f0f-b0f5-4516-8257-c5dec7ec95c3"))
+    (pin "2" (uuid "37a52778-66c0-4544-a643-e714a53d1fae"))
   )  (symbol (lib_id "Device:R") (at 320 90 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "21e7de98-a7a4-490e-9fe7-fa16e43f5244")
+    (uuid "8d12560c-19a1-449c-b970-31d83fae487f")
     (property "Reference" "R12" (at 320 80 0) (effects (font (size 1.27 1.27))))
     (property "Value" "1k" (at 320 100 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "R_0402" (at 320 90 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "b760184c-8484-420c-90e6-fd618495ef2d"))
-    (pin "2" (uuid "5bfbd5bc-45ed-4909-87b3-ca05460dcd54"))
+    (pin "1" (uuid "99f8b818-7699-4685-ae6b-e97d0d6c70b8"))
+    (pin "2" (uuid "2443c55b-505b-4d6e-abe0-903122213603"))
   )  (symbol (lib_id "Device:R") (at 320 105 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "874152e8-606e-4d3b-a53b-f5f248af9360")
+    (uuid "c03704a7-8cd3-4cae-b18c-3ac6cbfad298")
     (property "Reference" "R13" (at 320 95 0) (effects (font (size 1.27 1.27))))
     (property "Value" "1k" (at 320 115 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "R_0402" (at 320 105 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "c8cb7bbf-1976-4e88-9ee1-9bced4d9cdfc"))
-    (pin "2" (uuid "d71e22b2-399f-4525-8e87-aed56cd37d42"))
+    (pin "1" (uuid "73f3c21b-572e-41f0-82c0-a2e4cb2a3ecc"))
+    (pin "2" (uuid "80be9e82-6e04-494a-a509-33a10e8c735a"))
   )                                                                      
   
   
@@ -643,2281 +643,171 @@
   
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  (global_label "RF_IN_P" (at 179.6800 98.4100 0) (effects (font (size 1.27 1.27))) (uuid "00f802c9935b4d58898b5a5754c14ca2"))
-  (global_label "RF_IN_N" (at 179.6800 99.6800 0) (effects (font (size 1.27 1.27))) (uuid "72c53d40dc124a0387daedbc0f92270b"))
-  (global_label "RF_INB_P" (at 179.6800 100.9500 0) (effects (font (size 1.27 1.27))) (uuid "70b88588b8074232aec11ffed97c4d03"))
-  (global_label "RF_INB_N" (at 179.6800 102.2200 0) (effects (font (size 1.27 1.27))) (uuid "ee411243290e4fb8a227d7e8c9866e33"))
-  (global_label "ADC_CLK_P" (at 179.6800 103.4900 0) (effects (font (size 1.27 1.27))) (uuid "be08171440e14b409dffbabf1342cfa4"))
-  (global_label "ADC_CLK_N" (at 179.6800 104.7600 0) (effects (font (size 1.27 1.27))) (uuid "14871b1cd15b478988190afd0fb41f08"))
-  (global_label "ADC_SYSREF_P" (at 179.6800 106.0300 0) (effects (font (size 1.27 1.27))) (uuid "a9cbe51d7b7342308ecb8c0cb2d5fee2"))
-  (global_label "ADC_SYSREF_N" (at 179.6800 107.3000 0) (effects (font (size 1.27 1.27))) (uuid "35f90c3fb7484838a92c7c9030f9b225"))
-  (global_label "CS" (at 179.6800 108.5700 0) (effects (font (size 1.27 1.27))) (uuid "54330232204a4e15bbd37fe6b440b1c8"))
-  (global_label "SPI_SCK" (at 179.6800 109.8400 0) (effects (font (size 1.27 1.27))) (uuid "6fed96fa7fa546f0b2fb42d5024099c7"))
-  (global_label "SPI_MOSI" (at 179.6800 111.1100 0) (effects (font (size 1.27 1.27))) (uuid "03512732662543298e12c6732d38864e"))
-  (global_label "SPI_MISO" (at 179.6800 112.3800 0) (effects (font (size 1.27 1.27))) (uuid "6f83f210142c4644be2e827d46f429c1"))
-  (global_label "ADC_PD" (at 179.6800 113.6500 0) (effects (font (size 1.27 1.27))) (uuid "82642aa652c147a797078e744ffe7a18"))
-  (global_label "ADC_SYNC_P" (at 179.6800 114.9200 0) (effects (font (size 1.27 1.27))) (uuid "225c6711ba114d7294e7d4d4df27d1e8"))
-  (global_label "ADC_SYNC_N" (at 179.6800 116.1900 0) (effects (font (size 1.27 1.27))) (uuid "f669df647c3044eb8f89d764b4144f8b"))
-  (global_label "GND" (at 179.6800 117.4600 0) (effects (font (size 1.27 1.27))) (uuid "5ec016db354f497dbfe03a6f6c105e97"))
-  (global_label "GND" (at 179.6800 118.7300 0) (effects (font (size 1.27 1.27))) (uuid "dbb19d3fe6e44b73b6f15507e0bb1de4"))
-  (global_label "GND" (at 179.6800 120.0000 0) (effects (font (size 1.27 1.27))) (uuid "8a12b844656b47d2b4b9616f669bf07d"))
-  (global_label "GND" (at 179.6800 121.2700 0) (effects (font (size 1.27 1.27))) (uuid "a57ce3126a574187a64240a8955a1ccb"))
-  (global_label "GND" (at 179.6800 122.5400 0) (effects (font (size 1.27 1.27))) (uuid "3b1178a613654d15aae7b300caa9331e"))
-  (global_label "FPGA_CAL_TRIG" (at 179.6800 123.8100 0) (effects (font (size 1.27 1.27))) (uuid "0b5c83c41dd648f5bb632f597e35e7f8"))
-  (global_label "FPGA_CAL_STAT" (at 179.6800 125.0800 0) (effects (font (size 1.27 1.27))) (uuid "b2fdff11295944fab787c30d84ec5dd3"))
-  (global_label "FPGA_ORA0" (at 179.6800 126.3500 0) (effects (font (size 1.27 1.27))) (uuid "c8e923ed41f44e98bbdcc90497537f66"))
-  (global_label "FPGA_ORA1" (at 179.6800 127.6200 0) (effects (font (size 1.27 1.27))) (uuid "0f1aa3e3c930410fb03c638981125ea8"))
-  (global_label "FPGA_ORB0" (at 179.6800 128.8900 0) (effects (font (size 1.27 1.27))) (uuid "fba5ad2fd94d40e18ada3579ccb233ac"))
-  (global_label "FPGA_ORB1" (at 179.6800 130.1600 0) (effects (font (size 1.27 1.27))) (uuid "537ed84d052a4b15b666e4ffa76e111f"))
-  (global_label "ADC_VBG" (at 179.6800 131.4300 0) (effects (font (size 1.27 1.27))) (uuid "d144c6f14a7f481cb26ddd3d83928912"))
-  (global_label "TEMP_DIODE_P" (at 179.6800 132.7000 0) (effects (font (size 1.27 1.27))) (uuid "a024465963f14a47acbebea62f943be5"))
-  (global_label "TEMP_DIODE_N" (at 179.6800 133.9700 0) (effects (font (size 1.27 1.27))) (uuid "96e56146971f4c4d8fd74d0d4bd98e6c"))
-  (global_label "JESD_DA0_P" (at 220.3200 98.4100 0) (effects (font (size 1.27 1.27))) (uuid "08a4172c67e44b07a63c06f89ffb6408"))
-  (global_label "JESD_DA0_N" (at 220.3200 99.6800 0) (effects (font (size 1.27 1.27))) (uuid "ade1107a80e540bead8c7c7ed65bf401"))
-  (global_label "JESD_DA1_P" (at 220.3200 100.9500 0) (effects (font (size 1.27 1.27))) (uuid "128a081710364a6cb22e6c3a2196e965"))
-  (global_label "JESD_DA1_N" (at 220.3200 102.2200 0) (effects (font (size 1.27 1.27))) (uuid "1e2d5dee6dca4d0baa3620cd92cdbbed"))
-  (global_label "JESD_DA2_P" (at 220.3200 103.4900 0) (effects (font (size 1.27 1.27))) (uuid "e92d3d94b885453b854ee3a43cff8bba"))
-  (global_label "JESD_DA2_N" (at 220.3200 104.7600 0) (effects (font (size 1.27 1.27))) (uuid "b17a71527a37488ca37667987db3d476"))
-  (global_label "JESD_DA3_P" (at 220.3200 106.0300 0) (effects (font (size 1.27 1.27))) (uuid "1bdaa3bcce5d4308bf563663a9272e1f"))
-  (global_label "JESD_DA3_N" (at 220.3200 107.3000 0) (effects (font (size 1.27 1.27))) (uuid "f217240230cf4f02927ba32a64ee0286"))
-  (global_label "JESD_DA4_P" (at 220.3200 108.5700 0) (effects (font (size 1.27 1.27))) (uuid "26fecb6136f54cb88bdb0cafcdb45caf"))
-  (global_label "JESD_DA4_N" (at 220.3200 109.8400 0) (effects (font (size 1.27 1.27))) (uuid "1c0f6044a1c348cbb1c1d09abab70875"))
-  (global_label "JESD_DA5_P" (at 220.3200 111.1100 0) (effects (font (size 1.27 1.27))) (uuid "04d5c790cd30416e87de086a64a94f58"))
-  (global_label "JESD_DA5_N" (at 220.3200 112.3800 0) (effects (font (size 1.27 1.27))) (uuid "a571fe1cb1fb44d49843e458cb9c377f"))
-  (global_label "JESD_DA6_P" (at 220.3200 113.6500 0) (effects (font (size 1.27 1.27))) (uuid "c84fd817f0bf4d57bec16840b0817665"))
-  (global_label "JESD_DA6_N" (at 220.3200 114.9200 0) (effects (font (size 1.27 1.27))) (uuid "b86ff70ca82f4b42bafffac16a85f7b6"))
-  (global_label "JESD_DA7_P" (at 220.3200 116.1900 0) (effects (font (size 1.27 1.27))) (uuid "c96b75fd1af941d38731150c6855bfc1"))
-  (global_label "JESD_DA7_N" (at 220.3200 117.4600 0) (effects (font (size 1.27 1.27))) (uuid "a06811f088a244c5a56f3edec0ffdfab"))
-  (global_label "JESD_DB0_P" (at 220.3200 118.7300 0) (effects (font (size 1.27 1.27))) (uuid "f98125900e2345b383fe0350e1411aa6"))
-  (global_label "JESD_DB0_N" (at 220.3200 120.0000 0) (effects (font (size 1.27 1.27))) (uuid "6df3dfc42dd6499a95e8b4c59ec04787"))
-  (global_label "JESD_DB1_P" (at 220.3200 121.2700 0) (effects (font (size 1.27 1.27))) (uuid "2c1385c752ef49c69ff2e2a04e9b9cf3"))
-  (global_label "JESD_DB1_N" (at 220.3200 122.5400 0) (effects (font (size 1.27 1.27))) (uuid "d433fe28964e4424a4d5923e6cacb82f"))
-  (global_label "JESD_DB2_P" (at 220.3200 123.8100 0) (effects (font (size 1.27 1.27))) (uuid "e73779c195d0494c96492188e9476aad"))
-  (global_label "JESD_DB2_N" (at 220.3200 125.0800 0) (effects (font (size 1.27 1.27))) (uuid "12c899f4c840444cb0575d49bfccff10"))
-  (global_label "JESD_DB3_P" (at 220.3200 126.3500 0) (effects (font (size 1.27 1.27))) (uuid "c1271d6b740741a69a75acdff2913991"))
-  (global_label "JESD_DB3_N" (at 220.3200 127.6200 0) (effects (font (size 1.27 1.27))) (uuid "00d9bf09843944ba94983defd04dcba7"))
-  (global_label "JESD_DB4_P" (at 220.3200 128.8900 0) (effects (font (size 1.27 1.27))) (uuid "260494017b694a7c8960741bd80045c6"))
-  (global_label "JESD_DB4_N" (at 220.3200 130.1600 0) (effects (font (size 1.27 1.27))) (uuid "838d6e919345430685fc3184841c425e"))
-  (global_label "JESD_DB5_P" (at 220.3200 131.4300 0) (effects (font (size 1.27 1.27))) (uuid "6cee1fba844041e4997113cedd9d4e6e"))
-  (global_label "JESD_DB5_N" (at 220.3200 132.7000 0) (effects (font (size 1.27 1.27))) (uuid "605130b72b5a4e1aa3985b9adbe9c771"))
-  (global_label "+1V0_ANA" (at 187.9350 146.6701 0) (effects (font (size 1.27 1.27))) (uuid "03d65305593047669476f8caf3d9a170"))
-  (global_label "+1V0_ANA" (at 189.2050 146.6701 0) (effects (font (size 1.27 1.27))) (uuid "7849673525c844deb9a67a5e336419bf"))
-  (global_label "+1V0_ANA" (at 190.4750 146.6701 0) (effects (font (size 1.27 1.27))) (uuid "3c7ac921afc141cfa5b8a6be5ed1b5d0"))
-  (global_label "+1V0_ANA" (at 191.7450 146.6701 0) (effects (font (size 1.27 1.27))) (uuid "7f4d996a52a34321af809160a003f3a7"))
-  (global_label "+1V0_ANA" (at 193.0150 146.6701 0) (effects (font (size 1.27 1.27))) (uuid "25685e1ad9684277a21606f3ed097367"))
-  (global_label "+1V0_ANA" (at 194.2850 146.6701 0) (effects (font (size 1.27 1.27))) (uuid "6ceb7d0f7c5a4320a6339f615dec628f"))
-  (global_label "+1V0_ANA" (at 195.5550 146.6701 0) (effects (font (size 1.27 1.27))) (uuid "af99c52bfbe643d38721de7d70671ad2"))
-  (global_label "+1V0_ANA" (at 196.8250 146.6701 0) (effects (font (size 1.27 1.27))) (uuid "0932cc50df42495d90c6cb7d6252fcb5"))
-  (global_label "+1V0_ANA" (at 198.0950 146.6701 0) (effects (font (size 1.27 1.27))) (uuid "424e629fdb0745139f639d84d9db2ee8"))
-  (global_label "+1V0_ANA" (at 199.3650 146.6701 0) (effects (font (size 1.27 1.27))) (uuid "8c94281f7cf54775a87430edaa7369c0"))
-  (global_label "+1V0_ANA" (at 200.6350 146.6701 0) (effects (font (size 1.27 1.27))) (uuid "5436488413084611ab29f6ec7d430556"))
-  (global_label "+1V0_ANA" (at 201.9050 146.6701 0) (effects (font (size 1.27 1.27))) (uuid "da6c906bd9eb4f7abee214d442db793b"))
-  (global_label "+1V9_ANA" (at 203.1750 146.6701 0) (effects (font (size 1.27 1.27))) (uuid "9de5760e0a97414da6f57ae4736bd0f2"))
-  (global_label "+1V9_ANA" (at 204.4450 146.6701 0) (effects (font (size 1.27 1.27))) (uuid "532e4cf3a2d640598b58a2f6afb9af6e"))
-  (global_label "+1V9_ANA" (at 205.7150 146.6701 0) (effects (font (size 1.27 1.27))) (uuid "c12252f80a62475ba9b3df210e5f6904"))
-  (global_label "+1V9_ANA" (at 206.9850 146.6701 0) (effects (font (size 1.27 1.27))) (uuid "ddbb2ce6e89c4f61a2b86b2807a7fc5c"))
-  (global_label "+1V9_ANA" (at 208.2550 146.6701 0) (effects (font (size 1.27 1.27))) (uuid "5643772af60a4527abfdedfe57ad8ded"))
-  (global_label "+1V9_ANA" (at 209.5250 146.6701 0) (effects (font (size 1.27 1.27))) (uuid "055010ef437b479ea39ee3219022cac4"))
-  (global_label "+1V9_ANA" (at 210.7950 146.6701 0) (effects (font (size 1.27 1.27))) (uuid "cc1fb4f169e4414281e593bb4d3e58de"))
-  (global_label "+1V9_ANA" (at 212.0650 146.6701 0) (effects (font (size 1.27 1.27))) (uuid "279e21f51032472e854086f26b48cfc8"))
-  (global_label "+1V9_ANA" (at 187.9350 147.9401 0) (effects (font (size 1.27 1.27))) (uuid "c834f7a6fd104ee79567e2a88fe99250"))
-  (global_label "+1V9_ANA" (at 189.2050 147.9401 0) (effects (font (size 1.27 1.27))) (uuid "8062c03d520a446f8567250580e658a6"))
-  (global_label "+1V9_ANA" (at 190.4750 147.9401 0) (effects (font (size 1.27 1.27))) (uuid "f1bdea3c46f04ffea313c1315ccc6b13"))
-  (global_label "+1V9_ANA" (at 191.7450 147.9401 0) (effects (font (size 1.27 1.27))) (uuid "440a52b2b2bd42fc8ae555d2b7635cd5"))
-  (global_label "+1V1_DIG" (at 193.0150 147.9401 0) (effects (font (size 1.27 1.27))) (uuid "73f9b455a1a64801bd1002932022bce7"))
-  (global_label "+1V1_DIG" (at 194.2850 147.9401 0) (effects (font (size 1.27 1.27))) (uuid "1c8a2389612f451a92ef5e27bf3b0fc4"))
-  (global_label "+1V1_DIG" (at 195.5550 147.9401 0) (effects (font (size 1.27 1.27))) (uuid "f846052284f7429db9cd34e672609b06"))
-  (global_label "+1V1_DIG" (at 196.8250 147.9401 0) (effects (font (size 1.27 1.27))) (uuid "25d1a4d0ff3948d3a817dbdb89579aba"))
-  (global_label "+1V1_DIG" (at 198.0950 147.9401 0) (effects (font (size 1.27 1.27))) (uuid "7c4aedd5b924486e8937fdb8a5a7ac8a"))
-  (global_label "+1V1_DIG" (at 199.3650 147.9401 0) (effects (font (size 1.27 1.27))) (uuid "c82b8e2afdc14ecf8b283409af7517dd"))
-  (global_label "+1V1_DIG" (at 200.6350 147.9401 0) (effects (font (size 1.27 1.27))) (uuid "e8b5fbe1c92940989e5755399c5f7958"))
-  (global_label "+1V1_DIG" (at 201.9050 147.9401 0) (effects (font (size 1.27 1.27))) (uuid "69631a0d17a44c19933dc210b2e3d2af"))
-  (global_label "+1V1_DIG" (at 203.1750 147.9401 0) (effects (font (size 1.27 1.27))) (uuid "3e37f13b07214684a8903619cdc646fa"))
-  (global_label "+1V1_DIG" (at 204.4450 147.9401 0) (effects (font (size 1.27 1.27))) (uuid "cc9abaed739e4ed890e105724e932490"))
-  (global_label "GND" (at 205.7150 147.9401 0) (effects (font (size 1.27 1.27))) (uuid "4ee4e0b51af34d31900ac7106aa3447e"))
-  (global_label "GND" (at 206.9850 147.9401 0) (effects (font (size 1.27 1.27))) (uuid "f7729a7d350445c5b72e448f9e07feff"))
-  (global_label "GND" (at 208.2550 147.9401 0) (effects (font (size 1.27 1.27))) (uuid "58256fbdd4234650a397e989b11efbe5"))
-  (global_label "GND" (at 209.5250 147.9401 0) (effects (font (size 1.27 1.27))) (uuid "ef6f65c7fdb343098a09accef96c293c"))
-  (global_label "GND" (at 210.7950 147.9401 0) (effects (font (size 1.27 1.27))) (uuid "73aaa421e5744617a0c6d7a73c94f26f"))
-  (global_label "GND" (at 212.0650 147.9401 0) (effects (font (size 1.27 1.27))) (uuid "966fc4f265fb42e49390905b66e9c2c3"))
-  (global_label "GND" (at 187.9350 149.2101 0) (effects (font (size 1.27 1.27))) (uuid "1ecd028ddf6045f6a321b9cd5448d52d"))
-  (global_label "GND" (at 189.2050 149.2101 0) (effects (font (size 1.27 1.27))) (uuid "a933ff8f94f64d16b2059485c149ea22"))
-  (global_label "GND" (at 190.4750 149.2101 0) (effects (font (size 1.27 1.27))) (uuid "3caedf5388874547bbcd35bc13b695e4"))
-  (global_label "GND" (at 191.7450 149.2101 0) (effects (font (size 1.27 1.27))) (uuid "126c3570e1354b79aa83abff814b84b6"))
-  (global_label "GND" (at 193.0150 149.2101 0) (effects (font (size 1.27 1.27))) (uuid "c9f7e3df6be84b3f92de9f364a6b0c3c"))
-  (global_label "GND" (at 194.2850 149.2101 0) (effects (font (size 1.27 1.27))) (uuid "6db0e7d650594897b8ed55f9aa2e916b"))
-  (global_label "GND" (at 195.5550 149.2101 0) (effects (font (size 1.27 1.27))) (uuid "b286bd609603421ea59a725532fb2e76"))
-  (global_label "GND" (at 196.8250 149.2101 0) (effects (font (size 1.27 1.27))) (uuid "c515e8b2c7a0486b9d19826c38104ca5"))
-  (global_label "GND" (at 198.0950 149.2101 0) (effects (font (size 1.27 1.27))) (uuid "a562c24715754fcb8c145e56aaed6ede"))
-  (global_label "GND" (at 199.3650 149.2101 0) (effects (font (size 1.27 1.27))) (uuid "15835e7dcc7b4bfba50f3cf712230c9b"))
-  (global_label "GND" (at 200.6350 149.2101 0) (effects (font (size 1.27 1.27))) (uuid "95c539693e9d41ac9ed1a91c05cf7877"))
-  (global_label "GND" (at 201.9050 149.2101 0) (effects (font (size 1.27 1.27))) (uuid "b9bc564b90274ff0b3bde3ab0873b34a"))
-  (global_label "GND" (at 203.1750 149.2101 0) (effects (font (size 1.27 1.27))) (uuid "673f2dbc9f2f4afcbb37b237e4cf4691"))
-  (global_label "GND" (at 204.4450 149.2101 0) (effects (font (size 1.27 1.27))) (uuid "dfe21d9af709489d96c1255514322727"))
-  (global_label "GND" (at 205.7150 149.2101 0) (effects (font (size 1.27 1.27))) (uuid "a80e4a46813a4884ae743cb7c9920c50"))
-  (global_label "GND" (at 206.9850 149.2101 0) (effects (font (size 1.27 1.27))) (uuid "4d994df3363e46999193a9aff561e246"))
-  (global_label "GND" (at 208.2550 149.2101 0) (effects (font (size 1.27 1.27))) (uuid "506b95382f4040b49292f488f72985c4"))
-  (global_label "GND" (at 209.5250 149.2101 0) (effects (font (size 1.27 1.27))) (uuid "7f6ea5b1fc4743b8a695e4f636b97422"))
-  (global_label "GND" (at 210.7950 149.2101 0) (effects (font (size 1.27 1.27))) (uuid "0e139d6da2f04fca9832d44930f7fdc3"))
-  (global_label "GND" (at 212.0650 149.2101 0) (effects (font (size 1.27 1.27))) (uuid "484b595973f642bb8a97c7c2ea5c5911"))
-  (global_label "GND" (at 187.9350 150.4801 0) (effects (font (size 1.27 1.27))) (uuid "56c16197c49d41eea64151e5ccb1dc4f"))
-  (global_label "GND" (at 189.2050 150.4801 0) (effects (font (size 1.27 1.27))) (uuid "3332a7c759bf470c92e30e3eb6705884"))
-  (global_label "GND" (at 190.4750 150.4801 0) (effects (font (size 1.27 1.27))) (uuid "abce1e55a1a34c038ea66cd171d0a433"))
-  (global_label "GND" (at 191.7450 150.4801 0) (effects (font (size 1.27 1.27))) (uuid "92bb19c00e234366a66999b5a0a8ba96"))
-  (global_label "GND" (at 193.0150 150.4801 0) (effects (font (size 1.27 1.27))) (uuid "d401253f313548dfb570798483447b8c"))
-  (global_label "GND" (at 194.2850 150.4801 0) (effects (font (size 1.27 1.27))) (uuid "fb98bcf81b18496595fe41903dafa028"))
-  (global_label "GND" (at 195.5550 150.4801 0) (effects (font (size 1.27 1.27))) (uuid "399c8b0de504492f83862473bd088208"))
-  (global_label "GND" (at 196.8250 150.4801 0) (effects (font (size 1.27 1.27))) (uuid "f1c83db0112b4cfa908bb568607f5e00"))
-  (global_label "GND" (at 198.0950 150.4801 0) (effects (font (size 1.27 1.27))) (uuid "32c482e0f15641b79643871cd53ea190"))
-  (global_label "GND" (at 199.3650 150.4801 0) (effects (font (size 1.27 1.27))) (uuid "de19e83d7a9848d09f3bed23877a6340"))
-  (global_label "GND" (at 200.6350 150.4801 0) (effects (font (size 1.27 1.27))) (uuid "a1b7a8e84876471fa01d0b0a38e79f63"))
-  (global_label "GND" (at 201.9050 150.4801 0) (effects (font (size 1.27 1.27))) (uuid "6d6deedd3d2e465f8d71ffc668464fb1"))
-  (global_label "GND" (at 203.1750 150.4801 0) (effects (font (size 1.27 1.27))) (uuid "af760ba282be42be8874a61e40569269"))
-  (global_label "GND" (at 204.4450 150.4801 0) (effects (font (size 1.27 1.27))) (uuid "b8757631c2cc40cfbb534f5d1919af9a"))
-  (global_label "GND" (at 205.7150 150.4801 0) (effects (font (size 1.27 1.27))) (uuid "e2d09877429840cca1b8993955684c6f"))
-  (global_label "GND" (at 206.9850 150.4801 0) (effects (font (size 1.27 1.27))) (uuid "7578947f5fe34f468ec4042fc9a6f077"))
-  (global_label "GND" (at 208.2550 150.4801 0) (effects (font (size 1.27 1.27))) (uuid "a1eb3869873e4b6fac51f1f2096daf54"))
-  (global_label "GND" (at 209.5250 150.4801 0) (effects (font (size 1.27 1.27))) (uuid "669686a0ac284a1da10ac92f65034fe4"))
-  (global_label "GND" (at 210.7950 150.4801 0) (effects (font (size 1.27 1.27))) (uuid "243cfb3b4159451c8e1657c3d621077d"))
-  (global_label "GND" (at 212.0650 150.4801 0) (effects (font (size 1.27 1.27))) (uuid "d0b941756314442fb5ca266c893f5132"))
-  (global_label "GND" (at 200.0000 151.7501 0) (effects (font (size 1.27 1.27))) (uuid "ab0de6e546c54887a313d8df11509963"))
+  (global_label "RF_IN_P" (at 179.6800 98.4100 0) (effects (font (size 1.27 1.27))) (uuid "21d33f2b4d4e4d51bfe02ea4b5f27e35"))
+  (global_label "RF_IN_N" (at 179.6800 99.6800 0) (effects (font (size 1.27 1.27))) (uuid "59cb0ad2abe64b649475583e207375f7"))
+  (global_label "RF_INB_P" (at 179.6800 100.9500 0) (effects (font (size 1.27 1.27))) (uuid "c1bdeaeb945a4334af94c9cd12fd1d44"))
+  (global_label "RF_INB_N" (at 179.6800 102.2200 0) (effects (font (size 1.27 1.27))) (uuid "b118d865efba405f9b2c494e475454cf"))
+  (global_label "ADC_CLK_P" (at 179.6800 103.4900 0) (effects (font (size 1.27 1.27))) (uuid "36260651eeca41a499d61e0a3cca12b6"))
+  (global_label "ADC_CLK_N" (at 179.6800 104.7600 0) (effects (font (size 1.27 1.27))) (uuid "63541870d7724a09933db32af8dd747b"))
+  (global_label "ADC_SYSREF_P" (at 179.6800 106.0300 0) (effects (font (size 1.27 1.27))) (uuid "caaddd236968475da9d8857a69d0a99d"))
+  (global_label "ADC_SYSREF_N" (at 179.6800 107.3000 0) (effects (font (size 1.27 1.27))) (uuid "f1bb101385b848378e0546c012c57d63"))
+  (global_label "CS" (at 179.6800 108.5700 0) (effects (font (size 1.27 1.27))) (uuid "fbd202d412b4421186bf370f50a41626"))
+  (global_label "SPI_SCK" (at 179.6800 109.8400 0) (effects (font (size 1.27 1.27))) (uuid "8bbb483e28744abbb40424c31e9a590d"))
+  (global_label "SPI_MOSI" (at 179.6800 111.1100 0) (effects (font (size 1.27 1.27))) (uuid "7587d9c9077a4e61b8f927a96ca5e900"))
+  (global_label "SPI_MISO" (at 179.6800 112.3800 0) (effects (font (size 1.27 1.27))) (uuid "c2b9e23242874a29b7fa588fd0c58488"))
+  (global_label "ADC_PD" (at 179.6800 113.6500 0) (effects (font (size 1.27 1.27))) (uuid "8e3c4d3c9d294964b51bd171bdcc5e8d"))
+  (global_label "ADC_SYNC_P" (at 179.6800 114.9200 0) (effects (font (size 1.27 1.27))) (uuid "69e36c96efed471bbd539df8f16ed033"))
+  (global_label "ADC_SYNC_N" (at 179.6800 116.1900 0) (effects (font (size 1.27 1.27))) (uuid "f17bf3a8c3b6458fb2bbb8a2933c6500"))
+  (global_label "GND" (at 179.6800 117.4600 0) (effects (font (size 1.27 1.27))) (uuid "7003631d8d0f4e7d97044fe827e8c217"))
+  (global_label "GND" (at 179.6800 118.7300 0) (effects (font (size 1.27 1.27))) (uuid "209309d3e7d8418692e8dbb65577ef23"))
+  (global_label "GND" (at 179.6800 120.0000 0) (effects (font (size 1.27 1.27))) (uuid "588a1bf9d7534c669d96fd8dc2b16b9f"))
+  (global_label "GND" (at 179.6800 121.2700 0) (effects (font (size 1.27 1.27))) (uuid "781c88ba4adc4d069330f4c4ac963691"))
+  (global_label "GND" (at 179.6800 122.5400 0) (effects (font (size 1.27 1.27))) (uuid "f7453a5c64624640abdb40b755b76a93"))
+  (global_label "FPGA_CAL_TRIG" (at 179.6800 123.8100 0) (effects (font (size 1.27 1.27))) (uuid "c7c73f3d8ace47c98a8be70a375963da"))
+  (global_label "FPGA_CAL_STAT" (at 179.6800 125.0800 0) (effects (font (size 1.27 1.27))) (uuid "a3b534ed7e0a4a9e8aee47bd87971851"))
+  (global_label "FPGA_ORA0" (at 179.6800 126.3500 0) (effects (font (size 1.27 1.27))) (uuid "b35389cea1ae41ea93cc9daa2bdb58a1"))
+  (global_label "FPGA_ORA1" (at 179.6800 127.6200 0) (effects (font (size 1.27 1.27))) (uuid "0885e9fb9c824dbd8fee20e988aa22dd"))
+  (global_label "FPGA_ORB0" (at 179.6800 128.8900 0) (effects (font (size 1.27 1.27))) (uuid "ff23ee240fb04033a671579298d06b63"))
+  (global_label "FPGA_ORB1" (at 179.6800 130.1600 0) (effects (font (size 1.27 1.27))) (uuid "bf887df7bb804dda86b5059f70b76781"))
+  (global_label "ADC_VBG" (at 179.6800 131.4300 0) (effects (font (size 1.27 1.27))) (uuid "202f35c4b9984e26aca4c637c4e5cb44"))
+  (global_label "TEMP_DIODE_P" (at 179.6800 132.7000 0) (effects (font (size 1.27 1.27))) (uuid "da0b7b8e25744f7fbdf2bc6ebee62d1d"))
+  (global_label "TEMP_DIODE_N" (at 179.6800 133.9700 0) (effects (font (size 1.27 1.27))) (uuid "cb7f0cb5025147e3beaaa876bc9d42de"))
+  (global_label "JESD_DA0_P" (at 220.3200 98.4100 0) (effects (font (size 1.27 1.27))) (uuid "68e245601e924619ae5163db1db245ab"))
+  (global_label "JESD_DA0_N" (at 220.3200 99.6800 0) (effects (font (size 1.27 1.27))) (uuid "8cf254c0c98940c4ad9c074c63aed16c"))
+  (global_label "JESD_DA1_P" (at 220.3200 100.9500 0) (effects (font (size 1.27 1.27))) (uuid "be62aa4028ac4e82932f176bcdad32b3"))
+  (global_label "JESD_DA1_N" (at 220.3200 102.2200 0) (effects (font (size 1.27 1.27))) (uuid "ea2f7738eaa842caab83408b05af05d4"))
+  (global_label "JESD_DA2_P" (at 220.3200 103.4900 0) (effects (font (size 1.27 1.27))) (uuid "b899077626e54c1ca8c4d6c3db6d291e"))
+  (global_label "JESD_DA2_N" (at 220.3200 104.7600 0) (effects (font (size 1.27 1.27))) (uuid "6c4f1b08ffe74b34927dd5738063d677"))
+  (global_label "JESD_DA3_P" (at 220.3200 106.0300 0) (effects (font (size 1.27 1.27))) (uuid "1f6062ac33234db89f2ad9fd50cd783e"))
+  (global_label "JESD_DA3_N" (at 220.3200 107.3000 0) (effects (font (size 1.27 1.27))) (uuid "344aa1fc6f9e4e61894344c49016359a"))
+  (global_label "JESD_DA4_P" (at 220.3200 108.5700 0) (effects (font (size 1.27 1.27))) (uuid "c482ce5b385f44b38c683ca65857bebd"))
+  (global_label "JESD_DA4_N" (at 220.3200 109.8400 0) (effects (font (size 1.27 1.27))) (uuid "afead13e9d9e4c6e89c55c9892aa88c1"))
+  (global_label "JESD_DA5_P" (at 220.3200 111.1100 0) (effects (font (size 1.27 1.27))) (uuid "021d9e6e969a4a8a911aa15c6b6bc455"))
+  (global_label "JESD_DA5_N" (at 220.3200 112.3800 0) (effects (font (size 1.27 1.27))) (uuid "4f553e6a65f9444da1fc96db2aa90c0e"))
+  (global_label "JESD_DA6_P" (at 220.3200 113.6500 0) (effects (font (size 1.27 1.27))) (uuid "994644a5fb3747cd96a74d13d83a00cc"))
+  (global_label "JESD_DA6_N" (at 220.3200 114.9200 0) (effects (font (size 1.27 1.27))) (uuid "192a8835617a494d89ce6a20444f9bc2"))
+  (global_label "JESD_DA7_P" (at 220.3200 116.1900 0) (effects (font (size 1.27 1.27))) (uuid "052fc1d374394b5b8b80fc965e16c8ae"))
+  (global_label "JESD_DA7_N" (at 220.3200 117.4600 0) (effects (font (size 1.27 1.27))) (uuid "ac53a52370134039a5680bbdce298e79"))
+  (global_label "JESD_DB0_P" (at 220.3200 118.7300 0) (effects (font (size 1.27 1.27))) (uuid "e6eba08e08dc4526a278f23887f27c1c"))
+  (global_label "JESD_DB0_N" (at 220.3200 120.0000 0) (effects (font (size 1.27 1.27))) (uuid "eb6f95467d114910869fc332baec2d91"))
+  (global_label "JESD_DB1_P" (at 220.3200 121.2700 0) (effects (font (size 1.27 1.27))) (uuid "45a811e9a2d54a67a4cf380d4a58aa75"))
+  (global_label "JESD_DB1_N" (at 220.3200 122.5400 0) (effects (font (size 1.27 1.27))) (uuid "1140286cd0d94499b5480335e81e6497"))
+  (global_label "JESD_DB2_P" (at 220.3200 123.8100 0) (effects (font (size 1.27 1.27))) (uuid "94c30779a0db4e16b8a2940406f21ec1"))
+  (global_label "JESD_DB2_N" (at 220.3200 125.0800 0) (effects (font (size 1.27 1.27))) (uuid "b865cccd99c84e679f203c6fda9fce5d"))
+  (global_label "JESD_DB3_P" (at 220.3200 126.3500 0) (effects (font (size 1.27 1.27))) (uuid "32eadab795c34de6b1f892f876bcc49c"))
+  (global_label "JESD_DB3_N" (at 220.3200 127.6200 0) (effects (font (size 1.27 1.27))) (uuid "4c2944c3332541a583743fcb4f6d7d66"))
+  (global_label "JESD_DB4_P" (at 220.3200 128.8900 0) (effects (font (size 1.27 1.27))) (uuid "a4d7bb9f688b4e67bf1ef09afd4373da"))
+  (global_label "JESD_DB4_N" (at 220.3200 130.1600 0) (effects (font (size 1.27 1.27))) (uuid "4b30191795164eb194b14317c95eb4f9"))
+  (global_label "JESD_DB5_P" (at 220.3200 131.4300 0) (effects (font (size 1.27 1.27))) (uuid "796ad76cfe1a4e3cb4998dcbea848f6d"))
+  (global_label "JESD_DB5_N" (at 220.3200 132.7000 0) (effects (font (size 1.27 1.27))) (uuid "97801dc3308d4e708446de884b20c69a"))
+  (global_label "+1V0_ANA" (at 187.9350 146.6701 0) (effects (font (size 1.27 1.27))) (uuid "e1cb1fcf10544cd18411dc4e8c254c44"))
+  (global_label "+1V0_ANA" (at 189.2050 146.6701 0) (effects (font (size 1.27 1.27))) (uuid "1079a60026434289a41a50c12f34ec5d"))
+  (global_label "+1V0_ANA" (at 190.4750 146.6701 0) (effects (font (size 1.27 1.27))) (uuid "5f10ebebe12e44d2999ee1c4ee2c0b60"))
+  (global_label "+1V0_ANA" (at 191.7450 146.6701 0) (effects (font (size 1.27 1.27))) (uuid "81c0c3916cea438f9b8ddd75cbe2ec3e"))
+  (global_label "+1V0_ANA" (at 193.0150 146.6701 0) (effects (font (size 1.27 1.27))) (uuid "bd21a9bdacc04d4cb0ae51e7f6645067"))
+  (global_label "+1V0_ANA" (at 194.2850 146.6701 0) (effects (font (size 1.27 1.27))) (uuid "d083edff428a4122b2be1b1c0b732735"))
+  (global_label "+1V0_ANA" (at 195.5550 146.6701 0) (effects (font (size 1.27 1.27))) (uuid "3fe64ee3620246bb9e06ee034c1d8a36"))
+  (global_label "+1V0_ANA" (at 196.8250 146.6701 0) (effects (font (size 1.27 1.27))) (uuid "4fbe4632e93545228c2f8ac67db24695"))
+  (global_label "+1V0_ANA" (at 198.0950 146.6701 0) (effects (font (size 1.27 1.27))) (uuid "7bfe794d16b64f619cdbe79ca581fb15"))
+  (global_label "+1V0_ANA" (at 199.3650 146.6701 0) (effects (font (size 1.27 1.27))) (uuid "b981da08a456451db5b7a884133383a3"))
+  (global_label "+1V0_ANA" (at 200.6350 146.6701 0) (effects (font (size 1.27 1.27))) (uuid "b805b66d485c48d0bb7c8118c5a129e8"))
+  (global_label "+1V0_ANA" (at 201.9050 146.6701 0) (effects (font (size 1.27 1.27))) (uuid "ca95f2004d1e4e7abd1892675ccb8a4c"))
+  (global_label "+1V9_ANA" (at 203.1750 146.6701 0) (effects (font (size 1.27 1.27))) (uuid "3ec690e1b4ec484483325710bdd2da19"))
+  (global_label "+1V9_ANA" (at 204.4450 146.6701 0) (effects (font (size 1.27 1.27))) (uuid "266180b54353454cab0efe5ebe1f34e8"))
+  (global_label "+1V9_ANA" (at 205.7150 146.6701 0) (effects (font (size 1.27 1.27))) (uuid "eb647e9b5fbe48809689414a0886ff02"))
+  (global_label "+1V9_ANA" (at 206.9850 146.6701 0) (effects (font (size 1.27 1.27))) (uuid "9ad7ac48ab3a447ea831ad0549b68ad0"))
+  (global_label "+1V9_ANA" (at 208.2550 146.6701 0) (effects (font (size 1.27 1.27))) (uuid "f437f636528d40e3903e4cacd5201764"))
+  (global_label "+1V9_ANA" (at 209.5250 146.6701 0) (effects (font (size 1.27 1.27))) (uuid "d4f52be871fe4e1b84a27253f285c94c"))
+  (global_label "+1V9_ANA" (at 210.7950 146.6701 0) (effects (font (size 1.27 1.27))) (uuid "e12a60a9ffea4050a74e1558139aee90"))
+  (global_label "+1V9_ANA" (at 212.0650 146.6701 0) (effects (font (size 1.27 1.27))) (uuid "7d38fce520f54ddc86cfa5025d17ff80"))
+  (global_label "+1V9_ANA" (at 187.9350 147.9401 0) (effects (font (size 1.27 1.27))) (uuid "ede38c38a74c47de816c2c8756672d93"))
+  (global_label "+1V9_ANA" (at 189.2050 147.9401 0) (effects (font (size 1.27 1.27))) (uuid "9fbe72dd94414d3c93b79b231f0a5563"))
+  (global_label "+1V9_ANA" (at 190.4750 147.9401 0) (effects (font (size 1.27 1.27))) (uuid "1d041c72aa8944419e652e556f7147ce"))
+  (global_label "+1V9_ANA" (at 191.7450 147.9401 0) (effects (font (size 1.27 1.27))) (uuid "58a74384344248599df125d85a1e1dcb"))
+  (global_label "+1V1_DIG" (at 193.0150 147.9401 0) (effects (font (size 1.27 1.27))) (uuid "b0aaee695ab74be2a86435d5546c6b7c"))
+  (global_label "+1V1_DIG" (at 194.2850 147.9401 0) (effects (font (size 1.27 1.27))) (uuid "62f1fdcc310a40cfbff8c86fae53f70e"))
+  (global_label "+1V1_DIG" (at 195.5550 147.9401 0) (effects (font (size 1.27 1.27))) (uuid "79147b0ca51840368ccaa7a45b98595d"))
+  (global_label "+1V1_DIG" (at 196.8250 147.9401 0) (effects (font (size 1.27 1.27))) (uuid "f2e355601c2442329cc3803765dc4004"))
+  (global_label "+1V1_DIG" (at 198.0950 147.9401 0) (effects (font (size 1.27 1.27))) (uuid "0cf6f7d85e6444e19d19af180a9f4749"))
+  (global_label "+1V1_DIG" (at 199.3650 147.9401 0) (effects (font (size 1.27 1.27))) (uuid "74021f764b6d46c5b01663090e08b7bd"))
+  (global_label "+1V1_DIG" (at 200.6350 147.9401 0) (effects (font (size 1.27 1.27))) (uuid "e710ec1447dc42e2ad4a80b15333e560"))
+  (global_label "+1V1_DIG" (at 201.9050 147.9401 0) (effects (font (size 1.27 1.27))) (uuid "aa4625b5e65a4b368e79f6e4b111c0c9"))
+  (global_label "+1V1_DIG" (at 203.1750 147.9401 0) (effects (font (size 1.27 1.27))) (uuid "f9a80d616fed4e89866c879edbefd9fb"))
+  (global_label "+1V1_DIG" (at 204.4450 147.9401 0) (effects (font (size 1.27 1.27))) (uuid "e859f2a3bcb74e279bb729c16506d44b"))
+  (global_label "GND" (at 205.7150 147.9401 0) (effects (font (size 1.27 1.27))) (uuid "cfe944217ce843938288b992f0ea3c68"))
+  (global_label "GND" (at 206.9850 147.9401 0) (effects (font (size 1.27 1.27))) (uuid "0ae7e537643544ba831e340feec3a617"))
+  (global_label "GND" (at 208.2550 147.9401 0) (effects (font (size 1.27 1.27))) (uuid "3b455bf4931f441dbf5f1e6f27163b99"))
+  (global_label "GND" (at 209.5250 147.9401 0) (effects (font (size 1.27 1.27))) (uuid "e1fb631e9523424887509a251d76ad85"))
+  (global_label "GND" (at 210.7950 147.9401 0) (effects (font (size 1.27 1.27))) (uuid "cf276a2faadd41a6be3a1a716ee049fe"))
+  (global_label "GND" (at 212.0650 147.9401 0) (effects (font (size 1.27 1.27))) (uuid "3ee3cebfb2064a97a7b62e35791ef7ca"))
+  (global_label "GND" (at 187.9350 149.2101 0) (effects (font (size 1.27 1.27))) (uuid "120b55598b314a5dbca1172bad19c31c"))
+  (global_label "GND" (at 189.2050 149.2101 0) (effects (font (size 1.27 1.27))) (uuid "9bffcdeab1a04d5aa4c8595df0ecf7c4"))
+  (global_label "GND" (at 190.4750 149.2101 0) (effects (font (size 1.27 1.27))) (uuid "c86ace0433d1427fbf34644fcfa9723f"))
+  (global_label "GND" (at 191.7450 149.2101 0) (effects (font (size 1.27 1.27))) (uuid "fcde9e5b8d5048e1884303b9fc38bfd7"))
+  (global_label "GND" (at 193.0150 149.2101 0) (effects (font (size 1.27 1.27))) (uuid "3a0d014add4b4782b8193247ee1e66a0"))
+  (global_label "GND" (at 194.2850 149.2101 0) (effects (font (size 1.27 1.27))) (uuid "c1e4e5b5e21743d797af74c4d01b7920"))
+  (global_label "GND" (at 195.5550 149.2101 0) (effects (font (size 1.27 1.27))) (uuid "247058c1ea3c4276b9790b7aeba2cd1f"))
+  (global_label "GND" (at 196.8250 149.2101 0) (effects (font (size 1.27 1.27))) (uuid "016c6990f5d24420a969d1f8dc49e8a1"))
+  (global_label "GND" (at 198.0950 149.2101 0) (effects (font (size 1.27 1.27))) (uuid "0dc2e28a1d764d7c891f26b3b95e4e02"))
+  (global_label "GND" (at 199.3650 149.2101 0) (effects (font (size 1.27 1.27))) (uuid "f0e233abaf804db2ad722d809eece6e8"))
+  (global_label "GND" (at 200.6350 149.2101 0) (effects (font (size 1.27 1.27))) (uuid "73c875fce6e34a5dbcda77e9d5c0e006"))
+  (global_label "GND" (at 201.9050 149.2101 0) (effects (font (size 1.27 1.27))) (uuid "f61f74df4e4643a5a5c1eb68581d856a"))
+  (global_label "GND" (at 203.1750 149.2101 0) (effects (font (size 1.27 1.27))) (uuid "ceb532ec74c84d6fbe7988d015f682bb"))
+  (global_label "GND" (at 204.4450 149.2101 0) (effects (font (size 1.27 1.27))) (uuid "fba059936b6d45fdb415395fb2d160e5"))
+  (global_label "GND" (at 205.7150 149.2101 0) (effects (font (size 1.27 1.27))) (uuid "0915ee2153ba4a6d893063163f0b2bc9"))
+  (global_label "GND" (at 206.9850 149.2101 0) (effects (font (size 1.27 1.27))) (uuid "1e71a6a237d4421f86d32099777e5f83"))
+  (global_label "GND" (at 208.2550 149.2101 0) (effects (font (size 1.27 1.27))) (uuid "9ef166dcc91049ffbc30773ce368ad86"))
+  (global_label "GND" (at 209.5250 149.2101 0) (effects (font (size 1.27 1.27))) (uuid "a0635cb72afa43b3a8e88c720b0bcd0a"))
+  (global_label "GND" (at 210.7950 149.2101 0) (effects (font (size 1.27 1.27))) (uuid "f05c3afc4d80418e8b48f144d69ec601"))
+  (global_label "GND" (at 212.0650 149.2101 0) (effects (font (size 1.27 1.27))) (uuid "bf684508bf3c4d54b57332662a30c638"))
+  (global_label "GND" (at 187.9350 150.4801 0) (effects (font (size 1.27 1.27))) (uuid "427c47cb47194a3dae64615d516f62d4"))
+  (global_label "GND" (at 189.2050 150.4801 0) (effects (font (size 1.27 1.27))) (uuid "cb2e62b513ae4727a8502dfc3e296156"))
+  (global_label "GND" (at 190.4750 150.4801 0) (effects (font (size 1.27 1.27))) (uuid "34b37c2fe80343b1855ff30b2a2b7575"))
+  (global_label "GND" (at 191.7450 150.4801 0) (effects (font (size 1.27 1.27))) (uuid "64bc64fd53c741afa72c4889ae37336c"))
+  (global_label "GND" (at 193.0150 150.4801 0) (effects (font (size 1.27 1.27))) (uuid "52c3369afb654c898cc0acd3767b73e2"))
+  (global_label "GND" (at 194.2850 150.4801 0) (effects (font (size 1.27 1.27))) (uuid "9b90fc65136040a29068004e66feb226"))
+  (global_label "GND" (at 195.5550 150.4801 0) (effects (font (size 1.27 1.27))) (uuid "f4ec55934be344a29ae058082a8145de"))
+  (global_label "GND" (at 196.8250 150.4801 0) (effects (font (size 1.27 1.27))) (uuid "d2c1dfdef3894cc8bdacfbb67834478b"))
+  (global_label "GND" (at 198.0950 150.4801 0) (effects (font (size 1.27 1.27))) (uuid "261fc24ceae84095870713f862ded43f"))
+  (global_label "GND" (at 199.3650 150.4801 0) (effects (font (size 1.27 1.27))) (uuid "fe11cf043a2d4053ba49cea719f673d7"))
+  (global_label "GND" (at 200.6350 150.4801 0) (effects (font (size 1.27 1.27))) (uuid "6f551032603247c08e1db5f3221d6600"))
+  (global_label "GND" (at 201.9050 150.4801 0) (effects (font (size 1.27 1.27))) (uuid "ed554fa582bb4d4a85062a64081ca9bb"))
+  (global_label "GND" (at 203.1750 150.4801 0) (effects (font (size 1.27 1.27))) (uuid "b0a1f7bccbaf43bb9285c397dffd5541"))
+  (global_label "GND" (at 204.4450 150.4801 0) (effects (font (size 1.27 1.27))) (uuid "ab1ce60e4d4b490e9b56b437dda94332"))
+  (global_label "GND" (at 205.7150 150.4801 0) (effects (font (size 1.27 1.27))) (uuid "4ced227a4e9a4060b6d7387e51374139"))
+  (global_label "GND" (at 206.9850 150.4801 0) (effects (font (size 1.27 1.27))) (uuid "1f5ae232070947648091c415dc52ed9c"))
+  (global_label "GND" (at 208.2550 150.4801 0) (effects (font (size 1.27 1.27))) (uuid "6ffb9fcf43c446b490492d0ac804867c"))
+  (global_label "GND" (at 209.5250 150.4801 0) (effects (font (size 1.27 1.27))) (uuid "40262626839c4f4c93613c6d17ac51dd"))
+  (global_label "GND" (at 210.7950 150.4801 0) (effects (font (size 1.27 1.27))) (uuid "d7ebaf04dc0f402a87e59d7df5dc9954"))
+  (global_label "GND" (at 212.0650 150.4801 0) (effects (font (size 1.27 1.27))) (uuid "7abe1a009a3640f6841c8e10b2c36015"))
+  (global_label "GND" (at 200.0000 151.7501 0) (effects (font (size 1.27 1.27))) (uuid "dbd7459c9c4447979419970be4a86725"))
+  (global_label "+1V0_ANA" (at 80.0000 36.1900 0) (effects (font (size 1.27 1.27))) (uuid "5b8190aa3ee04fc589ff774facd24ee8"))
+  (global_label "GND" (at 80.0000 43.8100 0) (effects (font (size 1.27 1.27))) (uuid "5e86b07661964bb39d01580440b07bcd"))
+  (global_label "+1V0_ANA" (at 80.0000 51.1900 0) (effects (font (size 1.27 1.27))) (uuid "6da57234e2b1442e8ed4b13a2ff12159"))
+  (global_label "GND" (at 80.0000 58.8100 0) (effects (font (size 1.27 1.27))) (uuid "6017486e00bb4875b49161e88b6b18a9"))
+  (global_label "+1V0_ANA" (at 80.0000 64.9200 0) (effects (font (size 1.27 1.27))) (uuid "dc547a67bdf244ffbf70d0cd6bfa2454"))
+  (global_label "GND" (at 80.0000 75.0800 0) (effects (font (size 1.27 1.27))) (uuid "de25a792bde54bab9870039993f06d33"))
+  (global_label "+1V0_ANA" (at 80.0000 81.1900 0) (effects (font (size 1.27 1.27))) (uuid "fe1524c28d074a0c8d5870861bd2449e"))
+  (global_label "GND" (at 80.0000 88.8100 0) (effects (font (size 1.27 1.27))) (uuid "47c5c5749ee8498f8f32fa9ae93d153d"))
+  (global_label "+1V0_ANA" (at 80.0000 96.1900 0) (effects (font (size 1.27 1.27))) (uuid "05c4b872147240548e4429a04add474d"))
+  (global_label "GND" (at 80.0000 103.8100 0) (effects (font (size 1.27 1.27))) (uuid "a536e3b5c9164fd1a1fb84bc74b23674"))
+  (global_label "+1V9_ANA" (at 80.0000 116.1900 0) (effects (font (size 1.27 1.27))) (uuid "c03e9ed8d2f547e680cf33ef89b38182"))
+  (global_label "GND" (at 80.0000 123.8100 0) (effects (font (size 1.27 1.27))) (uuid "349aab7b0e6742f496911c0762b1f4c7"))
+  (global_label "+1V9_ANA" (at 80.0000 131.1900 0) (effects (font (size 1.27 1.27))) (uuid "317977288dab48aba47b7f7c41bba7f0"))
+  (global_label "GND" (at 80.0000 138.8100 0) (effects (font (size 1.27 1.27))) (uuid "6f974d94654f43dd92c839ec551892e1"))
+  (global_label "+1V1_DIG" (at 80.0000 151.1900 0) (effects (font (size 1.27 1.27))) (uuid "ad09d648fe634e8990c9bdd36669f108"))
+  (global_label "GND" (at 80.0000 158.8100 0) (effects (font (size 1.27 1.27))) (uuid "fb037c6feba14a96ac51861de1342e28"))
+  (global_label "+1V1_DIG" (at 80.0000 166.1900 0) (effects (font (size 1.27 1.27))) (uuid "3062c4e3ae8d4b9e84f53cceffa3cd87"))
+  (global_label "GND" (at 80.0000 173.8100 0) (effects (font (size 1.27 1.27))) (uuid "f679829247f3468a87ddcc265d9e399c"))
+  (global_label "ADC_VBG" (at 320.0000 116.1900 0) (effects (font (size 1.27 1.27))) (uuid "4bf744b55cc94ad4ade93eb66fa6eab9"))
+  (global_label "GND" (at 320.0000 123.8100 0) (effects (font (size 1.27 1.27))) (uuid "5fe7642189264732b6d33d6cd7394af5"))
+  (global_label "ADC_INB_P" (at 320.0000 56.1900 0) (effects (font (size 1.27 1.27))) (uuid "154b16f87ed84d70a9c9d2a767010398"))
+  (global_label "GND" (at 320.0000 63.8100 0) (effects (font (size 1.27 1.27))) (uuid "a2ebb8d1fa0145298a2b002e73b7515b"))
+  (global_label "ADC_INB_N" (at 320.0000 71.1900 0) (effects (font (size 1.27 1.27))) (uuid "a94101a563cb40f987c5f738ddbf5a0e"))
+  (global_label "GND" (at 320.0000 78.8100 0) (effects (font (size 1.27 1.27))) (uuid "ad36584c45b54decbf84fb96d15e9d65"))
+  (global_label "ADC_NCOA0" (at 320.0000 86.1900 0) (effects (font (size 1.27 1.27))) (uuid "6e01cf13823b473fa3c060153fb32b30"))
+  (global_label "GND" (at 320.0000 93.8100 0) (effects (font (size 1.27 1.27))) (uuid "2c0aa9212baf43f3883cd97c3802bc6f"))
+  (global_label "ADC_NCOA1" (at 320.0000 101.1900 0) (effects (font (size 1.27 1.27))) (uuid "4f8ab05b00bd44319e81b20cd4f3ee23"))
+  (global_label "GND" (at 320.0000 108.8100 0) (effects (font (size 1.27 1.27))) (uuid "54aa9f132bc548f3bdcef1194a4e092d"))
   (sheet_instances (path "/" (page "1")))
 )

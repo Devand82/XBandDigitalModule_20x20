@@ -15,38 +15,38 @@
   )
   (symbol (lib_id "Connector:Conn_01x04_SMD") (at 80 60 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "e9400871-2771-4bb5-8727-2ad57cee45fb")
+    (uuid "bf8da9dd-585a-4422-af86-87dad7c34a75")
     (property "Reference" "J2" (at 80 50 0) (effects (font (size 1.27 1.27))))
     (property "Value" "SMA_RF" (at 80 70 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "Conn_01x04_SMD" (at 80 60 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "d033d365-e08c-4912-b6ca-a5e4a06017b5"))
-    (pin "2" (uuid "e9d3e751-d433-4d2f-b38f-42084fb2c67a"))
-    (pin "3" (uuid "75c193b9-71e5-429b-8211-3f1b67d6a044"))
-    (pin "4" (uuid "30ba94dc-c07c-45d5-bb97-cca8826ae71a"))
+    (pin "1" (uuid "a87e4830-5427-4b1c-9b60-806286a13642"))
+    (pin "2" (uuid "dc5e8185-2cae-47e8-a583-a471b8071b1c"))
+    (pin "3" (uuid "f6906f93-916d-47e6-b86c-0f9a4a980b94"))
+    (pin "4" (uuid "514ab388-7850-47c7-8840-4b70a5209c7e"))
   )  (symbol (lib_id "Device:R") (at 140 60 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "5728ec60-a6f9-40db-8058-7bf265cc7328")
+    (uuid "a191c69e-1125-453b-a1f5-4af09beeb23d")
     (property "Reference" "R1" (at 140 50 0) (effects (font (size 1.27 1.27))))
     (property "Value" "50" (at 140 70 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "R_0402" (at 140 60 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "c420de90-4546-4e70-920e-30b3d051a2f4"))
-    (pin "2" (uuid "3354283b-57a0-4d36-9870-b86190f5f55e"))
+    (pin "1" (uuid "9d7aea28-2fe0-4d0c-b9c6-2788c7d76087"))
+    (pin "2" (uuid "6df918e5-0b7a-494c-9b4b-6415dc59b2ed"))
   )  (symbol (lib_id "Device:C") (at 140 40 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "b7cbf00f-8bf7-4b81-aa2c-d1e35ea6f9f6")
+    (uuid "ca26ba6d-1d1f-49c4-bb8b-4aa60900df6e")
     (property "Reference" "C1" (at 140 30 0) (effects (font (size 1.27 1.27))))
     (property "Value" "100nF" (at 140 50 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "C_0402" (at 140 40 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "f8451afc-00d4-4fce-a9c4-2aa634679f58"))
-    (pin "2" (uuid "d62fccdb-2b25-48e4-99a3-4bf9c39aeb2c"))
+    (pin "1" (uuid "3c32cce4-80b7-4ee4-8633-39c1a9862abd"))
+    (pin "2" (uuid "cdfa2078-0862-44c3-af66-15ae49c5c421"))
   )  (symbol (lib_id "Device:C") (at 140 80 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "439e3a82-8dfc-4554-9c68-51fcd29b7ff0")
+    (uuid "912dcc99-30a2-41bf-ac86-8378567daf58")
     (property "Reference" "C2" (at 140 70 0) (effects (font (size 1.27 1.27))))
     (property "Value" "100nF" (at 140 90 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "C_0402" (at 140 80 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "0ed923bf-6c3b-442e-8f5d-7a9c69eba9b3"))
-    (pin "2" (uuid "c7271a5e-e704-42c8-8383-889cd8828b50"))
+    (pin "1" (uuid "c9774409-bbaf-41c7-9122-13ebc04e1b30"))
+    (pin "2" (uuid "b6964cc2-8076-4bbc-b8a1-556b4c07fa69"))
   )            
   
   
@@ -70,93 +70,15 @@
   
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  (global_label "J2_PIN_1" (at 77.4600 54.9200 0) (effects (font (size 1.27 1.27))) (uuid "d02ef2efaedf44b5ab5a45b4b4bb3616"))
-  (global_label "J2_PIN_2" (at 77.4600 57.4600 0) (effects (font (size 1.27 1.27))) (uuid "6f12c85d45d845e8b54122766c199ca4"))
-  (global_label "J2_PIN_3" (at 77.4600 62.5400 0) (effects (font (size 1.27 1.27))) (uuid "9bb69c53e4a3432a8cc561570085b79e"))
-  (global_label "J2_PIN_4" (at 77.4600 65.0800 0) (effects (font (size 1.27 1.27))) (uuid "c7985727595f4767a3450099532836fc"))
+  (global_label "J2_PIN_1" (at 77.4600 54.9200 0) (effects (font (size 1.27 1.27))) (uuid "c50e6f2e98fe453a94c6b183533f89e1"))
+  (global_label "J2_PIN_2" (at 77.4600 57.4600 0) (effects (font (size 1.27 1.27))) (uuid "9fce75a284b2476ab62255d6925ea59c"))
+  (global_label "J2_PIN_3" (at 77.4600 62.5400 0) (effects (font (size 1.27 1.27))) (uuid "89aa2f36670b4495ac5250051b4be0d9"))
+  (global_label "J2_PIN_4" (at 77.4600 65.0800 0) (effects (font (size 1.27 1.27))) (uuid "058ef4e8ff954faf8f79ed03839f7789"))
+  (global_label "RF_IN" (at 140.0000 56.1900 0) (effects (font (size 1.27 1.27))) (uuid "f8c21634b63e414f841e734ba358a160"))
+  (global_label "ADC_INA_P" (at 140.0000 63.8100 0) (effects (font (size 1.27 1.27))) (uuid "adb5c8a34d68495b89d44e598d9253f0"))
+  (global_label "ADC_INA_P" (at 140.0000 36.1900 0) (effects (font (size 1.27 1.27))) (uuid "5103174e16b245dcb7f62b29c9caa3d6"))
+  (global_label "GND" (at 140.0000 43.8100 0) (effects (font (size 1.27 1.27))) (uuid "1b89d4931a734ba9a57ba9b9b522588e"))
+  (global_label "ADC_INA_N" (at 140.0000 76.1900 0) (effects (font (size 1.27 1.27))) (uuid "e4d31681032942e4819b46099ad592ee"))
+  (global_label "GND" (at 140.0000 83.8100 0) (effects (font (size 1.27 1.27))) (uuid "131205f7ce934fc6ad755fe18afa52cc"))
   (sheet_instances (path "/" (page "1")))
 )

@@ -15,58 +15,58 @@
   )
   (symbol (lib_id "Connector:Conn_01x04") (at 80 60 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "a742bab6-0c12-4a95-b382-927bd79b3b1d")
+    (uuid "e9675650-e37c-4b5c-9682-7c3d66542a6f")
     (property "Reference" "J2" (at 80 50 0) (effects (font (size 1.27 1.27))))
     (property "Value" "JESD_DEBUG" (at 80 70 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "Conn_01x04" (at 80 60 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "552b60d6-09a8-490a-b172-7b9b15d8f241"))
-    (pin "2" (uuid "8740d425-dc97-4056-8f85-720b3513ffd1"))
-    (pin "3" (uuid "a5955ecc-0dd5-49da-a91c-8f4c925f6b62"))
-    (pin "4" (uuid "175641e5-08d2-4644-9574-0bb04eae8a71"))
+    (pin "1" (uuid "458ea476-8e5a-4704-9cbe-1262effca760"))
+    (pin "2" (uuid "dadd16f7-623e-4744-8cf7-b0073589ec14"))
+    (pin "3" (uuid "e9150347-97af-40e8-aa99-9d7956db668f"))
+    (pin "4" (uuid "66b95100-89b0-4a87-970c-4c5f11c3390b"))
   )  (symbol (lib_id "Connector:Conn_01x04") (at 80 120 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "0265c0df-9795-4f65-ab39-030801c6564c")
+    (uuid "5731e7e6-fb91-4b2e-9cd1-18dd7bdfc618")
     (property "Reference" "J3" (at 80 110 0) (effects (font (size 1.27 1.27))))
     (property "Value" "SPW_PORT1" (at 80 130 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "Conn_01x04" (at 80 120 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "8c701157-3c4b-4b98-b4b4-3319f41fe257"))
-    (pin "2" (uuid "77c0eb76-a443-40b1-bb05-6142ce3e5a9e"))
-    (pin "3" (uuid "76c198a8-77ad-4f3a-ab0f-c6328f320882"))
-    (pin "4" (uuid "4d75134d-a510-4879-8572-a5ec0b454f53"))
+    (pin "1" (uuid "b5e60774-20e4-4615-83db-31f986b9c957"))
+    (pin "2" (uuid "3e25fd9b-40bc-4422-8482-b69d1db82dd6"))
+    (pin "3" (uuid "fb5fd9a2-0d22-4066-9455-cecef9373196"))
+    (pin "4" (uuid "40ab67ca-ac6f-419c-8b9f-06bcc1283170"))
   )  (symbol (lib_id "Connector:Conn_01x04") (at 200 120 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "19e45907-55d7-4cfe-94d8-8efd88638bfa")
+    (uuid "a9e19635-4eab-41a6-af9a-3700026d9bf5")
     (property "Reference" "J4" (at 200 110 0) (effects (font (size 1.27 1.27))))
     (property "Value" "SPW_PORT2" (at 200 130 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "Conn_01x04" (at 200 120 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "82c7c28a-976e-4254-a7bd-21d44d19e6ee"))
-    (pin "2" (uuid "107e4add-92f6-4e68-ad24-aa52d32d9fc4"))
-    (pin "3" (uuid "e423cf69-00cd-456c-b7fa-b11395a87a87"))
-    (pin "4" (uuid "12b2e608-9ad6-49e2-88c1-c3e0498f5583"))
+    (pin "1" (uuid "f811c6ea-4d3c-429c-b5d3-97b1a1d20148"))
+    (pin "2" (uuid "59f5f17a-6358-467f-ad2e-f15fee52e88a"))
+    (pin "3" (uuid "aa82dea1-98a6-4e64-8dbe-d4795609644d"))
+    (pin "4" (uuid "ac96e45f-68eb-4f2d-8c7d-919afe71ae32"))
   )  (symbol (lib_id "Connector:Conn_01x06") (at 200 60 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "e387573e-837e-4fe9-a630-e0bdf7900ab1")
+    (uuid "fbfbaebc-4e20-4a7b-8ca4-cf2d0b397939")
     (property "Reference" "J5" (at 200 50 0) (effects (font (size 1.27 1.27))))
     (property "Value" "JTAG" (at 200 70 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "Conn_01x06" (at 200 60 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "711ca38b-ff58-48cb-84fd-9255b0155bd6"))
-    (pin "2" (uuid "0a907769-1a67-42e3-b7cc-506472bb1356"))
-    (pin "3" (uuid "e990c70c-9d57-47df-b99b-107873ab74d7"))
-    (pin "4" (uuid "40266241-a18c-4732-af40-edb84ccbad28"))
-    (pin "5" (uuid "e94f0198-41a2-41a7-843a-337ea2f63303"))
-    (pin "6" (uuid "f53f948b-b920-48f5-9894-f52ee5ddb9ac"))
+    (pin "1" (uuid "d519eb47-b69d-45b8-8113-8e4c80665983"))
+    (pin "2" (uuid "d33438c8-60cc-40f7-a87c-d0b9d2c63103"))
+    (pin "3" (uuid "2c091406-6b54-435c-9a01-af3faeeaa946"))
+    (pin "4" (uuid "60fa9bbb-dfcf-4949-a7e7-335ed5e01cab"))
+    (pin "5" (uuid "25ea34b5-037e-40bb-b3d2-7e85d3564cfb"))
+    (pin "6" (uuid "120f7af1-7064-403d-ba26-faccd276c6dd"))
   )  (symbol (lib_id "Connector:Conn_01x06") (at 320 60 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "e4058ac8-d9b8-4b16-afee-bed50eb8d5b6")
+    (uuid "cba09992-7fa3-4264-ba24-bb71bd1dd79f")
     (property "Reference" "J6" (at 320 50 0) (effects (font (size 1.27 1.27))))
     (property "Value" "SPI_DEBUG" (at 320 70 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "Conn_01x06" (at 320 60 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "16eb12f8-6c63-4273-b8e9-e3506fcd2c09"))
-    (pin "2" (uuid "bbab7a90-2709-44d7-84e1-fab9a3474ab4"))
-    (pin "3" (uuid "67d88b4d-91b5-43e3-b683-53684dc58c9b"))
-    (pin "4" (uuid "410680c6-17cd-4b38-9b98-69105de8d3b5"))
-    (pin "5" (uuid "4c95235c-1c8d-4dc5-983c-d9e3a21b2824"))
-    (pin "6" (uuid "f2548b66-dac1-4ab3-b312-a2f506cf92d1"))
+    (pin "1" (uuid "41c3782a-ee62-4caa-93e0-0260f1afa616"))
+    (pin "2" (uuid "c72df9d0-83cd-4495-a382-598688558032"))
+    (pin "3" (uuid "692f1211-d2a2-4734-ad6b-a3d6a05052da"))
+    (pin "4" (uuid "5b658f2a-7fc2-4e88-a874-a329ab5f015e"))
+    (pin "5" (uuid "b8c47af3-850e-42d5-a3e4-cd2c91b6d0d2"))
+    (pin "6" (uuid "8aab70d9-a5fd-4b55-a4ef-bc216b7ddfa7"))
   )                                                  
   
   
@@ -118,401 +118,29 @@
   
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  (global_label "J2_PIN_1" (at 77.4600 54.9200 0) (effects (font (size 1.27 1.27))) (uuid "faa43339f64a4c82afeae8cc6fc412a0"))
-  (global_label "J2_PIN_2" (at 77.4600 57.4600 0) (effects (font (size 1.27 1.27))) (uuid "0b26adfecdda40778f1b6884d426fce8"))
-  (global_label "J2_PIN_3" (at 77.4600 62.5400 0) (effects (font (size 1.27 1.27))) (uuid "a092baa771d0450995f4829e8bff8773"))
-  (global_label "J2_PIN_4" (at 77.4600 65.0800 0) (effects (font (size 1.27 1.27))) (uuid "631af57bc20f492d9b51b3e3fd46fc17"))
-  (global_label "J3_PIN_1" (at 77.4600 114.9200 0) (effects (font (size 1.27 1.27))) (uuid "fee40feb1c6146e489f649563cbc7238"))
-  (global_label "J3_PIN_2" (at 77.4600 117.4600 0) (effects (font (size 1.27 1.27))) (uuid "92c7d7410daa492d88a6f24e7b5ed894"))
-  (global_label "J3_PIN_3" (at 77.4600 122.5400 0) (effects (font (size 1.27 1.27))) (uuid "ae4b14daa371443992e3ff9f98ee0f5e"))
-  (global_label "J3_PIN_4" (at 77.4600 125.0800 0) (effects (font (size 1.27 1.27))) (uuid "5fc181cfcb714db49da7e0dbf5b6951f"))
-  (global_label "J4_PIN_1" (at 197.4600 114.9200 0) (effects (font (size 1.27 1.27))) (uuid "eeb229cd276c4171b0a0ed897921ce25"))
-  (global_label "J4_PIN_2" (at 197.4600 117.4600 0) (effects (font (size 1.27 1.27))) (uuid "eb28f866a26c41179dac2071e1339765"))
-  (global_label "J4_PIN_3" (at 197.4600 122.5400 0) (effects (font (size 1.27 1.27))) (uuid "e6cc71a0af3744b6b9d2a509c84074f9"))
-  (global_label "J4_PIN_4" (at 197.4600 125.0800 0) (effects (font (size 1.27 1.27))) (uuid "2880c111492e406681ab4dc1a72cbb70"))
-  (global_label "J5_PIN_1" (at 197.4600 49.8400 0) (effects (font (size 1.27 1.27))) (uuid "66cc1250a2084ab8bc2bf458e356f555"))
-  (global_label "J5_PIN_2" (at 197.4600 52.3800 0) (effects (font (size 1.27 1.27))) (uuid "56d72816342343b286790d08988b55b1"))
-  (global_label "J5_PIN_3" (at 197.4600 57.4600 0) (effects (font (size 1.27 1.27))) (uuid "f000c4f8b3174fb487e62031e948ec03"))
-  (global_label "J5_PIN_4" (at 197.4600 60.0000 0) (effects (font (size 1.27 1.27))) (uuid "67e10a70016246069e6c6cf393cb05f2"))
-  (global_label "J5_PIN_5" (at 197.4600 65.0800 0) (effects (font (size 1.27 1.27))) (uuid "c8008ac24d0e472a912abb0edc713a6e"))
-  (global_label "J5_PIN_6" (at 197.4600 70.1600 0) (effects (font (size 1.27 1.27))) (uuid "c1e0f826691f447f84203f4403c211ed"))
-  (global_label "J6_PIN_1" (at 317.4600 49.8400 0) (effects (font (size 1.27 1.27))) (uuid "27368c4186d0450591b7cd2ba6099c3e"))
-  (global_label "J6_PIN_2" (at 317.4600 52.3800 0) (effects (font (size 1.27 1.27))) (uuid "e7145795112c4f09bca35e90760dabc3"))
-  (global_label "J6_PIN_3" (at 317.4600 57.4600 0) (effects (font (size 1.27 1.27))) (uuid "b0d9a1c032a848ffb9af648f5aab1df6"))
-  (global_label "J6_PIN_4" (at 317.4600 60.0000 0) (effects (font (size 1.27 1.27))) (uuid "4df7e211a7494de08a727cb6ea61882d"))
-  (global_label "J6_PIN_5" (at 317.4600 65.0800 0) (effects (font (size 1.27 1.27))) (uuid "ecf9dbe447084a43b6964b2ad6481a74"))
-  (global_label "J6_PIN_6" (at 317.4600 70.1600 0) (effects (font (size 1.27 1.27))) (uuid "c44ff872fd0f42119bef7c397991eaba"))
+  (global_label "J2_PIN_1" (at 77.4600 54.9200 0) (effects (font (size 1.27 1.27))) (uuid "ca79922beb9c48a4ab5e472d36669a29"))
+  (global_label "J2_PIN_2" (at 77.4600 57.4600 0) (effects (font (size 1.27 1.27))) (uuid "9fc028baa56d4cd18c7e8def574f9a15"))
+  (global_label "J2_PIN_3" (at 77.4600 62.5400 0) (effects (font (size 1.27 1.27))) (uuid "d15e5646d1034322a0fb3030b0b4d5c8"))
+  (global_label "J2_PIN_4" (at 77.4600 65.0800 0) (effects (font (size 1.27 1.27))) (uuid "713e21af5eca452984167fe9e9d59032"))
+  (global_label "J3_PIN_1" (at 77.4600 114.9200 0) (effects (font (size 1.27 1.27))) (uuid "55df8e5372ed4c209c6fd92f9e6a44df"))
+  (global_label "J3_PIN_2" (at 77.4600 117.4600 0) (effects (font (size 1.27 1.27))) (uuid "b02dcb594778470ca8e86868733b65b3"))
+  (global_label "J3_PIN_3" (at 77.4600 122.5400 0) (effects (font (size 1.27 1.27))) (uuid "44accf3f806a43c888fd43426df0ca52"))
+  (global_label "J3_PIN_4" (at 77.4600 125.0800 0) (effects (font (size 1.27 1.27))) (uuid "250e07c11de1468d82ff016d30cd3c99"))
+  (global_label "J4_PIN_1" (at 197.4600 114.9200 0) (effects (font (size 1.27 1.27))) (uuid "f3134865af05404fa4e31b241b8a96c6"))
+  (global_label "J4_PIN_2" (at 197.4600 117.4600 0) (effects (font (size 1.27 1.27))) (uuid "3f02e2abdbda4f0b9739c77134d7f2e4"))
+  (global_label "J4_PIN_3" (at 197.4600 122.5400 0) (effects (font (size 1.27 1.27))) (uuid "275ff3ff0d794eb38bbb1b8e2b0b2ed1"))
+  (global_label "J4_PIN_4" (at 197.4600 125.0800 0) (effects (font (size 1.27 1.27))) (uuid "b3a49b0f8d3e4d84ad622640a49d4282"))
+  (global_label "J5_PIN_1" (at 197.4600 49.8400 0) (effects (font (size 1.27 1.27))) (uuid "293e0a32345747158bea9d66b75ca5ee"))
+  (global_label "J5_PIN_2" (at 197.4600 52.3800 0) (effects (font (size 1.27 1.27))) (uuid "af7ce4bff8c54b3cbcb6aacad23a8844"))
+  (global_label "J5_PIN_3" (at 197.4600 57.4600 0) (effects (font (size 1.27 1.27))) (uuid "9945b0606b7345b2a06663af5b99ac68"))
+  (global_label "J5_PIN_4" (at 197.4600 60.0000 0) (effects (font (size 1.27 1.27))) (uuid "e300b0816e6448bd9a7b6b4be757ad73"))
+  (global_label "J5_PIN_5" (at 197.4600 65.0800 0) (effects (font (size 1.27 1.27))) (uuid "dd25c7140e48474ca4627877b6e7a32e"))
+  (global_label "J5_PIN_6" (at 197.4600 70.1600 0) (effects (font (size 1.27 1.27))) (uuid "674a8c179530448bb036ba1558f08599"))
+  (global_label "J6_PIN_1" (at 317.4600 49.8400 0) (effects (font (size 1.27 1.27))) (uuid "21a858f309154569815e2bd0f22619c1"))
+  (global_label "J6_PIN_2" (at 317.4600 52.3800 0) (effects (font (size 1.27 1.27))) (uuid "c8c97490c1fc45f09282db7594a9d9a7"))
+  (global_label "J6_PIN_3" (at 317.4600 57.4600 0) (effects (font (size 1.27 1.27))) (uuid "3e5ada7cdeea424c90efd36fd8e62e3a"))
+  (global_label "J6_PIN_4" (at 317.4600 60.0000 0) (effects (font (size 1.27 1.27))) (uuid "eb2dac40e168432d9a047898a75b7a77"))
+  (global_label "J6_PIN_5" (at 317.4600 65.0800 0) (effects (font (size 1.27 1.27))) (uuid "0dbfe7602cb742429abfa4e7bc98b4c3"))
+  (global_label "J6_PIN_6" (at 317.4600 70.1600 0) (effects (font (size 1.27 1.27))) (uuid "c459f7dd234a4cb1b824c4bbfa59659c"))
   (sheet_instances (path "/" (page "1")))
 )
