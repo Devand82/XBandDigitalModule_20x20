@@ -90,13 +90,18 @@
   
   
   
-  (wire (pts (xy 77.4600 54.9200) (xy 69.8400 54.9200)) (stroke (width 0) (type default)) (uuid "17aeeac5f0ba4e79aa92c622702a3541"))
-  (label "PIN_1" (at 69.8400 54.9200 0) (effects (font (size 1.27 1.27))) (uuid "79ca2704d47145ca8520ab2584c26efa"))
-  (wire (pts (xy 77.4600 57.4600) (xy 69.8400 57.4600)) (stroke (width 0) (type default)) (uuid "b7a9662211614fa89db52d750a24ac41"))
-  (label "PIN_2" (at 69.8400 57.4600 0) (effects (font (size 1.27 1.27))) (uuid "df6883eeb685428897e6b7591c6789d5"))
-  (wire (pts (xy 77.4600 62.5400) (xy 69.8400 62.5400)) (stroke (width 0) (type default)) (uuid "657f0b416bdb46328c254b5e7b430992"))
-  (label "PIN_3" (at 69.8400 62.5400 0) (effects (font (size 1.27 1.27))) (uuid "25200a998035434690794fd73a96a8c8"))
-  (wire (pts (xy 77.4600 65.0800) (xy 69.8400 65.0800)) (stroke (width 0) (type default)) (uuid "35add3a740054c549c044622197d23d3"))
-  (label "PIN_4" (at 69.8400 65.0800 0) (effects (font (size 1.27 1.27))) (uuid "a5ac8290c5cd4a65949809112af6ac05"))
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  (label "PIN_1" (at 77.4600 54.9200 0) (effects (font (size 1.27 1.27))) (uuid "a034b427fcf54e2cb042961a9336c0c3"))
+  (label "PIN_2" (at 77.4600 57.4600 0) (effects (font (size 1.27 1.27))) (uuid "94837c5a5f904c3983440e2aff5f07c9"))
+  (label "PIN_3" (at 77.4600 62.5400 0) (effects (font (size 1.27 1.27))) (uuid "ab6e9907717d437b9279adeda475fa39"))
+  (label "PIN_4" (at 77.4600 65.0800 0) (effects (font (size 1.27 1.27))) (uuid "650ed2e6e2344588bcd9d3580f3768e1"))
   (sheet_instances (path "/" (page "1")))
 )

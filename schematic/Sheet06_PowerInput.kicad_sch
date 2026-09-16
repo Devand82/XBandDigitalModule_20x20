@@ -205,29 +205,42 @@
   
   
   
-  (wire (pts (xy 57.4600 74.9200) (xy 49.8400 74.9200)) (stroke (width 0) (type default)) (uuid "23d16a290ede436b986dd1b1261f69ce"))
-  (label "PIN_1" (at 49.8400 74.9200 0) (effects (font (size 1.27 1.27))) (uuid "ab501e356d8147488aa3d3127b8683c3"))
-  (wire (pts (xy 57.4600 77.4600) (xy 49.8400 77.4600)) (stroke (width 0) (type default)) (uuid "1485fb67b27f4b0abfae3b796640b5c7"))
-  (label "PIN_2" (at 49.8400 77.4600 0) (effects (font (size 1.27 1.27))) (uuid "e5f42c479b754399b740f6a97aeaa9d0"))
-  (wire (pts (xy 57.4600 82.5400) (xy 49.8400 82.5400)) (stroke (width 0) (type default)) (uuid "d0fd380d6368432ba89bee1d7f7d4d95"))
-  (label "PIN_3" (at 49.8400 82.5400 0) (effects (font (size 1.27 1.27))) (uuid "6ddcb3bae6e84e6d8d216141abe5da1c"))
-  (wire (pts (xy 57.4600 85.0800) (xy 49.8400 85.0800)) (stroke (width 0) (type default)) (uuid "3454926ba7a54343998dd4d7211e2d56"))
-  (label "PIN_4" (at 49.8400 85.0800 0) (effects (font (size 1.27 1.27))) (uuid "441f86a9667d44f48eaea7ee0edb2752"))
-  (wire (pts (xy 120.0000 56.1900) (xy 112.3800 56.1900)) (stroke (width 0) (type default)) (uuid "9da84b1867614aadb8738d1e589c1aaf"))
-  (label "K" (at 112.3800 56.1900 0) (effects (font (size 1.27 1.27))) (uuid "c1c3647146f04c8db7abc9d23ba3e7e9"))
-  (wire (pts (xy 120.0000 63.8100) (xy 112.3800 63.8100)) (stroke (width 0) (type default)) (uuid "d348e2fa48d54ee88a71cadf61c28817"))
-  (label "A" (at 112.3800 63.8100 0) (effects (font (size 1.27 1.27))) (uuid "e83942ca6083425ca1c937e16e57ebad"))
-  (wire (pts (xy 228.5700 73.6500) (xy 220.9500 73.6500)) (stroke (width 0) (type default)) (uuid "8872f621624c4494a9e735a5bc7451bf"))
-  (label "INA214-SP_REF" (at 220.9500 73.6500 0) (effects (font (size 1.27 1.27))) (uuid "a7d0006de45342a3a2407f2e8215aee8"))
-  (wire (pts (xy 228.5700 74.9200) (xy 220.9500 74.9200)) (stroke (width 0) (type default)) (uuid "3de232d288af4815a3a0bd2b7db7aa56"))
-  (label "GND" (at 220.9500 74.9200 0) (effects (font (size 1.27 1.27))) (uuid "0d1c0a048ccd444790e1dc50c02f1db0"))
-  (wire (pts (xy 228.5700 76.1900) (xy 220.9500 76.1900)) (stroke (width 0) (type default)) (uuid "ef55baeff3b542b591d3ba95af78489b"))
-  (label "+3V3" (at 220.9500 76.1900 0) (effects (font (size 1.27 1.27))) (uuid "ed08060d24c443b2ac8e9a344db35c45"))
-  (wire (pts (xy 228.5700 77.4600) (xy 220.9500 77.4600)) (stroke (width 0) (type default)) (uuid "008692686ef145f1b580b57618a1ca4a"))
-  (label "ISENSE_P" (at 220.9500 77.4600 0) (effects (font (size 1.27 1.27))) (uuid "10e710f81b804392afc7627475ade47b"))
-  (wire (pts (xy 228.5700 78.7300) (xy 220.9500 78.7300)) (stroke (width 0) (type default)) (uuid "9a6b7110af3d46f49ba65cac27ce2afe"))
-  (label "ISENSE_N" (at 220.9500 78.7300 0) (effects (font (size 1.27 1.27))) (uuid "08ebc87bbcc342fcabac3dbc6c66c1d7"))
-  (wire (pts (xy 251.4300 73.6500) (xy 243.8100 73.6500)) (stroke (width 0) (type default)) (uuid "0d6adcd4903c46ee9441bea6d4791197"))
-  (label "INA214-SP_OUT" (at 243.8100 73.6500 0) (effects (font (size 1.27 1.27))) (uuid "6084585b8fe64d75a2bb54ed9b1887bd"))
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  (label "PIN_1" (at 57.4600 74.9200 0) (effects (font (size 1.27 1.27))) (uuid "5999fb31f0284e349b2c39843b318fa3"))
+  (label "PIN_2" (at 57.4600 77.4600 0) (effects (font (size 1.27 1.27))) (uuid "73481d9f30204b05a660794615bfa5db"))
+  (label "PIN_3" (at 57.4600 82.5400 0) (effects (font (size 1.27 1.27))) (uuid "68e7c15e97214a13af0056081337d79e"))
+  (label "PIN_4" (at 57.4600 85.0800 0) (effects (font (size 1.27 1.27))) (uuid "0faf0a7c29c843c2b31c708b43b1a33c"))
+  (label "K" (at 120.0000 56.1900 0) (effects (font (size 1.27 1.27))) (uuid "98199790c63b414aa8091a3fab95166b"))
+  (label "A" (at 120.0000 63.8100 0) (effects (font (size 1.27 1.27))) (uuid "f2195ba9d6524150afe0a59daa70baaf"))
+  (label "INA214-SP_REF" (at 228.5700 73.6500 0) (effects (font (size 1.27 1.27))) (uuid "c21c7f76ce44447daae6532879aa1017"))
+  (label "GND" (at 228.5700 74.9200 0) (effects (font (size 1.27 1.27))) (uuid "e27caf3a97c04acbade7972586679398"))
+  (label "+3V3" (at 228.5700 76.1900 0) (effects (font (size 1.27 1.27))) (uuid "c168896003cd4d6fb8008b5c6f59dcb1"))
+  (label "ISENSE_P" (at 228.5700 77.4600 0) (effects (font (size 1.27 1.27))) (uuid "8c3fe7caf2af4411a64797d363d64a31"))
+  (label "ISENSE_N" (at 228.5700 78.7300 0) (effects (font (size 1.27 1.27))) (uuid "508baaa49e65492680e38bbc6348c851"))
+  (label "INA214-SP_OUT" (at 251.4300 73.6500 0) (effects (font (size 1.27 1.27))) (uuid "0c708013b2274178a0046a3346e089c8"))
   (sheet_instances (path "/" (page "1")))
 )

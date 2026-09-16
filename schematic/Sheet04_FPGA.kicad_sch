@@ -124,7 +124,9 @@
   
   
   
-  (wire (pts (xy 200.0000 200.0000) (xy 192.3800 200.0000)) (stroke (width 0) (type default)) (uuid "935ecfe1ae5d4ed7b5d4863d11222b9e"))
-  (label "GND" (at 192.3800 200.0000 0) (effects (font (size 1.27 1.27))) (uuid "9ed4e5faf1374b5db0869c5782712712"))
+  
+  
+  
+  (label "GND" (at 200.0000 200.0000 0) (effects (font (size 1.27 1.27))) (uuid "242dfbd787294f778be7c24b5fee29c5"))
   (sheet_instances (path "/" (page "1")))
 )

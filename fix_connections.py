@@ -327,21 +327,12 @@ def process_sheet(filepath):
             if net_name == '~':
                 continue
             
-            # ALWAYS use horizontal stub going LEFT to avoid wire overlap.
-            # Vertical wires from angle=90 pins overlap when pins are stacked
-            # vertically (e.g. 1.27mm spacing with 7.62mm wires), causing
-            # KiCad to merge them into one net.
-            wire_len = 7.62
-            lx, ly = ex - wire_len, ey
-            
+            # Place label DIRECTLY at pin endpoint - no wire needed.
+            # Wires cause shorts when multiple pins share the same Y-row
+            # (e.g. BGA power pins on ADC). Labels at pin positions connect
+            # by net name without any wire overlap issues.
             new_elements.append(
-                f'(wire (pts (xy {ex:.4f} {ey:.4f}) (xy {lx:.4f} {ly:.4f})) '
-                f'(stroke (width 0) (type default)) (uuid "{uid()}"))'
-            )
-            
-            # Use label for ALL pins (power symbols don't connect via wires in netlist)
-            new_elements.append(
-                f'(label "{net_name}" (at {lx:.4f} {ly:.4f} 0) '
+                f'(label "{net_name}" (at {ex:.4f} {ey:.4f} 0) '
                 f'(effects (font (size 1.27 1.27))) (uuid "{uid()}"))'
             )
             
