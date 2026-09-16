@@ -99,9 +99,64 @@
   
   
   
-  (label "PIN_1" (at 77.4600 54.9200 0) (effects (font (size 1.27 1.27))) (uuid "a034b427fcf54e2cb042961a9336c0c3"))
-  (label "PIN_2" (at 77.4600 57.4600 0) (effects (font (size 1.27 1.27))) (uuid "94837c5a5f904c3983440e2aff5f07c9"))
-  (label "PIN_3" (at 77.4600 62.5400 0) (effects (font (size 1.27 1.27))) (uuid "ab6e9907717d437b9279adeda475fa39"))
-  (label "PIN_4" (at 77.4600 65.0800 0) (effects (font (size 1.27 1.27))) (uuid "650ed2e6e2344588bcd9d3580f3768e1"))
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  (global_label "J2_PIN_1" (at 77.4600 54.9200 0) (effects (font (size 1.27 1.27))) (uuid "d02ef2efaedf44b5ab5a45b4b4bb3616"))
+  (global_label "J2_PIN_2" (at 77.4600 57.4600 0) (effects (font (size 1.27 1.27))) (uuid "6f12c85d45d845e8b54122766c199ca4"))
+  (global_label "J2_PIN_3" (at 77.4600 62.5400 0) (effects (font (size 1.27 1.27))) (uuid "9bb69c53e4a3432a8cc561570085b79e"))
+  (global_label "J2_PIN_4" (at 77.4600 65.0800 0) (effects (font (size 1.27 1.27))) (uuid "c7985727595f4767a3450099532836fc"))
   (sheet_instances (path "/" (page "1")))
 )

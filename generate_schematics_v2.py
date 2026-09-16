@@ -120,6 +120,80 @@ LIB_D = (
     ' (number "2" (effects (font (size 1.27 1.27)))))))'
 )
 
+# FPGA XQRVC1902-SP: 50-pin simplified symbol (JESD, SPI, Clock, SpaceWire, Power)
+LIB_FPGA_XQRVC1902 = (
+    '(symbol "Custom:XQRVC1902-SP" (pin_names (offset 0)) (in_bom yes) (on_board yes)'
+    ' (property "Reference" "U" (at 200 220 0) (effects (font (size 1.27 1.27))))'
+    ' (property "Value" "XQRVC1902-SP" (at 200 -10 0) (effects (font (size 1.27 1.27))))'
+    ' (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))'
+    ' (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))'
+    # Symbol body
+    ' (symbol "XQRVC1902-SP_0_1" (rectangle (start -25.4 203.2) (end 228.6 -7.62)'
+    ' (stroke (width 0.254) (type default)) (fill (type background))))'
+    # LEFT PINS: JESD204C inputs
+    ' (symbol "XQRVC1902-SP_1_1"'
+    ' (pin input line (at -27.94 195.58 0) (length 2.54) (name "JESD_DA0_P" (effects (font (size 1.27 1.27)))) (number "A1" (effects (font (size 1.27 1.27)))))'
+    ' (pin input line (at -27.94 190.5 0) (length 2.54) (name "JESD_DA0_N" (effects (font (size 1.27 1.27)))) (number "A2" (effects (font (size 1.27 1.27)))))'
+    ' (pin input line (at -27.94 185.42 0) (length 2.54) (name "JESD_DA1_P" (effects (font (size 1.27 1.27)))) (number "A3" (effects (font (size 1.27 1.27)))))'
+    ' (pin input line (at -27.94 180.34 0) (length 2.54) (name "JESD_DA1_N" (effects (font (size 1.27 1.27)))) (number "A4" (effects (font (size 1.27 1.27)))))'
+    ' (pin input line (at -27.94 175.26 0) (length 2.54) (name "JESD_DA2_P" (effects (font (size 1.27 1.27)))) (number "B1" (effects (font (size 1.27 1.27)))))'
+    ' (pin input line (at -27.94 170.18 0) (length 2.54) (name "JESD_DA2_N" (effects (font (size 1.27 1.27)))) (number "B2" (effects (font (size 1.27 1.27)))))'
+    ' (pin input line (at -27.94 165.1 0) (length 2.54) (name "JESD_DA3_P" (effects (font (size 1.27 1.27)))) (number "B3" (effects (font (size 1.27 1.27)))))'
+    ' (pin input line (at -27.94 160.02 0) (length 2.54) (name "JESD_DA3_N" (effects (font (size 1.27 1.27)))) (number "B4" (effects (font (size 1.27 1.27)))))'
+    # LEFT PINS: SPI to ADC
+    ' (pin output line (at -27.94 149.86 0) (length 2.54) (name "CS" (effects (font (size 1.27 1.27)))) (number "C1" (effects (font (size 1.27 1.27)))))'
+    ' (pin output line (at -27.94 144.78 0) (length 2.54) (name "SPI_SCK" (effects (font (size 1.27 1.27)))) (number "C2" (effects (font (size 1.27 1.27)))))'
+    ' (pin output line (at -27.94 139.7 0) (length 2.54) (name "SPI_MOSI" (effects (font (size 1.27 1.27)))) (number "C3" (effects (font (size 1.27 1.27)))))'
+    ' (pin input line (at -27.94 134.62 0) (length 2.54) (name "SPI_MISO" (effects (font (size 1.27 1.27)))) (number "C4" (effects (font (size 1.27 1.27)))))'
+    ' (pin output line (at -27.94 129.54 0) (length 2.54) (name "ADC_PD" (effects (font (size 1.27 1.27)))) (number "D1" (effects (font (size 1.27 1.27)))))'
+    ' (pin output line (at -27.94 124.46 0) (length 2.54) (name "ADC_SYNC_P" (effects (font (size 1.27 1.27)))) (number "D2" (effects (font (size 1.27 1.27)))))'
+    ' (pin output line (at -27.94 119.38 0) (length 2.54) (name "ADC_SYNC_N" (effects (font (size 1.27 1.27)))) (number "D3" (effects (font (size 1.27 1.27)))))'
+    ' (pin output line (at -27.94 114.3 0) (length 2.54) (name "ADC_CAL_TRIG" (effects (font (size 1.27 1.27)))) (number "D4" (effects (font (size 1.27 1.27)))))'
+    ' (pin input line (at -27.94 109.22 0) (length 2.54) (name "ADC_CAL_STAT" (effects (font (size 1.27 1.27)))) (number "D5" (effects (font (size 1.27 1.27)))))'
+    # LEFT PINS: ADC status
+    ' (pin input line (at -27.94 104.14 0) (length 2.54) (name "FPGA_ORA0" (effects (font (size 1.27 1.27)))) (number "E1" (effects (font (size 1.27 1.27)))))'
+    ' (pin input line (at -27.94 99.06 0) (length 2.54) (name "FPGA_ORA1" (effects (font (size 1.27 1.27)))) (number "E2" (effects (font (size 1.27 1.27)))))'
+    ' (pin input line (at -27.94 93.98 0) (length 2.54) (name "FPGA_ORB0" (effects (font (size 1.27 1.27)))) (number "E3" (effects (font (size 1.27 1.27)))))'
+    ' (pin input line (at -27.94 88.9 0) (length 2.54) (name "FPGA_ORB1" (effects (font (size 1.27 1.27)))) (number "E4" (effects (font (size 1.27 1.27)))))'
+    # LEFT PINS: Sequencer
+    ' (pin input line (at -27.94 78.74 0) (length 2.54) (name "PWRGD_SEQ" (effects (font (size 1.27 1.27)))) (number "F1" (effects (font (size 1.27 1.27)))))'
+    ' (pin input line (at -27.94 73.66 0) (length 2.54) (name "SEQ_DONE" (effects (font (size 1.27 1.27)))) (number "F2" (effects (font (size 1.27 1.27)))))'
+    # RIGHT PINS: Clock inputs
+    ' (pin input line (at 231.14 195.58 180) (length 2.54) (name "FPGA_REFCLK_P" (effects (font (size 1.27 1.27)))) (number "G1" (effects (font (size 1.27 1.27)))))'
+    ' (pin input line (at 231.14 190.5 180) (length 2.54) (name "FPGA_REFCLK_N" (effects (font (size 1.27 1.27)))) (number "G2" (effects (font (size 1.27 1.27)))))'
+    ' (pin input line (at 231.14 185.42 180) (length 2.54) (name "FPGA_SPWCLK_P" (effects (font (size 1.27 1.27)))) (number "G3" (effects (font (size 1.27 1.27)))))'
+    ' (pin input line (at 231.14 180.34 180) (length 2.54) (name "FPGA_SPWCLK_N" (effects (font (size 1.27 1.27)))) (number "G4" (effects (font (size 1.27 1.27)))))'
+    # RIGHT PINS: SPI to Clock
+    ' (pin output line (at 231.14 165.1 180) (length 2.54) (name "LMX_CS" (effects (font (size 1.27 1.27)))) (number "H1" (effects (font (size 1.27 1.27)))))'
+    ' (pin output line (at 231.14 160.02 180) (length 2.54) (name "LMX_SCK" (effects (font (size 1.27 1.27)))) (number "H2" (effects (font (size 1.27 1.27)))))'
+    ' (pin output line (at 231.14 154.94 180) (length 2.54) (name "LMX_SDI" (effects (font (size 1.27 1.27)))) (number "H3" (effects (font (size 1.27 1.27)))))'
+    ' (pin input line (at 231.14 149.86 180) (length 2.54) (name "LMX_MUXOUT" (effects (font (size 1.27 1.27)))) (number "H4" (effects (font (size 1.27 1.27)))))'
+    ' (pin output line (at 231.14 144.78 180) (length 2.54) (name "LMX_CAL" (effects (font (size 1.27 1.27)))) (number "H5" (effects (font (size 1.27 1.27)))))'
+    ' (pin output line (at 231.14 139.7 180) (length 2.54) (name "LMX_SYNC" (effects (font (size 1.27 1.27)))) (number "H6" (effects (font (size 1.27 1.27)))))'
+    ' (pin output line (at 231.14 129.54 180) (length 2.54) (name "LMK_CS" (effects (font (size 1.27 1.27)))) (number "J1" (effects (font (size 1.27 1.27)))))'
+    ' (pin output line (at 231.14 124.46 180) (length 2.54) (name "LMK_SCK" (effects (font (size 1.27 1.27)))) (number "J2" (effects (font (size 1.27 1.27)))))'
+    ' (pin bidirectional line (at 231.14 119.38 180) (length 2.54) (name "LMK_SDIO" (effects (font (size 1.27 1.27)))) (number "J3" (effects (font (size 1.27 1.27)))))'
+    ' (pin output line (at 231.14 114.3 180) (length 2.54) (name "LMK_RESET" (effects (font (size 1.27 1.27)))) (number "J4" (effects (font (size 1.27 1.27)))))'
+    ' (pin output line (at 231.14 109.22 180) (length 2.54) (name "LMK_SYNC" (effects (font (size 1.27 1.27)))) (number "J5" (effects (font (size 1.27 1.27)))))'
+    # RIGHT PINS: SpaceWire
+    ' (pin output line (at 231.14 93.98 180) (length 2.54) (name "SPW_TX_P" (effects (font (size 1.27 1.27)))) (number "K1" (effects (font (size 1.27 1.27)))))'
+    ' (pin output line (at 231.14 88.9 180) (length 2.54) (name "SPW_TX_N" (effects (font (size 1.27 1.27)))) (number "K2" (effects (font (size 1.27 1.27)))))'
+    ' (pin input line (at 231.14 83.82 180) (length 2.54) (name "SPW_RX_P" (effects (font (size 1.27 1.27)))) (number "K3" (effects (font (size 1.27 1.27)))))'
+    ' (pin input line (at 231.14 78.74 180) (length 2.54) (name "SPW_RX_N" (effects (font (size 1.27 1.27)))) (number "K4" (effects (font (size 1.27 1.27)))))'
+    ' (pin output line (at 231.14 68.58 180) (length 2.54) (name "SPW_TX2_P" (effects (font (size 1.27 1.27)))) (number "K5" (effects (font (size 1.27 1.27)))))'
+    ' (pin output line (at 231.14 63.5 180) (length 2.54) (name "SPW_TX2_N" (effects (font (size 1.27 1.27)))) (number "K6" (effects (font (size 1.27 1.27)))))'
+    ' (pin input line (at 231.14 58.42 180) (length 2.54) (name "SPW_RX2_P" (effects (font (size 1.27 1.27)))) (number "K7" (effects (font (size 1.27 1.27)))))'
+    ' (pin input line (at 231.14 53.34 180) (length 2.54) (name "SPW_RX2_N" (effects (font (size 1.27 1.27)))) (number "K8" (effects (font (size 1.27 1.27)))))'
+    # BOTTOM PINS: Power
+    ' (pin power_in line (at 38.1 -10.16 90) (length 2.54) (name "VCCINT" (effects (font (size 1.27 1.27)))) (number "L1" (effects (font (size 1.27 1.27)))))'
+    ' (pin power_in line (at 88.9 -10.16 90) (length 2.54) (name "VCCAUX" (effects (font (size 1.27 1.27)))) (number "L2" (effects (font (size 1.27 1.27)))))'
+    ' (pin power_in line (at 139.7 -10.16 90) (length 2.54) (name "VCCO_0" (effects (font (size 1.27 1.27)))) (number "L3" (effects (font (size 1.27 1.27)))))'
+    ' (pin power_in line (at 190.5 -10.16 90) (length 2.54) (name "VCCO_1" (effects (font (size 1.27 1.27)))) (number "L4" (effects (font (size 1.27 1.27)))))'
+    ' (pin power_in line (at 63.5 205.74 270) (length 2.54) (name "GND" (effects (font (size 1.27 1.27)))) (number "M1" (effects (font (size 1.27 1.27)))))'
+    ' (pin power_in line (at 139.7 205.74 270) (length 2.54) (name "GND" (effects (font (size 1.27 1.27)))) (number "M2" (effects (font (size 1.27 1.27)))))'
+    '))'
+)
+
 LIB_CONN_02 = (
     '(symbol "Connector:Conn_01x02" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)'
     ' (property "Reference" "J" (at 0 2.54 0) (effects (font (size 1.27 1.27))))'
@@ -536,83 +610,36 @@ def _gen_sheet03():
 
 
 def _gen_sheet04():
-    """Sheet04: FPGA XQRVC1902-SP."""
+    """Sheet04: FPGA XQRVC1902-SP with real IC symbol and pin connections."""
     lib = (
         f'    {_power_gnd()}\n'
         f'    {_power_vcc("+1V0")}\n'
         f'    {_power_vcc("+1V8")}\n'
         f'    {_power_vcc("+3V3")}\n'
+        + LIB_FPGA_XQRVC1902 + '\n'
         + LIB_C + '\n'
-        + LIB_R + '\n'
     )
     content = _sheet_header("44444444-4444-4444-4444-444444444444",
                             "X-Band FPGA XQRVC1902-SP", lib)
-    # Simplified FPGA symbol (large rectangle with labels)
+    # FPGA IC at (200, 100) — pins extend to left/right edges
     content += (
-        f'  (symbol (lib_id "power:GND") (at 200 200 0) (unit 1)\n'
+        f'  (symbol (lib_id "Custom:XQRVC1902-SP") (at 200 100 0) (unit 1)\n'
         f'    (in_bom yes) (on_board yes)\n'
         f'    (uuid "{_uuid()}")\n'
-        f'    (property "Reference" "U2" (at 200 190 0) (effects (font (size 1.27 1.27))))\n'
-        f'    (property "Value" "XQRVC1902-SP" (at 200 210 0) (effects (font (size 1.27 1.27))))\n'
-        f'    (property "Footprint" "" (at 200 200 0) (effects (font (size 1.27 1.27)) hide))\n'
+        f'    (property "Reference" "U2" (at 200 90 0) (effects (font (size 1.27 1.27))))\n'
+        f'    (property "Value" "XQRVC1902-SP" (at 200 110 0) (effects (font (size 1.27 1.27))))\n'
+        f'    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))\n'
         f'  )\n'
     )
-    # JESD204C inputs from ADC
-    content += _label("JESD_DA0_P", 100, 40, 180, "input")
-    content += _label("JESD_DA0_N", 100, 50, 180, "input")
-    content += _label("JESD_DA1_P", 100, 60, 180, "input")
-    content += _label("JESD_DA1_N", 100, 70, 180, "input")
-    content += _label("JESD_DA2_P", 100, 80, 180, "input")
-    content += _label("JESD_DA2_N", 100, 90, 180, "input")
-    content += _label("JESD_DA3_P", 100, 100, 180, "input")
-    content += _label("JESD_DA3_N", 100, 110, 180, "input")
-    # SPI to ADC
-    content += _label("ADC_CS", 100, 130, 180, "output")
-    content += _label("ADC_SCLK", 100, 140, 180, "output")
-    content += _label("ADC_SDI", 100, 150, 180, "output")
-    content += _label("ADC_SDO", 100, 160, 180, "input")
-    content += _label("ADC_PD", 100, 170, 180, "output")
-    content += _label("ADC_SYNC_P", 100, 180, 180, "output")
-    content += _label("ADC_SYNC_N", 100, 190, 180, "output")
-    content += _label("ADC_CALTRIG", 100, 200, 180, "output")
-    content += _label("ADC_CALSTAT", 100, 210, 180, "input")
-    # ADC status
-    content += _label("ADC_ORA0", 100, 220, 180, "input")
-    content += _label("ADC_ORA1", 100, 230, 180, "input")
-    content += _label("ADC_ORB0", 100, 240, 180, "input")
-    content += _label("ADC_ORB1", 100, 250, 180, "input")
-    content += _label("ADC_TEMP_P", 100, 260, 180, "input")
-    content += _label("ADC_TEMP_N", 100, 270, 180, "input")
-    # Clock outputs
-    content += _label("FPGA_REFCLK_P", 300, 40, 0, "input")
-    content += _label("FPGA_REFCLK_N", 300, 50, 0, "input")
-    content += _label("FPGA_SPWCLK_P", 300, 60, 0, "input")
-    content += _label("FPGA_SPWCLK_N", 300, 70, 0, "input")
-    # SPI to clock chips
-    content += _label("LMX_CS", 300, 90, 0, "output")
-    content += _label("LMX_SCK", 300, 100, 0, "output")
-    content += _label("LMX_SDI", 300, 110, 0, "output")
-    content += _label("LMX_MUXOUT", 300, 120, 0, "input")
-    content += _label("LMX_CAL", 300, 130, 0, "output")
-    content += _label("LMX_SYNC", 300, 140, 0, "output")
-    content += _label("LMK_CS", 300, 160, 0, "output")
-    content += _label("LMK_SCK", 300, 170, 0, "output")
-    content += _label("LMK_SDIO", 300, 180, 0, "bidirectional")
-    content += _label("LMK_RESET", 300, 190, 0, "output")
-    content += _label("LMK_SYNC", 300, 200, 0, "output")
-    # SpaceWire
-    content += _label("SPW_TX_P", 300, 220, 0, "output")
-    content += _label("SPW_TX_N", 300, 230, 0, "output")
-    content += _label("SPW_RX_P", 300, 240, 0, "input")
-    content += _label("SPW_RX_N", 300, 250, 0, "input")
-    content += _label("SPW_TX2_P", 300, 260, 0, "output")
-    content += _label("SPW_TX2_N", 300, 270, 0, "output")
-    content += _label("SPW_RX2_P", 300, 280, 0, "input")
-    content += _label("SPW_RX2_N", 300, 290, 0, "input")
-    # Sequencer status
-    content += _label("PWRGD_SEQ", 100, 290, 180, "input")
-    content += _label("SEQ_DONE", 100, 300, 180, "input")
-    # Decoupling
+    # Decoupling capacitors
+    content += _comp("Device:C", "C20", "100nF", 350, 40, "C_0402", ["1","2"])
+    content += _comp("Device:C", "C21", "10uF", 350, 55, "C_0603", ["1","2"])
+    content += _comp("Device:C", "C22", "100nF", 350, 70, "C_0402", ["1","2"])
+    content += _comp("Device:C", "C23", "10uF", 350, 85, "C_0603", ["1","2"])
+    content += _comp("Device:C", "C24", "100nF", 350, 100, "C_0402", ["1","2"])
+    content += _comp("Device:C", "C25", "10uF", 350, 115, "C_0603", ["1","2"])
+    content += _sheet_footer()
+    return content
     content += _comp("Device:C", "C20", "100nF", 350, 40, "C_0402", ["1","2"])
     content += _comp("Device:C", "C21", "10uF", 350, 55, "C_0603", ["1","2"])
     content += _comp("Device:C", "C22", "100nF", 350, 70, "C_0402", ["1","2"])

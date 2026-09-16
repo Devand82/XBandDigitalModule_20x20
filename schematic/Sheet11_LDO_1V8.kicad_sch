@@ -255,19 +255,184 @@
   
   
   
-  (label "+3V3" (at 186.0300 72.3800 0) (effects (font (size 1.27 1.27))) (uuid "c82ef7ab770a4fe096d0eb9da15f0d7f"))
-  (label "EN_U9" (at 186.0300 73.6500 0) (effects (font (size 1.27 1.27))) (uuid "a1c79c4f31694e18aa11963d95f63e03"))
-  (label "+3V3" (at 186.0300 74.9200 0) (effects (font (size 1.27 1.27))) (uuid "a2d9b66576c54970a893205a55373562"))
-  (label "+3V3" (at 186.0300 76.1900 0) (effects (font (size 1.27 1.27))) (uuid "0006ef3740bc46c5b109398e4319c9ba"))
-  (label "TPS7H1111-SP_CLM" (at 186.0300 77.4600 0) (effects (font (size 1.27 1.27))) (uuid "27d4638e1af64210a5adc2a6f57dbbb8"))
-  (label "TPS7H1111-SP_PG" (at 213.9700 72.3800 0) (effects (font (size 1.27 1.27))) (uuid "d7a07714d727429da9cdc758e3e98a53"))
-  (label "TPS7H1111-SP_REF" (at 213.9700 73.6500 0) (effects (font (size 1.27 1.27))) (uuid "7b7e8d4b8be54c72906f721dc0bed320"))
-  (label "TPS7H1111-SP_OUT" (at 213.9700 74.9200 0) (effects (font (size 1.27 1.27))) (uuid "a905fa3e878045c3ade497f1b850b440"))
-  (label "TPS7H1111-SP_OUT" (at 213.9700 76.1900 0) (effects (font (size 1.27 1.27))) (uuid "9b924d7f29184a26922d796607fab40e"))
-  (label "TPS7H1111-SP_OUT" (at 213.9700 77.4600 0) (effects (font (size 1.27 1.27))) (uuid "be7c5d94655d4f169d7392f7debbf07d"))
-  (label "GND" (at 198.0950 92.7000 0) (effects (font (size 1.27 1.27))) (uuid "206a848f4eaf464aabc09401fa12f885"))
-  (label "TPS7H1111-SP_SS" (at 199.3650 92.7000 0) (effects (font (size 1.27 1.27))) (uuid "2740fcab8fd6494aacd6d35e618b5ce2"))
-  (label "TPS7H1111-SP_STAB" (at 200.6350 92.7000 0) (effects (font (size 1.27 1.27))) (uuid "4bcc7cf683154167954c4fd2832f491a"))
-  (label "TPS7H1111-SP_FB" (at 201.9050 92.7000 0) (effects (font (size 1.27 1.27))) (uuid "641168b297ca40c69b077e432e425622"))
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  (global_label "+3V3" (at 186.0300 72.3800 0) (effects (font (size 1.27 1.27))) (uuid "bc17700efc5442eeb64e44214e818f02"))
+  (global_label "EN_U9" (at 186.0300 73.6500 0) (effects (font (size 1.27 1.27))) (uuid "d78f7a2daa5343f6ae83191b934953f8"))
+  (global_label "+3V3" (at 186.0300 74.9200 0) (effects (font (size 1.27 1.27))) (uuid "e5d3e6a10e0945f6a2adbe3762051fcb"))
+  (global_label "+3V3" (at 186.0300 76.1900 0) (effects (font (size 1.27 1.27))) (uuid "ef265db79c9f4fe4862a4f622a9fa2bf"))
+  (global_label "TPS7H1111-SP_CLM" (at 186.0300 77.4600 0) (effects (font (size 1.27 1.27))) (uuid "76cddd88551347ebb9a16803fb7c117f"))
+  (global_label "TPS7H1111-SP_PG" (at 213.9700 72.3800 0) (effects (font (size 1.27 1.27))) (uuid "91f99720e03f48eeab67c09bb8c508f9"))
+  (global_label "U9_REF" (at 213.9700 73.6500 0) (effects (font (size 1.27 1.27))) (uuid "8383324c166d4e58969574c57e7605fb"))
+  (global_label "TPS7H1111-SP_OUT" (at 213.9700 74.9200 0) (effects (font (size 1.27 1.27))) (uuid "215dc7491ed84357a65d68afa8856a43"))
+  (global_label "TPS7H1111-SP_OUT" (at 213.9700 76.1900 0) (effects (font (size 1.27 1.27))) (uuid "ae13b01d67414dac8991f4833b46fa78"))
+  (global_label "TPS7H1111-SP_OUT" (at 213.9700 77.4600 0) (effects (font (size 1.27 1.27))) (uuid "b7cac8196dc14dfbba7801862c3bbfc4"))
+  (global_label "GND" (at 198.0950 92.7000 0) (effects (font (size 1.27 1.27))) (uuid "aa55adcb11a544848bfd7fdebd1ce3db"))
+  (global_label "TPS7H1111-SP_SS" (at 199.3650 92.7000 0) (effects (font (size 1.27 1.27))) (uuid "69c72933de1e4469a2a83e413022f4dd"))
+  (global_label "TPS7H1111-SP_STAB" (at 200.6350 92.7000 0) (effects (font (size 1.27 1.27))) (uuid "b56e720fa99b47a88e40cc63f3545a3d"))
+  (global_label "TPS7H1111-SP_FB" (at 201.9050 92.7000 0) (effects (font (size 1.27 1.27))) (uuid "f4e6df982aac4d148c013103f4b7b498"))
   (sheet_instances (path "/" (page "1")))
 )

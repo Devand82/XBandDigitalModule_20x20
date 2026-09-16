@@ -8,7 +8,7 @@
   )
   (lib_symbols
         (symbol "Custom:TPS7H3014-SP" (in_bom yes) (on_board yes)
-      (property "Reference" "U_TPS7H" (at 0 12.7 0) (effects (font (size 1.27 1.27))))
+      (property "Reference" "U14" (at 0 12.7 0) (effects (font (size 1.27 1.27))))
       (property "Value" "TPS7H3014-SP" (at 0 -12.7 0) (effects (font (size 1.27 1.27))))
       (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
       (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
@@ -39,8 +39,8 @@
     ))
     (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes) (property "Reference" "#PWR01" (at 0 -6.35 0) (effects (font (size 1.27 1.27)) hide)) (property "Value" "GND" (at 0 -3.81 0) (effects (font (size 1.27 1.27)))) (symbol "GND_0_1" (polyline (pts (xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)) (stroke (width 0) (type default)) (fill (type none)))) (symbol "GND_1_1" (pin power_in line (at 0 0 270) (length 0) (name "GND" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))))
     (symbol "power:+4V5" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes) (property "Reference" "#PWR02" (at 0 -3.81 0) (effects (font (size 1.27 1.27)) hide)) (property "Value" "+4V5" (at 0 3.81 0) (effects (font (size 1.27 1.27)))) (symbol "+4V5_0_1" (polyline (pts (xy -0.762 1.27) (xy 0 2.54)) (stroke (width 0) (type default)) (fill (type none))) (polyline (pts (xy 0 0) (xy 0 2.54)) (stroke (width 0) (type default)) (fill (type none))) (polyline (pts (xy 0 2.54) (xy 0.762 1.27)) (stroke (width 0) (type default)) (fill (type none)))) (symbol "+4V5_1_1" (pin power_in line (at 0 0 90) (length 0) (name "+4V5" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))))
-(symbol "Device:C" (pin_names (offset 0.254)) (in_bom yes) (on_board yes) (property "Reference" "C_dev" (at 0.635 2.54 0) (effects (font (size 1.27 1.27)))) (property "Value" "C" (at 0.635 -2.54 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 0.9652 0 0) (effects (font (size 1.27 1.27)) hide)) (property "Datasheet" "~" (at 0 0 0) (effects (font (size 1.27 1.27)) hide)) (symbol "C_0_1" (polyline (pts (xy -2.032 -0.762) (xy 2.032 -0.762)) (stroke (width 0.508) (type default)) (fill (type none))) (polyline (pts (xy -2.032 0.762) (xy 2.032 0.762)) (stroke (width 0.508) (type default)) (fill (type none)))) (symbol "C_1_1" (pin passive line (at 0 3.81 270) (length 2.54) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin passive line (at 0 -3.81 90) (length 2.54) (name "~" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))))
-(symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes) (property "Reference" "R_dev" (at 2.032 0 90) (effects (font (size 1.27 1.27)))) (property "Value" "R" (at 0 0 90) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at -1.778 0 90) (effects (font (size 1.27 1.27)) hide)) (property "Datasheet" "~" (at 0 0 0) (effects (font (size 1.27 1.27)) hide)) (symbol "R_0_1" (rectangle (start -1.016 -2.54) (end 1.016 2.54) (stroke (width 0.254) (type default)) (fill (type background)))) (symbol "R_1_1" (pin passive line (at 0 3.81 270) (length 1.27) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin passive line (at 0 -3.81 90) (length 1.27) (name "~" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))))
+(symbol "Device:C" (pin_names (offset 0.254)) (in_bom yes) (on_board yes) (property "Reference" "C125" (at 0.635 2.54 0) (effects (font (size 1.27 1.27)))) (property "Value" "C" (at 0.635 -2.54 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 0.9652 0 0) (effects (font (size 1.27 1.27)) hide)) (property "Datasheet" "~" (at 0 0 0) (effects (font (size 1.27 1.27)) hide)) (symbol "C_0_1" (polyline (pts (xy -2.032 -0.762) (xy 2.032 -0.762)) (stroke (width 0.508) (type default)) (fill (type none))) (polyline (pts (xy -2.032 0.762) (xy 2.032 0.762)) (stroke (width 0.508) (type default)) (fill (type none)))) (symbol "C_1_1" (pin passive line (at 0 3.81 270) (length 2.54) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin passive line (at 0 -3.81 90) (length 2.54) (name "~" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))))
+(symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes) (property "Reference" "R74" (at 2.032 0 90) (effects (font (size 1.27 1.27)))) (property "Value" "R" (at 0 0 90) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at -1.778 0 90) (effects (font (size 1.27 1.27)) hide)) (property "Datasheet" "~" (at 0 0 0) (effects (font (size 1.27 1.27)) hide)) (symbol "R_0_1" (rectangle (start -1.016 -2.54) (end 1.016 2.54) (stroke (width 0.254) (type default)) (fill (type background)))) (symbol "R_1_1" (pin passive line (at 0 3.81 270) (length 1.27) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin passive line (at 0 -3.81 90) (length 1.27) (name "~" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))))
   )
   (symbol (lib_id "Custom:TPS7H3014-SP") (at 120 80 0) (unit 1)
     (in_bom yes) (on_board yes)
@@ -510,49 +510,544 @@
   
   
   
-  (label "+3V3" (at 104.7600 71.1100 0) (effects (font (size 1.27 1.27))) (uuid "9c2c8cc1d35544f5b7fbc6d9d20b6cd5"))
-  (label "TPS7H3014-SP_SENSE1" (at 104.7600 72.3800 0) (effects (font (size 1.27 1.27))) (uuid "9af36d80ab3b4e86b781de4640eb9b78"))
-  (label "TPS7H3014-SP_SENSE2" (at 104.7600 73.6500 0) (effects (font (size 1.27 1.27))) (uuid "515f45f9ddcb49be9ab815194dced567"))
-  (label "TPS7H3014-SP_SENSE3" (at 104.7600 74.9200 0) (effects (font (size 1.27 1.27))) (uuid "694782d6ddd546d6bdd89c670fdba5a0"))
-  (label "TPS7H3014-SP_SENSE4" (at 104.7600 76.1900 0) (effects (font (size 1.27 1.27))) (uuid "22cb330c0ba34b54a1750188aaa08bc6"))
-  (label "TPS7H3014-SP_HYS" (at 104.7600 77.4600 0) (effects (font (size 1.27 1.27))) (uuid "05f0745bdb2d43969bf3873bd54f252e"))
-  (label "EN1" (at 135.2400 71.1100 0) (effects (font (size 1.27 1.27))) (uuid "8495c1032539435396e206d0d35fb5de"))
-  (label "EN2" (at 135.2400 72.3800 0) (effects (font (size 1.27 1.27))) (uuid "de4c42b2d693404fb1e8c42356631b36"))
-  (label "EN3" (at 135.2400 73.6500 0) (effects (font (size 1.27 1.27))) (uuid "57f8ef17d4c9414dae72daaa1b2240cb"))
-  (label "EN4" (at 135.2400 74.9200 0) (effects (font (size 1.27 1.27))) (uuid "bed5c00827244056832216cb13792ceb"))
-  (label "TPS7H3014-SP_UP" (at 135.2400 76.1900 0) (effects (font (size 1.27 1.27))) (uuid "f99e76efd98d4aef8750ecc2932e6bfa"))
-  (label "TPS7H3014-SP_DOWN" (at 135.2400 77.4600 0) (effects (font (size 1.27 1.27))) (uuid "8976e3c5c0bf434e88f0746f1ca9407e"))
-  (label "TPS7H3014-SP_FAULT" (at 135.2400 78.7300 0) (effects (font (size 1.27 1.27))) (uuid "3b2ef4abe178484aab9dced7b97c412a"))
-  (label "TPS7H3014-SP_PWRGD" (at 135.2400 80.0000 0) (effects (font (size 1.27 1.27))) (uuid "bd9d57f1ef3b48f8951013b2a74bb4c3"))
-  (label "TPS7H3014-SP_SEQ_DONE" (at 135.2400 81.2700 0) (effects (font (size 1.27 1.27))) (uuid "8bfb85c095de4b8984bdcb93287dca75"))
-  (label "TPS7H3014-SP_REFCAP" (at 116.1900 93.9700 0) (effects (font (size 1.27 1.27))) (uuid "266d63328bf4444b90d204c03c88e0fa"))
-  (label "TPS7H3014-SP_VLDO" (at 117.4600 93.9700 0) (effects (font (size 1.27 1.27))) (uuid "ea830bea055c4587b71c7b666123909c"))
-  (label "GND" (at 118.7300 93.9700 0) (effects (font (size 1.27 1.27))) (uuid "69af9117d1614b51994f92d97e322a1d"))
-  (label "+3V3" (at 120.0000 93.9700 0) (effects (font (size 1.27 1.27))) (uuid "8a93001695be4fddaea1b36bca01072d"))
-  (label "+3V3" (at 121.2700 93.9700 0) (effects (font (size 1.27 1.27))) (uuid "df73e8f26a4e409a9692f354384afac3"))
-  (label "TPS7H3014-SP_DLY" (at 122.5400 93.9700 0) (effects (font (size 1.27 1.27))) (uuid "68b1789100cf45918cb7d2492bc20788"))
-  (label "TPS7H3014-SP_REG" (at 123.8100 93.9700 0) (effects (font (size 1.27 1.27))) (uuid "1cfb7480a26c48e8be2ca9a0722c5c42"))
-  (label "+3V3" (at 264.7600 71.1100 0) (effects (font (size 1.27 1.27))) (uuid "c5169f8074434df1b056bdd798ffa63b"))
-  (label "TPS7H3014-SP_SENSE1" (at 264.7600 72.3800 0) (effects (font (size 1.27 1.27))) (uuid "6828e5a6276344c2a4f0282014ff62f3"))
-  (label "TPS7H3014-SP_SENSE2" (at 264.7600 73.6500 0) (effects (font (size 1.27 1.27))) (uuid "e8b715936f434d5cb5dffef8030c3931"))
-  (label "TPS7H3014-SP_SENSE3" (at 264.7600 74.9200 0) (effects (font (size 1.27 1.27))) (uuid "4ea4e370d91a4905b66037062dfb5c0e"))
-  (label "TPS7H3014-SP_SENSE4" (at 264.7600 76.1900 0) (effects (font (size 1.27 1.27))) (uuid "d8e672145f104e5ebe687f4aef204b64"))
-  (label "TPS7H3014-SP_HYS" (at 264.7600 77.4600 0) (effects (font (size 1.27 1.27))) (uuid "90fb44ed46a642399af21caa8ce14753"))
-  (label "EN1" (at 295.2400 71.1100 0) (effects (font (size 1.27 1.27))) (uuid "5fe98de5e2ab44cc9883da45331b7947"))
-  (label "EN2" (at 295.2400 72.3800 0) (effects (font (size 1.27 1.27))) (uuid "fb9984ec988d44efaedbab9be114f6f4"))
-  (label "EN3" (at 295.2400 73.6500 0) (effects (font (size 1.27 1.27))) (uuid "a6d7c999bda947d2bf9dc95e0f6a7f8a"))
-  (label "EN4" (at 295.2400 74.9200 0) (effects (font (size 1.27 1.27))) (uuid "1009772d376b4e30a751505621a01a26"))
-  (label "TPS7H3014-SP_UP" (at 295.2400 76.1900 0) (effects (font (size 1.27 1.27))) (uuid "f9ca832c28ee4589890ee86002379f10"))
-  (label "TPS7H3014-SP_DOWN" (at 295.2400 77.4600 0) (effects (font (size 1.27 1.27))) (uuid "8abf41bea7824219ba368a4d3479a8b1"))
-  (label "TPS7H3014-SP_FAULT" (at 295.2400 78.7300 0) (effects (font (size 1.27 1.27))) (uuid "95ab073f78bf4122915cefb74f780383"))
-  (label "TPS7H3014-SP_PWRGD" (at 295.2400 80.0000 0) (effects (font (size 1.27 1.27))) (uuid "c6ffc6a29d3541bc81dca5589abd5983"))
-  (label "TPS7H3014-SP_SEQ_DONE" (at 295.2400 81.2700 0) (effects (font (size 1.27 1.27))) (uuid "ee71db0e9fa6480f98cdcfbbea8df954"))
-  (label "TPS7H3014-SP_REFCAP" (at 276.1900 93.9700 0) (effects (font (size 1.27 1.27))) (uuid "01a734980d3c4a228dc7ada6da42d153"))
-  (label "TPS7H3014-SP_VLDO" (at 277.4600 93.9700 0) (effects (font (size 1.27 1.27))) (uuid "ea48fce9d7d54157af3926e7db49d089"))
-  (label "GND" (at 278.7300 93.9700 0) (effects (font (size 1.27 1.27))) (uuid "bbd5d7e7d67f4b969867d6ef7e839454"))
-  (label "+3V3" (at 280.0000 93.9700 0) (effects (font (size 1.27 1.27))) (uuid "6eca4e703c6a4fb9a34c9adb6a12ed15"))
-  (label "+3V3" (at 281.2700 93.9700 0) (effects (font (size 1.27 1.27))) (uuid "377b462b0802408185b4bce96dfdb30c"))
-  (label "TPS7H3014-SP_DLY" (at 282.5400 93.9700 0) (effects (font (size 1.27 1.27))) (uuid "6572164427ec4b65bcdb99c2517b7cf5"))
-  (label "TPS7H3014-SP_REG" (at 283.8100 93.9700 0) (effects (font (size 1.27 1.27))) (uuid "7ace7f3a73bf4a5eba1dba07d9c35e5a"))
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  (global_label "+3V3" (at 104.7600 71.1100 0) (effects (font (size 1.27 1.27))) (uuid "9624b1b1111544709d5140a7a0435643"))
+  (global_label "TPS7H3014-SP_SENSE1" (at 104.7600 72.3800 0) (effects (font (size 1.27 1.27))) (uuid "f5844bdba6a948508c8168d8b2187ace"))
+  (global_label "TPS7H3014-SP_SENSE2" (at 104.7600 73.6500 0) (effects (font (size 1.27 1.27))) (uuid "8c90a9d2d69449ae8f9dee7011b16d00"))
+  (global_label "TPS7H3014-SP_SENSE3" (at 104.7600 74.9200 0) (effects (font (size 1.27 1.27))) (uuid "d5d0063d308442eeabb6b13fa48983c5"))
+  (global_label "TPS7H3014-SP_SENSE4" (at 104.7600 76.1900 0) (effects (font (size 1.27 1.27))) (uuid "b770cc08ed8e4cb086e127d0ea65d8ed"))
+  (global_label "TPS7H3014-SP_HYS" (at 104.7600 77.4600 0) (effects (font (size 1.27 1.27))) (uuid "59e59da8f04642f3820a1199d654d176"))
+  (global_label "EN1" (at 135.2400 71.1100 0) (effects (font (size 1.27 1.27))) (uuid "2e9d5e9081404ad3ba82282e2008335a"))
+  (global_label "EN2" (at 135.2400 72.3800 0) (effects (font (size 1.27 1.27))) (uuid "d3f194704f2345fbaf74bc7f55b25fe7"))
+  (global_label "EN3" (at 135.2400 73.6500 0) (effects (font (size 1.27 1.27))) (uuid "d8a7471b083a411590471d94f76c171f"))
+  (global_label "EN4" (at 135.2400 74.9200 0) (effects (font (size 1.27 1.27))) (uuid "dca6f2c597aa47bc82fd84a5fdbca86f"))
+  (global_label "TPS7H3014-SP_UP" (at 135.2400 76.1900 0) (effects (font (size 1.27 1.27))) (uuid "daa1c7b5a3af4c409f492e49227bcbd8"))
+  (global_label "TPS7H3014-SP_DOWN" (at 135.2400 77.4600 0) (effects (font (size 1.27 1.27))) (uuid "80ad58eb65a14e80b9f4f53838166c1d"))
+  (global_label "TPS7H3014-SP_FAULT" (at 135.2400 78.7300 0) (effects (font (size 1.27 1.27))) (uuid "482c01fa4d7449b89eb436fe457f4bc6"))
+  (global_label "TPS7H3014-SP_PWRGD" (at 135.2400 80.0000 0) (effects (font (size 1.27 1.27))) (uuid "b479b22641314ddfbdb39ed198a3cc6e"))
+  (global_label "TPS7H3014-SP_SEQ_DONE" (at 135.2400 81.2700 0) (effects (font (size 1.27 1.27))) (uuid "9f75ad1d4f19461f9ad7bcecd3b2c6f4"))
+  (global_label "TPS7H3014-SP_REFCAP" (at 116.1900 93.9700 0) (effects (font (size 1.27 1.27))) (uuid "29801ed2f30741dbbc037aad7267146e"))
+  (global_label "TPS7H3014-SP_VLDO" (at 117.4600 93.9700 0) (effects (font (size 1.27 1.27))) (uuid "aa80dd8c7fdf463d851d63e56c918483"))
+  (global_label "GND" (at 118.7300 93.9700 0) (effects (font (size 1.27 1.27))) (uuid "e6cad923f8ee4e59890155a4aefdee78"))
+  (global_label "+3V3" (at 120.0000 93.9700 0) (effects (font (size 1.27 1.27))) (uuid "b2be5ad537ec4d76b121c451ff67fa16"))
+  (global_label "+3V3" (at 121.2700 93.9700 0) (effects (font (size 1.27 1.27))) (uuid "fc26bee60dff454e916889f71d49d344"))
+  (global_label "TPS7H3014-SP_DLY" (at 122.5400 93.9700 0) (effects (font (size 1.27 1.27))) (uuid "c81a9300e5f34ae7bbdb5436c42884b4"))
+  (global_label "TPS7H3014-SP_REG" (at 123.8100 93.9700 0) (effects (font (size 1.27 1.27))) (uuid "af439b02a4614887ac5d25569f9f1466"))
+  (global_label "+3V3" (at 264.7600 71.1100 0) (effects (font (size 1.27 1.27))) (uuid "f1b2ffcd084d4266bd802a569456267b"))
+  (global_label "TPS7H3014-SP_SENSE1" (at 264.7600 72.3800 0) (effects (font (size 1.27 1.27))) (uuid "b69e8b5e786b4c70b3660eea2ef85b5f"))
+  (global_label "TPS7H3014-SP_SENSE2" (at 264.7600 73.6500 0) (effects (font (size 1.27 1.27))) (uuid "bbffe5ad48314855811227012f8efc05"))
+  (global_label "TPS7H3014-SP_SENSE3" (at 264.7600 74.9200 0) (effects (font (size 1.27 1.27))) (uuid "ff8f0ed0d9e64c9ab70e7b0832ca0b41"))
+  (global_label "TPS7H3014-SP_SENSE4" (at 264.7600 76.1900 0) (effects (font (size 1.27 1.27))) (uuid "f30c11d895334c7e861d11a639c13f83"))
+  (global_label "TPS7H3014-SP_HYS" (at 264.7600 77.4600 0) (effects (font (size 1.27 1.27))) (uuid "70d1e857e9ec4a88867507028c375b86"))
+  (global_label "EN1" (at 295.2400 71.1100 0) (effects (font (size 1.27 1.27))) (uuid "f7680b4dfc26490fb415ac76227189da"))
+  (global_label "EN2" (at 295.2400 72.3800 0) (effects (font (size 1.27 1.27))) (uuid "5372f612df304a96b0e67ae08fddd907"))
+  (global_label "EN3" (at 295.2400 73.6500 0) (effects (font (size 1.27 1.27))) (uuid "41d7d8efe35e4658b11648d3dc9b045b"))
+  (global_label "EN4" (at 295.2400 74.9200 0) (effects (font (size 1.27 1.27))) (uuid "d360208d077a4ceda91b29ca67a1ee97"))
+  (global_label "TPS7H3014-SP_UP" (at 295.2400 76.1900 0) (effects (font (size 1.27 1.27))) (uuid "2e16baba64f547b0872b666b750353a6"))
+  (global_label "TPS7H3014-SP_DOWN" (at 295.2400 77.4600 0) (effects (font (size 1.27 1.27))) (uuid "ea11bd23da1b4b788908806f1b95b9a3"))
+  (global_label "TPS7H3014-SP_FAULT" (at 295.2400 78.7300 0) (effects (font (size 1.27 1.27))) (uuid "97c47ead71b842f7b34dfdc06e238913"))
+  (global_label "TPS7H3014-SP_PWRGD" (at 295.2400 80.0000 0) (effects (font (size 1.27 1.27))) (uuid "7b7afa72f7b44b5db1b4c306fb3165b6"))
+  (global_label "TPS7H3014-SP_SEQ_DONE" (at 295.2400 81.2700 0) (effects (font (size 1.27 1.27))) (uuid "87ec2344b6854d82a0316f7716275b81"))
+  (global_label "TPS7H3014-SP_REFCAP" (at 276.1900 93.9700 0) (effects (font (size 1.27 1.27))) (uuid "a030eef55f4043499ba3ef34747952a4"))
+  (global_label "TPS7H3014-SP_VLDO" (at 277.4600 93.9700 0) (effects (font (size 1.27 1.27))) (uuid "96de438c09db4d049f882e3c276dd238"))
+  (global_label "GND" (at 278.7300 93.9700 0) (effects (font (size 1.27 1.27))) (uuid "821b260c9d8343b79040fb7c4956fd6b"))
+  (global_label "+3V3" (at 280.0000 93.9700 0) (effects (font (size 1.27 1.27))) (uuid "fea76a9de53d46c7a4ac850632409fde"))
+  (global_label "+3V3" (at 281.2700 93.9700 0) (effects (font (size 1.27 1.27))) (uuid "b717fb944fc4490992e35256c51e1b58"))
+  (global_label "TPS7H3014-SP_DLY" (at 282.5400 93.9700 0) (effects (font (size 1.27 1.27))) (uuid "000c87d5640d4731bc383d3348a4478e"))
+  (global_label "TPS7H3014-SP_REG" (at 283.8100 93.9700 0) (effects (font (size 1.27 1.27))) (uuid "3036bd0de3314d2faa121387686160ab"))
   (sheet_instances (path "/" (page "1")))
 )

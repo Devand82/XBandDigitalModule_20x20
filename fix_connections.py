@@ -138,6 +138,16 @@ def get_net_name(pname, ref, value):
     if pn in ('VCCDIG', 'VCCCP', 'VCCMASH', 'VCCBUF', 'VCCVCO', 'VCCVCO2'): return '+3V3'
     if pn.startswith('VCC'): return '+3V3'
     if pn in ('V+', 'VDD', 'BIAS', 'VREFA', 'VREF_OUTS', 'VREFD', 'DVDD', 'AVDD'): return '+3V3'
+    # ISL70003ASEH buck pins — each instance is independent (before LX/BST catch-all)
+    isl_pins = ('LX1','LX2','LX3','LX4','LX5','LX6','LX7','LX8','LX9','LX10',
+                'FB','VERR','REF','IMON','PGOOD','NI',
+                'BUFIN+','BUFIN-','BUFOUT','OCSETA','OCSETB','HS','SS_CAP')
+    if pn in isl_pins:
+        return f'{ref}_{pn}'
+    # Buck SYNC (power sync, NOT LMX_SYNC)
+    if pn == 'SYNC' and value and 'ISL' in value.upper():
+        return f'{ref}_SYNC'
+    
     if pn.startswith('LX') or pn.startswith('BST'): return f'{value}_{pn}'
     if pn in ('LDOBYP1', 'LDOBYP2'): return '+3V3'
     
@@ -262,6 +272,13 @@ def get_net_name(pname, ref, value):
     
     if pn == 'VCONTROL': return 'VCXO_VCTRL'
     
+    # Skip NC pins — they should be truly unconnected
+    if pn == 'NC': return '~'
+    
+    # Generic connector pins — each connector is independent
+    if pn.upper().startswith('PIN_'):
+        return f'{ref}_{pn}'
+    
     return pn.replace('/', '_').replace('*', '_N').replace('+', '_P').replace('-', '_N')
 
 # Standard KiCad power symbol lib_symbols to add if needed
@@ -280,14 +297,33 @@ PWR_SYMBOL_MAP = {
     '+4V5': '+4V5', 'VIN': '+4V5',
 }
 
+def extract_labels(content):
+    """Extract all (label ...) and (global_label ...) entries from after lib_symbols."""
+    lib_end = find_lib_end(content)
+    rest = content[lib_end:]
+    labels = []
+    i = 0
+    while i < len(rest):
+        if rest[i:i+7] == '(label ':
+            end = find_balanced_end(rest, i)
+            labels.append(rest[i:end])
+            i = end
+        elif rest[i:i+14] == '(global_label ':
+            end = find_balanced_end(rest, i)
+            labels.append(rest[i:end])
+            i = end
+        else:
+            i += 1
+    return labels
+
 def process_sheet(filepath):
     content = parse_sheet(filepath)
     instances, all_pin_defs = extract_all_pin_info(content)
     
-    if not instances:
-        return content, 0, set()
-    
     lib_end = find_lib_end(content)
+    
+    # Save existing labels before removal (for sheets without ICs)
+    existing_labels = extract_labels(content)
     
     # Step 1: Remove ALL labels, global_labels, wires, junctions, no_connects
     # from the section after lib_symbols (but keep symbol instances)
@@ -296,7 +332,7 @@ def process_sheet(filepath):
         ['label', 'global_label', 'wire', 'junction', 'no_connect']
     )
     
-    # Step 2: For each pin, calculate absolute position and create wire + label
+    # Step 2: For each pin, calculate absolute position and create global_label
     new_elements = []
     connected_count = 0
     needed_power = set()
@@ -327,16 +363,43 @@ def process_sheet(filepath):
             if net_name == '~':
                 continue
             
-            # Place label DIRECTLY at pin endpoint - no wire needed.
-            # Wires cause shorts when multiple pins share the same Y-row
-            # (e.g. BGA power pins on ADC). Labels at pin positions connect
-            # by net name without any wire overlap issues.
+            # Place global_label DIRECTLY at pin endpoint - no wire needed.
+            # global_label connects across ALL sheets (label is sheet-local only).
+            # This ensures ADC→FPGA signal nets, power rails, etc. connect
+            # across schematic pages.
             new_elements.append(
-                f'(label "{net_name}" (at {ex:.4f} {ey:.4f} 0) '
+                f'(global_label "{net_name}" (at {ex:.4f} {ey:.4f} 0) '
                 f'(effects (font (size 1.27 1.27))) (uuid "{uid()}"))'
             )
             
             connected_count += 1
+    
+    # Step 2b: For sheets without IC pins, convert existing labels to global_labels
+    # This preserves inter-sheet connectivity for sheets like Sheet04_FPGA
+    # that use labels instead of IC pin connections.
+    # Count IC vs power-only pins
+    has_ic_pins = False
+    for inst in instances:
+        lib_id = inst['lib_id']
+        if lib_id.startswith('power:'):
+            continue
+        if lib_id.startswith('Device:'):
+            continue
+        if lib_id in all_pin_defs or lib_id.split(":")[-1] in all_pin_defs:
+            has_ic_pins = True
+            break
+    
+    if not has_ic_pins and existing_labels:
+        for label_text in existing_labels:
+            # Extract label name and position from (label/global_label "NAME" (at X Y angle) ...)
+            m = re.match(r'\((?:global_)?label "([^"]+)" \(at ([\d.e+-]+) ([\d.e+-]+) [\d.e+-]+\)', label_text)
+            if m:
+                name, x, y = m.group(1), m.group(2), m.group(3)
+                new_elements.append(
+                    f'(global_label "{name}" (at {x} {y} 0) '
+                    f'(effects (font (size 1.27 1.27))) (uuid "{uid()}"))'
+                )
+                connected_count += 1
     
     # Step 3: Check which power lib_symbols are needed but missing
     lib_section = clean_content[:find_lib_end(clean_content)]

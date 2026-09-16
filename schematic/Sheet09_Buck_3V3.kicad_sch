@@ -768,69 +768,772 @@
   
   
   
-  (label "ISL70003ASEH_NI" (at 179.6800 100.9500 0) (effects (font (size 1.27 1.27))) (uuid "48f32055ddbb48e591e321199b33555e"))
-  (label "ISL70003ASEH_FB" (at 179.6800 102.2200 0) (effects (font (size 1.27 1.27))) (uuid "3f98af5843b245bb910168b6523b77cf"))
-  (label "ISL70003ASEH_VERR" (at 179.6800 103.4900 0) (effects (font (size 1.27 1.27))) (uuid "e856b61d677049178b77964100d15f89"))
-  (label "OR_U7" (at 179.6800 104.7600 0) (effects (font (size 1.27 1.27))) (uuid "ab0af4253186410a97decfe8aaa46525"))
-  (label "+3V3" (at 179.6800 106.0300 0) (effects (font (size 1.27 1.27))) (uuid "d15b5eb651e7410681125188b26af8e7"))
-  (label "EN_U7" (at 179.6800 107.3000 0) (effects (font (size 1.27 1.27))) (uuid "b90108eb18f04f5da10c5e0591b25aa9"))
-  (label "RT_CT" (at 179.6800 108.5700 0) (effects (font (size 1.27 1.27))) (uuid "75b3fce1d4dd4cee8b31f697772560f3"))
-  (label "+3V3" (at 179.6800 109.8400 0) (effects (font (size 1.27 1.27))) (uuid "32a9f632fc2544cfa033f750c9f0b371"))
-  (label "LMX_SYNC" (at 179.6800 111.1100 0) (effects (font (size 1.27 1.27))) (uuid "de55cc3308dc41fdaed30d3c997395a8"))
-  (label "ISL70003ASEH_SS" (at 179.6800 112.3800 0) (effects (font (size 1.27 1.27))) (uuid "50ffd97f7e9a429388888cf7ed383fd9"))
-  (label "ISL70003ASEH_OCSETA" (at 179.6800 113.6500 0) (effects (font (size 1.27 1.27))) (uuid "a6459e532abb4a41a5211c7cab5a3be3"))
-  (label "ISL70003ASEH_OCSETB" (at 179.6800 114.9200 0) (effects (font (size 1.27 1.27))) (uuid "9889ede45509497ebe8040a35596fac2"))
-  (label "ISL70003ASEH_BUFIN_N" (at 179.6800 116.1900 0) (effects (font (size 1.27 1.27))) (uuid "9706752a822c42489e137185029c073d"))
-  (label "ISL70003ASEH_BUFIN_P" (at 179.6800 117.4600 0) (effects (font (size 1.27 1.27))) (uuid "779e087897c14c77bbc36cebe297c20f"))
-  (label "ISL70003ASEH_BUFOUT" (at 179.6800 118.7300 0) (effects (font (size 1.27 1.27))) (uuid "f8a4b1492b8049a6ae0cac19350973e4"))
-  (label "ISL70003ASEH_REF" (at 179.6800 120.0000 0) (effects (font (size 1.27 1.27))) (uuid "70ef1e3d3b83403fb03421d8d34a0776"))
-  (label "ISL70003ASEH_IMON" (at 179.6800 121.2700 0) (effects (font (size 1.27 1.27))) (uuid "97a229204ac14b37be74ecdbfacbe715"))
-  (label "+3V3" (at 179.6800 122.5400 0) (effects (font (size 1.27 1.27))) (uuid "dec09a9bc610468fbedbafe87cabba63"))
-  (label "+3V3" (at 179.6800 123.8100 0) (effects (font (size 1.27 1.27))) (uuid "0c6849088f6a4424883c39b2461d3b59"))
-  (label "+3V3" (at 179.6800 125.0800 0) (effects (font (size 1.27 1.27))) (uuid "cf6167d0524a4666982ce5c499bbd9d3"))
-  (label "+3V3" (at 179.6800 126.3500 0) (effects (font (size 1.27 1.27))) (uuid "da59f2acbbb649d4b89768ba4faf5c8a"))
-  (label "+3V3" (at 220.3200 100.9500 0) (effects (font (size 1.27 1.27))) (uuid "25126b7427e446c1a5af887e072223b5"))
-  (label "GND" (at 220.3200 102.2200 0) (effects (font (size 1.27 1.27))) (uuid "d6943962e8684eddadcc8863264e6124"))
-  (label "GND" (at 220.3200 103.4900 0) (effects (font (size 1.27 1.27))) (uuid "7bb06f97f6214b5d91d60765cc6b2838"))
-  (label "+3V3" (at 220.3200 104.7600 0) (effects (font (size 1.27 1.27))) (uuid "ca1b0efd7ba14790bb7c565555663c98"))
-  (label "+3V3" (at 220.3200 106.0300 0) (effects (font (size 1.27 1.27))) (uuid "608c0f05fbf34c04b0f7d5037961fb90"))
-  (label "+3V3" (at 220.3200 107.3000 0) (effects (font (size 1.27 1.27))) (uuid "b30c202e87b14adc905050c9db1218fc"))
-  (label "VIN" (at 220.3200 108.5700 0) (effects (font (size 1.27 1.27))) (uuid "3d597ef440c34c4d861d913a476880db"))
-  (label "ISL70003ASEH_LX1" (at 220.3200 109.8400 0) (effects (font (size 1.27 1.27))) (uuid "4bcc786074a44db5a0bd3b1f1e732e00"))
-  (label "VIN" (at 220.3200 111.1100 0) (effects (font (size 1.27 1.27))) (uuid "6eecf6229efe4b55912d0e72985dc9c9"))
-  (label "ISL70003ASEH_LX2" (at 220.3200 112.3800 0) (effects (font (size 1.27 1.27))) (uuid "fd68331200694eb4b059bcea660cc3d8"))
-  (label "VIN" (at 220.3200 113.6500 0) (effects (font (size 1.27 1.27))) (uuid "d676a539dbcd4c93b522dba0927b4633"))
-  (label "ISL70003ASEH_LX3" (at 220.3200 114.9200 0) (effects (font (size 1.27 1.27))) (uuid "81b5dc2f5b7c4253b3703f2fb15389a1"))
-  (label "VIN" (at 220.3200 116.1900 0) (effects (font (size 1.27 1.27))) (uuid "0e4fa43793454a67ab171fa59b68fbd0"))
-  (label "ISL70003ASEH_LX4" (at 220.3200 117.4600 0) (effects (font (size 1.27 1.27))) (uuid "2091af4bd31e443798571875ad252250"))
-  (label "VIN" (at 220.3200 118.7300 0) (effects (font (size 1.27 1.27))) (uuid "180be1dc3b4b408d9b61234c5b70b798"))
-  (label "ISL70003ASEH_LX5" (at 220.3200 120.0000 0) (effects (font (size 1.27 1.27))) (uuid "749c21a98580441ab68099b43d631571"))
-  (label "VIN" (at 220.3200 121.2700 0) (effects (font (size 1.27 1.27))) (uuid "2ff21b6bf7cb4a66a08578728056aed3"))
-  (label "ISL70003ASEH_LX6" (at 220.3200 122.5400 0) (effects (font (size 1.27 1.27))) (uuid "293f827feabd4812bac5ee17007f5b6b"))
-  (label "VIN" (at 220.3200 123.8100 0) (effects (font (size 1.27 1.27))) (uuid "d12d623af1e94f10986d332fb0abb42a"))
-  (label "ISL70003ASEH_LX7" (at 220.3200 125.0800 0) (effects (font (size 1.27 1.27))) (uuid "6d8a1f5b02cc4a33bf300c3cf18e7c71"))
-  (label "VIN" (at 220.3200 126.3500 0) (effects (font (size 1.27 1.27))) (uuid "84d5871429684c9e87d02046d449aad1"))
-  (label "ISL70003ASEH_LX8" (at 220.3200 127.6200 0) (effects (font (size 1.27 1.27))) (uuid "728cd4b0f7c142de974e2e6ef008f688"))
-  (label "VIN" (at 220.3200 128.8900 0) (effects (font (size 1.27 1.27))) (uuid "a5363ac93b134656ab1bfac7c3025ecb"))
-  (label "ISL70003ASEH_LX9" (at 220.3200 130.1600 0) (effects (font (size 1.27 1.27))) (uuid "783dc7bd43f14a5e9e75652f5c7c7fec"))
-  (label "VIN" (at 220.3200 131.4300 0) (effects (font (size 1.27 1.27))) (uuid "c29ef74483594515a9bba50d7e8bd034"))
-  (label "ISL70003ASEH_LX10" (at 220.3200 132.7000 0) (effects (font (size 1.27 1.27))) (uuid "6c21914b6e614b5aba3fdba32711d9f7"))
-  (label "HS" (at 220.3200 133.9700 0) (effects (font (size 1.27 1.27))) (uuid "88405ee131aa430fb49185b10c0174b9"))
-  (label "ISL70003ASEH_PGOOD" (at 220.3200 135.2400 0) (effects (font (size 1.27 1.27))) (uuid "59758ba4c8aa42e5804f86af80171a62"))
-  (label "GND" (at 191.1100 144.1300 0) (effects (font (size 1.27 1.27))) (uuid "1c36dbcf24c04ffa9b714ce727cc215d"))
-  (label "GND" (at 192.3800 144.1300 0) (effects (font (size 1.27 1.27))) (uuid "d312ca598b134a4fa526588455e4986b"))
-  (label "GND" (at 193.6500 144.1300 0) (effects (font (size 1.27 1.27))) (uuid "9f88cea8d6e74fc78784d55a1226ac75"))
-  (label "GND" (at 194.9200 144.1300 0) (effects (font (size 1.27 1.27))) (uuid "1d194fed89264f0da404dfb66e3a3e6f"))
-  (label "GND" (at 196.1900 144.1300 0) (effects (font (size 1.27 1.27))) (uuid "47d77cf944e842cc978d382ab14b2593"))
-  (label "GND" (at 197.4600 144.1300 0) (effects (font (size 1.27 1.27))) (uuid "bc726e72885848609e7f3988d236340c"))
-  (label "GND" (at 198.7300 144.1300 0) (effects (font (size 1.27 1.27))) (uuid "74e9f4383a6a4376b6cb7bdc02069c24"))
-  (label "GND" (at 200.0000 144.1300 0) (effects (font (size 1.27 1.27))) (uuid "ee334bc2161148af9d6892386ab62af6"))
-  (label "GND" (at 201.2700 144.1300 0) (effects (font (size 1.27 1.27))) (uuid "1b8bb7a5d12149aea18263d7b2bf3353"))
-  (label "GND" (at 202.5400 144.1300 0) (effects (font (size 1.27 1.27))) (uuid "6b0cc11c956f4800a06cdac7c40f1b49"))
-  (label "GND" (at 203.8100 144.1300 0) (effects (font (size 1.27 1.27))) (uuid "8c7bcaae599f4830aa8ca97bd887641a"))
-  (label "NC" (at 205.0800 144.1300 0) (effects (font (size 1.27 1.27))) (uuid "b2618f5c8ede4425b65eaf91676872c6"))
-  (label "NC" (at 206.3500 144.1300 0) (effects (font (size 1.27 1.27))) (uuid "0bd6019108c84030b21d0025f4c8a3d9"))
-  (label "NC" (at 207.6200 144.1300 0) (effects (font (size 1.27 1.27))) (uuid "a9963573ff7f42e8a5a8e69b3d058412"))
-  (label "NC" (at 208.8900 144.1300 0) (effects (font (size 1.27 1.27))) (uuid "1a2bfe91cc0545a98c017be0d5299e2b"))
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  (global_label "U7_NI" (at 179.6800 100.9500 0) (effects (font (size 1.27 1.27))) (uuid "1f07cfc705bb403ea83c8d67ebb7b005"))
+  (global_label "U7_FB" (at 179.6800 102.2200 0) (effects (font (size 1.27 1.27))) (uuid "e386daa32ff049cb8e486318c1f9d04c"))
+  (global_label "U7_VERR" (at 179.6800 103.4900 0) (effects (font (size 1.27 1.27))) (uuid "c582a740359c4938bdbabb9b39a8e423"))
+  (global_label "OR_U7" (at 179.6800 104.7600 0) (effects (font (size 1.27 1.27))) (uuid "99a9336440464449a793aac5a2163602"))
+  (global_label "+3V3" (at 179.6800 106.0300 0) (effects (font (size 1.27 1.27))) (uuid "aa349d3529704a90bfcb4b20f3b0a305"))
+  (global_label "EN_U7" (at 179.6800 107.3000 0) (effects (font (size 1.27 1.27))) (uuid "0662a246ef934f94ae1fc47e083410c5"))
+  (global_label "RT_CT" (at 179.6800 108.5700 0) (effects (font (size 1.27 1.27))) (uuid "4a7d175e8804498e9b88a8c3fc410fd0"))
+  (global_label "+3V3" (at 179.6800 109.8400 0) (effects (font (size 1.27 1.27))) (uuid "3d5d96f877fb49d9bb00583f534ae5bc"))
+  (global_label "U7_SYNC" (at 179.6800 111.1100 0) (effects (font (size 1.27 1.27))) (uuid "25dd139a9d3742a79013fd5ff1119abb"))
+  (global_label "U7_SS_CAP" (at 179.6800 112.3800 0) (effects (font (size 1.27 1.27))) (uuid "f13dc9d51567420aa7acc651a5d2d360"))
+  (global_label "U7_OCSETA" (at 179.6800 113.6500 0) (effects (font (size 1.27 1.27))) (uuid "e310e5aab6a049a7826139fe0483c9e1"))
+  (global_label "U7_OCSETB" (at 179.6800 114.9200 0) (effects (font (size 1.27 1.27))) (uuid "c169627914e3448790c7422fe90e79ed"))
+  (global_label "U7_BUFIN-" (at 179.6800 116.1900 0) (effects (font (size 1.27 1.27))) (uuid "0371df2a4f5644f3a0a2d7a5da0c1d56"))
+  (global_label "U7_BUFIN+" (at 179.6800 117.4600 0) (effects (font (size 1.27 1.27))) (uuid "e76b834952244c2d9546c515895e2256"))
+  (global_label "U7_BUFOUT" (at 179.6800 118.7300 0) (effects (font (size 1.27 1.27))) (uuid "98083dbfd71a4397bca6f3a8714bf967"))
+  (global_label "U7_REF" (at 179.6800 120.0000 0) (effects (font (size 1.27 1.27))) (uuid "d589d3961beb443392f620d407010592"))
+  (global_label "U7_IMON" (at 179.6800 121.2700 0) (effects (font (size 1.27 1.27))) (uuid "d024837a842646869727b21d7bcf337c"))
+  (global_label "+3V3" (at 179.6800 122.5400 0) (effects (font (size 1.27 1.27))) (uuid "e5ffa478404d4f66933446319e908d2f"))
+  (global_label "+3V3" (at 179.6800 123.8100 0) (effects (font (size 1.27 1.27))) (uuid "acd45417d76047b7b7aa8059c8546713"))
+  (global_label "+3V3" (at 179.6800 125.0800 0) (effects (font (size 1.27 1.27))) (uuid "402a186837a94d319ad76fb62e3600b3"))
+  (global_label "+3V3" (at 179.6800 126.3500 0) (effects (font (size 1.27 1.27))) (uuid "1bc87c5a980240659dfa28d73d7a039b"))
+  (global_label "+3V3" (at 220.3200 100.9500 0) (effects (font (size 1.27 1.27))) (uuid "9eed7fc0363a434a9b70dd6d08da6de9"))
+  (global_label "GND" (at 220.3200 102.2200 0) (effects (font (size 1.27 1.27))) (uuid "4fd1fc2c754d45fbb65a54ddca043e4f"))
+  (global_label "GND" (at 220.3200 103.4900 0) (effects (font (size 1.27 1.27))) (uuid "454ce7ba22b8475b8653a7d4bd04dfea"))
+  (global_label "+3V3" (at 220.3200 104.7600 0) (effects (font (size 1.27 1.27))) (uuid "0ce88dc563f94c11958dd858731dcbe0"))
+  (global_label "+3V3" (at 220.3200 106.0300 0) (effects (font (size 1.27 1.27))) (uuid "bad07bc0b7a54c399456c3746373e7bb"))
+  (global_label "+3V3" (at 220.3200 107.3000 0) (effects (font (size 1.27 1.27))) (uuid "5e11638db14b46e4aea21f499492bf5a"))
+  (global_label "VIN" (at 220.3200 108.5700 0) (effects (font (size 1.27 1.27))) (uuid "fb32bd6ee17c4322a3fd7cc4c2e675f2"))
+  (global_label "U7_LX1" (at 220.3200 109.8400 0) (effects (font (size 1.27 1.27))) (uuid "927392d646b04305a83ad42bbfda3bad"))
+  (global_label "VIN" (at 220.3200 111.1100 0) (effects (font (size 1.27 1.27))) (uuid "cb38f4911fa34a779289a640354f51dc"))
+  (global_label "U7_LX2" (at 220.3200 112.3800 0) (effects (font (size 1.27 1.27))) (uuid "ff0817a1a8ee4a1a9e996ac028ee8c5f"))
+  (global_label "VIN" (at 220.3200 113.6500 0) (effects (font (size 1.27 1.27))) (uuid "faf848b3ca6448dcb45ab3ac1e2c8be5"))
+  (global_label "U7_LX3" (at 220.3200 114.9200 0) (effects (font (size 1.27 1.27))) (uuid "f97a8549d9e3412db525f540c496e3d1"))
+  (global_label "VIN" (at 220.3200 116.1900 0) (effects (font (size 1.27 1.27))) (uuid "760e74b2678a4da3aff37dd02496d4dc"))
+  (global_label "U7_LX4" (at 220.3200 117.4600 0) (effects (font (size 1.27 1.27))) (uuid "5dcd01cb10844b42a7427eb7ccbbb096"))
+  (global_label "VIN" (at 220.3200 118.7300 0) (effects (font (size 1.27 1.27))) (uuid "a9add6628763415ba95d355c7adead95"))
+  (global_label "U7_LX5" (at 220.3200 120.0000 0) (effects (font (size 1.27 1.27))) (uuid "83e3e11d1bed41b194db745b52d3097e"))
+  (global_label "VIN" (at 220.3200 121.2700 0) (effects (font (size 1.27 1.27))) (uuid "aa5339a62fd34a95bbbbda83d79377da"))
+  (global_label "U7_LX6" (at 220.3200 122.5400 0) (effects (font (size 1.27 1.27))) (uuid "2217f39799f44a11b8d3b2ff8ebbe486"))
+  (global_label "VIN" (at 220.3200 123.8100 0) (effects (font (size 1.27 1.27))) (uuid "47287d45ea7d47fab7f9950a12f3802b"))
+  (global_label "U7_LX7" (at 220.3200 125.0800 0) (effects (font (size 1.27 1.27))) (uuid "db4de6f5b3b449da89f2ce7895e406d4"))
+  (global_label "VIN" (at 220.3200 126.3500 0) (effects (font (size 1.27 1.27))) (uuid "34fe2515473a4df387a264616a489f88"))
+  (global_label "U7_LX8" (at 220.3200 127.6200 0) (effects (font (size 1.27 1.27))) (uuid "75baf75ffb984e4e9dfac59243fde25a"))
+  (global_label "VIN" (at 220.3200 128.8900 0) (effects (font (size 1.27 1.27))) (uuid "6664da2ff96f48a7aae7542faf9cbded"))
+  (global_label "U7_LX9" (at 220.3200 130.1600 0) (effects (font (size 1.27 1.27))) (uuid "a72ae71fd838447f837338da45022d70"))
+  (global_label "VIN" (at 220.3200 131.4300 0) (effects (font (size 1.27 1.27))) (uuid "22718517a4b8474ca69cab0ba3f189e9"))
+  (global_label "U7_LX10" (at 220.3200 132.7000 0) (effects (font (size 1.27 1.27))) (uuid "ec7435e3990743a08b2209ee584dedb1"))
+  (global_label "U7_HS" (at 220.3200 133.9700 0) (effects (font (size 1.27 1.27))) (uuid "5bfb58f1c02a490b8de0aeba089027ed"))
+  (global_label "U7_PGOOD" (at 220.3200 135.2400 0) (effects (font (size 1.27 1.27))) (uuid "b384401071fa4af58afe3f147d905c41"))
+  (global_label "GND" (at 191.1100 144.1300 0) (effects (font (size 1.27 1.27))) (uuid "ad865b5aa4c84d3e98807b474311b7b0"))
+  (global_label "GND" (at 192.3800 144.1300 0) (effects (font (size 1.27 1.27))) (uuid "3dcc2459f8994c57bde008c98d9aa2d8"))
+  (global_label "GND" (at 193.6500 144.1300 0) (effects (font (size 1.27 1.27))) (uuid "a9c80f0479ea4c01b76f54fd014538ba"))
+  (global_label "GND" (at 194.9200 144.1300 0) (effects (font (size 1.27 1.27))) (uuid "cae182eb22b54d22b9beeaa804cb0d3a"))
+  (global_label "GND" (at 196.1900 144.1300 0) (effects (font (size 1.27 1.27))) (uuid "fde51e03678b409cb653aa75e29962d4"))
+  (global_label "GND" (at 197.4600 144.1300 0) (effects (font (size 1.27 1.27))) (uuid "04e7dc0a75f84059b5edf362831a310d"))
+  (global_label "GND" (at 198.7300 144.1300 0) (effects (font (size 1.27 1.27))) (uuid "0a5cffffe524496dbbddf506215e74c5"))
+  (global_label "GND" (at 200.0000 144.1300 0) (effects (font (size 1.27 1.27))) (uuid "e63644c2bbe1490a91f4098f3d881def"))
+  (global_label "GND" (at 201.2700 144.1300 0) (effects (font (size 1.27 1.27))) (uuid "a1a1a344502d4c0db70cf7b01d2f4640"))
+  (global_label "GND" (at 202.5400 144.1300 0) (effects (font (size 1.27 1.27))) (uuid "58ef177dc7114dd1a05ac179e1caa841"))
+  (global_label "GND" (at 203.8100 144.1300 0) (effects (font (size 1.27 1.27))) (uuid "c03270493992448fba981bb41cb59704"))
   (sheet_instances (path "/" (page "1")))
 )

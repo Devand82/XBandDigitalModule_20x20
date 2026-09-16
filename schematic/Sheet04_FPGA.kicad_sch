@@ -11,64 +11,64 @@
     (symbol "power:+1V0" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes) (property "Reference" "#PWR" (at 0 -3.81 0) (effects (font (size 1.27 1.27)) hide)) (property "Value" "+1V0" (at 0 3.81 0) (effects (font (size 1.27 1.27)))) (symbol "+1V0_0_1" (polyline (pts (xy -0.762 1.27) (xy 0 2.54)) (stroke (width 0) (type default)) (fill (type none))) (polyline (pts (xy 0 0) (xy 0 2.54)) (stroke (width 0) (type default)) (fill (type none))) (polyline (pts (xy 0 2.54) (xy 0.762 1.27)) (stroke (width 0) (type default)) (fill (type none)))) (symbol "+1V0_1_1" (pin power_in line (at 0 0 90) (length 0) (name "+1V0" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))))
     (symbol "power:+1V8" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes) (property "Reference" "#PWR" (at 0 -3.81 0) (effects (font (size 1.27 1.27)) hide)) (property "Value" "+1V8" (at 0 3.81 0) (effects (font (size 1.27 1.27)))) (symbol "+1V8_0_1" (polyline (pts (xy -0.762 1.27) (xy 0 2.54)) (stroke (width 0) (type default)) (fill (type none))) (polyline (pts (xy 0 0) (xy 0 2.54)) (stroke (width 0) (type default)) (fill (type none))) (polyline (pts (xy 0 2.54) (xy 0.762 1.27)) (stroke (width 0) (type default)) (fill (type none)))) (symbol "+1V8_1_1" (pin power_in line (at 0 0 90) (length 0) (name "+1V8" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))))
     (symbol "power:+3V3" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes) (property "Reference" "#PWR" (at 0 -3.81 0) (effects (font (size 1.27 1.27)) hide)) (property "Value" "+3V3" (at 0 3.81 0) (effects (font (size 1.27 1.27)))) (symbol "+3V3_0_1" (polyline (pts (xy -0.762 1.27) (xy 0 2.54)) (stroke (width 0) (type default)) (fill (type none))) (polyline (pts (xy 0 0) (xy 0 2.54)) (stroke (width 0) (type default)) (fill (type none))) (polyline (pts (xy 0 2.54) (xy 0.762 1.27)) (stroke (width 0) (type default)) (fill (type none)))) (symbol "+3V3_1_1" (pin power_in line (at 0 0 90) (length 0) (name "+3V3" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))))
+(symbol "Custom:XQRVC1902-SP" (pin_names (offset 0)) (in_bom yes) (on_board yes) (property "Reference" "U" (at 200 220 0) (effects (font (size 1.27 1.27)))) (property "Value" "XQRVC1902-SP" (at 200 -10 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide)) (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide)) (symbol "XQRVC1902-SP_0_1" (rectangle (start -25.4 203.2) (end 228.6 -7.62) (stroke (width 0.254) (type default)) (fill (type background)))) (symbol "XQRVC1902-SP_1_1" (pin input line (at -27.94 195.58 0) (length 2.54) (name "JESD_DA0_P" (effects (font (size 1.27 1.27)))) (number "A1" (effects (font (size 1.27 1.27))))) (pin input line (at -27.94 190.5 0) (length 2.54) (name "JESD_DA0_N" (effects (font (size 1.27 1.27)))) (number "A2" (effects (font (size 1.27 1.27))))) (pin input line (at -27.94 185.42 0) (length 2.54) (name "JESD_DA1_P" (effects (font (size 1.27 1.27)))) (number "A3" (effects (font (size 1.27 1.27))))) (pin input line (at -27.94 180.34 0) (length 2.54) (name "JESD_DA1_N" (effects (font (size 1.27 1.27)))) (number "A4" (effects (font (size 1.27 1.27))))) (pin input line (at -27.94 175.26 0) (length 2.54) (name "JESD_DA2_P" (effects (font (size 1.27 1.27)))) (number "B1" (effects (font (size 1.27 1.27))))) (pin input line (at -27.94 170.18 0) (length 2.54) (name "JESD_DA2_N" (effects (font (size 1.27 1.27)))) (number "B2" (effects (font (size 1.27 1.27))))) (pin input line (at -27.94 165.1 0) (length 2.54) (name "JESD_DA3_P" (effects (font (size 1.27 1.27)))) (number "B3" (effects (font (size 1.27 1.27))))) (pin input line (at -27.94 160.02 0) (length 2.54) (name "JESD_DA3_N" (effects (font (size 1.27 1.27)))) (number "B4" (effects (font (size 1.27 1.27))))) (pin output line (at -27.94 149.86 0) (length 2.54) (name "CS" (effects (font (size 1.27 1.27)))) (number "C1" (effects (font (size 1.27 1.27))))) (pin output line (at -27.94 144.78 0) (length 2.54) (name "SPI_SCK" (effects (font (size 1.27 1.27)))) (number "C2" (effects (font (size 1.27 1.27))))) (pin output line (at -27.94 139.7 0) (length 2.54) (name "SPI_MOSI" (effects (font (size 1.27 1.27)))) (number "C3" (effects (font (size 1.27 1.27))))) (pin input line (at -27.94 134.62 0) (length 2.54) (name "SPI_MISO" (effects (font (size 1.27 1.27)))) (number "C4" (effects (font (size 1.27 1.27))))) (pin output line (at -27.94 129.54 0) (length 2.54) (name "ADC_PD" (effects (font (size 1.27 1.27)))) (number "D1" (effects (font (size 1.27 1.27))))) (pin output line (at -27.94 124.46 0) (length 2.54) (name "ADC_SYNC_P" (effects (font (size 1.27 1.27)))) (number "D2" (effects (font (size 1.27 1.27))))) (pin output line (at -27.94 119.38 0) (length 2.54) (name "ADC_SYNC_N" (effects (font (size 1.27 1.27)))) (number "D3" (effects (font (size 1.27 1.27))))) (pin output line (at -27.94 114.3 0) (length 2.54) (name "ADC_CAL_TRIG" (effects (font (size 1.27 1.27)))) (number "D4" (effects (font (size 1.27 1.27))))) (pin input line (at -27.94 109.22 0) (length 2.54) (name "ADC_CAL_STAT" (effects (font (size 1.27 1.27)))) (number "D5" (effects (font (size 1.27 1.27))))) (pin input line (at -27.94 104.14 0) (length 2.54) (name "FPGA_ORA0" (effects (font (size 1.27 1.27)))) (number "E1" (effects (font (size 1.27 1.27))))) (pin input line (at -27.94 99.06 0) (length 2.54) (name "FPGA_ORA1" (effects (font (size 1.27 1.27)))) (number "E2" (effects (font (size 1.27 1.27))))) (pin input line (at -27.94 93.98 0) (length 2.54) (name "FPGA_ORB0" (effects (font (size 1.27 1.27)))) (number "E3" (effects (font (size 1.27 1.27))))) (pin input line (at -27.94 88.9 0) (length 2.54) (name "FPGA_ORB1" (effects (font (size 1.27 1.27)))) (number "E4" (effects (font (size 1.27 1.27))))) (pin input line (at -27.94 78.74 0) (length 2.54) (name "PWRGD_SEQ" (effects (font (size 1.27 1.27)))) (number "F1" (effects (font (size 1.27 1.27))))) (pin input line (at -27.94 73.66 0) (length 2.54) (name "SEQ_DONE" (effects (font (size 1.27 1.27)))) (number "F2" (effects (font (size 1.27 1.27))))) (pin input line (at 231.14 195.58 180) (length 2.54) (name "FPGA_REFCLK_P" (effects (font (size 1.27 1.27)))) (number "G1" (effects (font (size 1.27 1.27))))) (pin input line (at 231.14 190.5 180) (length 2.54) (name "FPGA_REFCLK_N" (effects (font (size 1.27 1.27)))) (number "G2" (effects (font (size 1.27 1.27))))) (pin input line (at 231.14 185.42 180) (length 2.54) (name "FPGA_SPWCLK_P" (effects (font (size 1.27 1.27)))) (number "G3" (effects (font (size 1.27 1.27))))) (pin input line (at 231.14 180.34 180) (length 2.54) (name "FPGA_SPWCLK_N" (effects (font (size 1.27 1.27)))) (number "G4" (effects (font (size 1.27 1.27))))) (pin output line (at 231.14 165.1 180) (length 2.54) (name "LMX_CS" (effects (font (size 1.27 1.27)))) (number "H1" (effects (font (size 1.27 1.27))))) (pin output line (at 231.14 160.02 180) (length 2.54) (name "LMX_SCK" (effects (font (size 1.27 1.27)))) (number "H2" (effects (font (size 1.27 1.27))))) (pin output line (at 231.14 154.94 180) (length 2.54) (name "LMX_SDI" (effects (font (size 1.27 1.27)))) (number "H3" (effects (font (size 1.27 1.27))))) (pin input line (at 231.14 149.86 180) (length 2.54) (name "LMX_MUXOUT" (effects (font (size 1.27 1.27)))) (number "H4" (effects (font (size 1.27 1.27))))) (pin output line (at 231.14 144.78 180) (length 2.54) (name "LMX_CAL" (effects (font (size 1.27 1.27)))) (number "H5" (effects (font (size 1.27 1.27))))) (pin output line (at 231.14 139.7 180) (length 2.54) (name "LMX_SYNC" (effects (font (size 1.27 1.27)))) (number "H6" (effects (font (size 1.27 1.27))))) (pin output line (at 231.14 129.54 180) (length 2.54) (name "LMK_CS" (effects (font (size 1.27 1.27)))) (number "J1" (effects (font (size 1.27 1.27))))) (pin output line (at 231.14 124.46 180) (length 2.54) (name "LMK_SCK" (effects (font (size 1.27 1.27)))) (number "J2" (effects (font (size 1.27 1.27))))) (pin bidirectional line (at 231.14 119.38 180) (length 2.54) (name "LMK_SDIO" (effects (font (size 1.27 1.27)))) (number "J3" (effects (font (size 1.27 1.27))))) (pin output line (at 231.14 114.3 180) (length 2.54) (name "LMK_RESET" (effects (font (size 1.27 1.27)))) (number "J4" (effects (font (size 1.27 1.27))))) (pin output line (at 231.14 109.22 180) (length 2.54) (name "LMK_SYNC" (effects (font (size 1.27 1.27)))) (number "J5" (effects (font (size 1.27 1.27))))) (pin output line (at 231.14 93.98 180) (length 2.54) (name "SPW_TX_P" (effects (font (size 1.27 1.27)))) (number "K1" (effects (font (size 1.27 1.27))))) (pin output line (at 231.14 88.9 180) (length 2.54) (name "SPW_TX_N" (effects (font (size 1.27 1.27)))) (number "K2" (effects (font (size 1.27 1.27))))) (pin input line (at 231.14 83.82 180) (length 2.54) (name "SPW_RX_P" (effects (font (size 1.27 1.27)))) (number "K3" (effects (font (size 1.27 1.27))))) (pin input line (at 231.14 78.74 180) (length 2.54) (name "SPW_RX_N" (effects (font (size 1.27 1.27)))) (number "K4" (effects (font (size 1.27 1.27))))) (pin output line (at 231.14 68.58 180) (length 2.54) (name "SPW_TX2_P" (effects (font (size 1.27 1.27)))) (number "K5" (effects (font (size 1.27 1.27))))) (pin output line (at 231.14 63.5 180) (length 2.54) (name "SPW_TX2_N" (effects (font (size 1.27 1.27)))) (number "K6" (effects (font (size 1.27 1.27))))) (pin input line (at 231.14 58.42 180) (length 2.54) (name "SPW_RX2_P" (effects (font (size 1.27 1.27)))) (number "K7" (effects (font (size 1.27 1.27))))) (pin input line (at 231.14 53.34 180) (length 2.54) (name "SPW_RX2_N" (effects (font (size 1.27 1.27)))) (number "K8" (effects (font (size 1.27 1.27))))) (pin power_in line (at 38.1 -10.16 90) (length 2.54) (name "VCCINT" (effects (font (size 1.27 1.27)))) (number "L1" (effects (font (size 1.27 1.27))))) (pin power_in line (at 88.9 -10.16 90) (length 2.54) (name "VCCAUX" (effects (font (size 1.27 1.27)))) (number "L2" (effects (font (size 1.27 1.27))))) (pin power_in line (at 139.7 -10.16 90) (length 2.54) (name "VCCO_0" (effects (font (size 1.27 1.27)))) (number "L3" (effects (font (size 1.27 1.27))))) (pin power_in line (at 190.5 -10.16 90) (length 2.54) (name "VCCO_1" (effects (font (size 1.27 1.27)))) (number "L4" (effects (font (size 1.27 1.27))))) (pin power_in line (at 63.5 205.74 270) (length 2.54) (name "GND" (effects (font (size 1.27 1.27)))) (number "M1" (effects (font (size 1.27 1.27))))) (pin power_in line (at 139.7 205.74 270) (length 2.54) (name "GND" (effects (font (size 1.27 1.27)))) (number "M2" (effects (font (size 1.27 1.27)))))))
 (symbol "Device:C" (pin_names (offset 0.254)) (in_bom yes) (on_board yes) (property "Reference" "C" (at 0.635 2.54 0) (effects (font (size 1.27 1.27)))) (property "Value" "C" (at 0.635 -2.54 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 0.9652 0 0) (effects (font (size 1.27 1.27)) hide)) (property "Datasheet" "~" (at 0 0 0) (effects (font (size 1.27 1.27)) hide)) (symbol "C_0_1" (polyline (pts (xy -2.032 -0.762) (xy 2.032 -0.762)) (stroke (width 0.508) (type default)) (fill (type none))) (polyline (pts (xy -2.032 0.762) (xy 2.032 0.762)) (stroke (width 0.508) (type default)) (fill (type none)))) (symbol "C_1_1" (pin passive line (at 0 3.81 270) (length 2.54) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin passive line (at 0 -3.81 90) (length 2.54) (name "~" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))))
-(symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes) (property "Reference" "R" (at 2.032 0 90) (effects (font (size 1.27 1.27)))) (property "Value" "R" (at 0 0 90) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at -1.778 0 90) (effects (font (size 1.27 1.27)) hide)) (property "Datasheet" "~" (at 0 0 0) (effects (font (size 1.27 1.27)) hide)) (symbol "R_0_1" (rectangle (start -1.016 -2.54) (end 1.016 2.54) (stroke (width 0.254) (type default)) (fill (type background)))) (symbol "R_1_1" (pin passive line (at 0 3.81 270) (length 1.27) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin passive line (at 0 -3.81 90) (length 1.27) (name "~" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))))
   )
-  (symbol (lib_id "power:GND") (at 200 200 0) (unit 1)
+  (symbol (lib_id "Custom:XQRVC1902-SP") (at 200 100 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "62b3671e-a817-4871-8204-abfac2721d74")
-    (property "Reference" "U2" (at 200 190 0) (effects (font (size 1.27 1.27))))
-    (property "Value" "XQRVC1902-SP" (at 200 210 0) (effects (font (size 1.27 1.27))))
-    (property "Footprint" "" (at 200 200 0) (effects (font (size 1.27 1.27)) hide))
+    (uuid "8d420e75-3ba9-440f-a000-1955395942da")
+    (property "Reference" "U2" (at 200 90 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "XQRVC1902-SP" (at 200 110 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
   )
-                                                                                                  (symbol (lib_id "Device:C") (at 350 40 0) (unit 1)
+  (symbol (lib_id "Device:C") (at 350 40 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "999518fc-7890-4479-9eb8-d89597e8b107")
+    (uuid "490052f8-73a2-4480-a97d-0ce569b3c4f5")
     (property "Reference" "C20" (at 350 30 0) (effects (font (size 1.27 1.27))))
     (property "Value" "100nF" (at 350 50 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "C_0402" (at 350 40 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "75030e36-717a-4de9-b264-4625bea6687f"))
-    (pin "2" (uuid "0a6e6490-ebee-4e0e-8aac-365996fceb9a"))
+    (pin "1" (uuid "83c35bc3-f8f5-49ce-b86e-4b4fcc06ea29"))
+    (pin "2" (uuid "1d5c7d71-1470-40cc-8cb4-8fd05ad61b01"))
   )  (symbol (lib_id "Device:C") (at 350 55 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "41fd5b8f-664f-48ae-9c38-c9cd37f504fc")
+    (uuid "e1f86bcc-04c0-4fb4-97d8-8848a78053a2")
     (property "Reference" "C21" (at 350 45 0) (effects (font (size 1.27 1.27))))
     (property "Value" "10uF" (at 350 65 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "C_0603" (at 350 55 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "6c8bcf86-cb47-4eb1-a965-5f0e6bace1f6"))
-    (pin "2" (uuid "cc59647f-3762-4ce8-a67a-06c3ee7282cf"))
+    (pin "1" (uuid "3b2d9b5d-c037-4b52-86a9-6eb179fdeab4"))
+    (pin "2" (uuid "bc8662ae-36ac-4eaf-a9cc-a36d0fdd2f82"))
   )  (symbol (lib_id "Device:C") (at 350 70 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "4eb120af-87bd-4c22-bcea-85e5a02581bc")
+    (uuid "ccafa726-9be9-4257-bd2f-4e42bbd9bcb1")
     (property "Reference" "C22" (at 350 60 0) (effects (font (size 1.27 1.27))))
     (property "Value" "100nF" (at 350 80 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "C_0402" (at 350 70 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "b9f85f61-85e2-4f1c-bb6f-b9c5ea57d72c"))
-    (pin "2" (uuid "191825a2-79a4-42ed-a484-2d838c0ab365"))
+    (pin "1" (uuid "6941255a-a4b1-49d8-9090-1455d545aced"))
+    (pin "2" (uuid "1fd266f9-074f-46e6-9cd3-39d1daded9f8"))
   )  (symbol (lib_id "Device:C") (at 350 85 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "fb0ef174-f2ba-41a3-910c-b5995724bf7a")
+    (uuid "6520c382-bb06-4b81-a52e-54fa40c9a9fb")
     (property "Reference" "C23" (at 350 75 0) (effects (font (size 1.27 1.27))))
     (property "Value" "10uF" (at 350 95 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "C_0603" (at 350 85 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "56a3808b-a0d1-486d-86c5-4c5883b73860"))
-    (pin "2" (uuid "b836d487-1e8d-47e7-8417-6c4f5b2b95e6"))
+    (pin "1" (uuid "553096de-73b5-4589-be0b-88b6348b7ca2"))
+    (pin "2" (uuid "c9245f51-5774-48f6-9fe2-9ed3559dce57"))
   )  (symbol (lib_id "Device:C") (at 350 100 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "0dc7ca7c-f0e7-4aef-b5c5-29f8b3ad6771")
+    (uuid "d52505be-835e-4449-bb1c-b6d32a0b0a9e")
     (property "Reference" "C24" (at 350 90 0) (effects (font (size 1.27 1.27))))
     (property "Value" "100nF" (at 350 110 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "C_0402" (at 350 100 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "2e49651f-3965-413e-898f-a8c5a90bbb02"))
-    (pin "2" (uuid "9ccd4fb7-d9ae-46b5-a6ff-ab6f98b5dd5e"))
+    (pin "1" (uuid "477bfdec-38c8-4dbb-80d3-16cbb086321a"))
+    (pin "2" (uuid "00d8789a-aabd-473f-945e-2704f134aead"))
   )  (symbol (lib_id "Device:C") (at 350 115 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "f635bb58-aa83-4791-a5d9-92ae8bdee817")
+    (uuid "4bcc8c83-f9ce-4215-87a7-6397351c22ce")
     (property "Reference" "C25" (at 350 105 0) (effects (font (size 1.27 1.27))))
     (property "Value" "10uF" (at 350 125 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "C_0603" (at 350 115 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid "0503bee2-af68-4d33-b8b2-82bbf9a3d897"))
-    (pin "2" (uuid "c3d40ed8-9105-402e-85b2-08fb49aa2c27"))
+    (pin "1" (uuid "7767b70d-f2a0-46ab-8927-cde7f7fe1823"))
+    (pin "2" (uuid "033fb7f3-c4f3-41b0-a7cc-5fd1ed2901b5"))
   )  
   
   
@@ -127,6 +127,212 @@
   
   
   
-  (label "GND" (at 200.0000 200.0000 0) (effects (font (size 1.27 1.27))) (uuid "242dfbd787294f778be7c24b5fee29c5"))
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  (global_label "JESD_DA0_P" (at 172.0600 -95.5800 0) (effects (font (size 1.27 1.27))) (uuid "2e133e3c677e480cb6bdf082800ecb10"))
+  (global_label "JESD_DA0_N" (at 172.0600 -90.5000 0) (effects (font (size 1.27 1.27))) (uuid "13d05e7029e24fb1a63ff29355a6696a"))
+  (global_label "JESD_DA1_P" (at 172.0600 -85.4200 0) (effects (font (size 1.27 1.27))) (uuid "86344a36e1704031a86823fef9dc5e4b"))
+  (global_label "JESD_DA1_N" (at 172.0600 -80.3400 0) (effects (font (size 1.27 1.27))) (uuid "a7ebc02b9bf94fffa2d0b470082e5da6"))
+  (global_label "JESD_DA2_P" (at 172.0600 -75.2600 0) (effects (font (size 1.27 1.27))) (uuid "3728a092fcff45dea80af5cc90fa82d8"))
+  (global_label "JESD_DA2_N" (at 172.0600 -70.1800 0) (effects (font (size 1.27 1.27))) (uuid "7015798d2c8e462c9035a34917b252fb"))
+  (global_label "JESD_DA3_P" (at 172.0600 -65.1000 0) (effects (font (size 1.27 1.27))) (uuid "5b2c0e2457ec4f969bf9fb9966b489e5"))
+  (global_label "JESD_DA3_N" (at 172.0600 -60.0200 0) (effects (font (size 1.27 1.27))) (uuid "642e3ccebc2e425cb5fafd1830aeccff"))
+  (global_label "CS" (at 172.0600 -49.8600 0) (effects (font (size 1.27 1.27))) (uuid "f55c218d382c432ebf6f4b4b04850b36"))
+  (global_label "SPI_SCK" (at 172.0600 -44.7800 0) (effects (font (size 1.27 1.27))) (uuid "e2c77cb603c848d58f674fd24b1bebcc"))
+  (global_label "SPI_MOSI" (at 172.0600 -39.7000 0) (effects (font (size 1.27 1.27))) (uuid "95422f324f714a3197c3d186d9c79428"))
+  (global_label "SPI_MISO" (at 172.0600 -34.6200 0) (effects (font (size 1.27 1.27))) (uuid "09c721d0a48c46eea0c4f4abdfb697ed"))
+  (global_label "ADC_PD" (at 172.0600 -29.5400 0) (effects (font (size 1.27 1.27))) (uuid "d1f5a65c1c5247d5bc9ae0758f149e6c"))
+  (global_label "ADC_SYNC_P" (at 172.0600 -24.4600 0) (effects (font (size 1.27 1.27))) (uuid "d6351f6d466547288f204b04b6f8597f"))
+  (global_label "ADC_SYNC_N" (at 172.0600 -19.3800 0) (effects (font (size 1.27 1.27))) (uuid "590ee6b0cd8a4050953aa2260826edc6"))
+  (global_label "ADC_CAL_TRIG" (at 172.0600 -14.3000 0) (effects (font (size 1.27 1.27))) (uuid "4ecdc579f07a41588206304eac392244"))
+  (global_label "ADC_CAL_STAT" (at 172.0600 -9.2200 0) (effects (font (size 1.27 1.27))) (uuid "fa1c45b43b424e5dbbcf1b4100f6bce7"))
+  (global_label "FPGA_ORA0" (at 172.0600 -4.1400 0) (effects (font (size 1.27 1.27))) (uuid "e6aaa8bc518147e8832163e8ed821000"))
+  (global_label "FPGA_ORA1" (at 172.0600 0.9400 0) (effects (font (size 1.27 1.27))) (uuid "6c97f3ed0f734adbbd645c1e799dcbbf"))
+  (global_label "FPGA_ORB0" (at 172.0600 6.0200 0) (effects (font (size 1.27 1.27))) (uuid "f1fce763b2bb4c7195372317ab782f01"))
+  (global_label "FPGA_ORB1" (at 172.0600 11.1000 0) (effects (font (size 1.27 1.27))) (uuid "adf8a6b1049b45d3879c50ebfad66d78"))
+  (global_label "PWRGD_SEQ" (at 172.0600 21.2600 0) (effects (font (size 1.27 1.27))) (uuid "82488d78a19b4c0f88f4714fa572d9d1"))
+  (global_label "XQRVC1902-SP_SEQ_DONE" (at 172.0600 26.3400 0) (effects (font (size 1.27 1.27))) (uuid "d5dc32a1786d41d78b38c1b30ee5ffc8"))
+  (global_label "FPGA_REFCLK_P" (at 431.1400 -95.5800 0) (effects (font (size 1.27 1.27))) (uuid "2e2a2362df5c48aebefdbfc157c6a123"))
+  (global_label "FPGA_REFCLK_N" (at 431.1400 -90.5000 0) (effects (font (size 1.27 1.27))) (uuid "e2c2280c8af84b6ebdefd81740039065"))
+  (global_label "FPGA_SPWCLK_P" (at 431.1400 -85.4200 0) (effects (font (size 1.27 1.27))) (uuid "2b255dbef0994029bfce132511ee9dca"))
+  (global_label "FPGA_SPWCLK_N" (at 431.1400 -80.3400 0) (effects (font (size 1.27 1.27))) (uuid "9f445d1ba19543239eb33e06a503ffeb"))
+  (global_label "LMX_CS" (at 431.1400 -65.1000 0) (effects (font (size 1.27 1.27))) (uuid "40fbf889f34943c3abe1c333af70c562"))
+  (global_label "LMX_SCK" (at 431.1400 -60.0200 0) (effects (font (size 1.27 1.27))) (uuid "45dac2aa79ca41d1b0b8aaa751f38f2c"))
+  (global_label "LMX_SDI" (at 431.1400 -54.9400 0) (effects (font (size 1.27 1.27))) (uuid "e38cb9d48f8948569444997df5338e06"))
+  (global_label "LMX_MUXOUT" (at 431.1400 -49.8600 0) (effects (font (size 1.27 1.27))) (uuid "87966ad5062044e5960ca05960c4a7fd"))
+  (global_label "LMX_CAL" (at 431.1400 -44.7800 0) (effects (font (size 1.27 1.27))) (uuid "c047a43f37ea4f0d9d8ed0e91a47c7e5"))
+  (global_label "LMX_SYNC" (at 431.1400 -39.7000 0) (effects (font (size 1.27 1.27))) (uuid "d3fd76084a9e43bcbd96f1d22b0435f8"))
+  (global_label "LMK_CS" (at 431.1400 -29.5400 0) (effects (font (size 1.27 1.27))) (uuid "9d16d782c6654690961381dc47ee47e7"))
+  (global_label "LMK_SCK" (at 431.1400 -24.4600 0) (effects (font (size 1.27 1.27))) (uuid "fb5f1538449e47fc90ed5441b062c2c1"))
+  (global_label "LMK_SDIO" (at 431.1400 -19.3800 0) (effects (font (size 1.27 1.27))) (uuid "3e23cc7c124647fb839c103e3aefabdb"))
+  (global_label "LMK_RESET" (at 431.1400 -14.3000 0) (effects (font (size 1.27 1.27))) (uuid "179ea15357cb41b9b4495758e539221a"))
+  (global_label "LMK_SYNC" (at 431.1400 -9.2200 0) (effects (font (size 1.27 1.27))) (uuid "31d57631ac464cf5b6ecff7d77d605ec"))
+  (global_label "SPW_TX_P" (at 431.1400 6.0200 0) (effects (font (size 1.27 1.27))) (uuid "ed3da0b8d2da4d55a6969423f7bff033"))
+  (global_label "SPW_TX_N" (at 431.1400 11.1000 0) (effects (font (size 1.27 1.27))) (uuid "4fc0425e4ea4451dbcedcebf3571dab8"))
+  (global_label "SPW_RX_P" (at 431.1400 16.1800 0) (effects (font (size 1.27 1.27))) (uuid "2e1ed6f5c77a441a9ff0372e0e4a5d04"))
+  (global_label "SPW_RX_N" (at 431.1400 21.2600 0) (effects (font (size 1.27 1.27))) (uuid "be49951471db4c51aae7608a154eb8a8"))
+  (global_label "SPW_TX2_P" (at 431.1400 31.4200 0) (effects (font (size 1.27 1.27))) (uuid "46543e30732041e0a8b4e4e76fa589a6"))
+  (global_label "SPW_TX2_N" (at 431.1400 36.5000 0) (effects (font (size 1.27 1.27))) (uuid "808e8fd95b4d4f2c8ab2ee50e60ff092"))
+  (global_label "SPW_RX2_P" (at 431.1400 41.5800 0) (effects (font (size 1.27 1.27))) (uuid "07b3e2320cf6479eb2ed0e2631ff438e"))
+  (global_label "SPW_RX2_N" (at 431.1400 46.6600 0) (effects (font (size 1.27 1.27))) (uuid "de71a07b5fb542fc9259850d9188b562"))
+  (global_label "+3V3" (at 238.1000 110.1600 0) (effects (font (size 1.27 1.27))) (uuid "50b1b3083cd34215b11ad8bcb63106fc"))
+  (global_label "+3V3" (at 288.9000 110.1600 0) (effects (font (size 1.27 1.27))) (uuid "6232db32691d4fcf82eedcb7d179c698"))
+  (global_label "+3V3" (at 339.7000 110.1600 0) (effects (font (size 1.27 1.27))) (uuid "66ac70b1333f4ef0b9b159d1e0ba8e03"))
+  (global_label "+3V3" (at 390.5000 110.1600 0) (effects (font (size 1.27 1.27))) (uuid "b059f82bfda54a978f9418ba3aacbea7"))
+  (global_label "GND" (at 263.5000 -105.7400 0) (effects (font (size 1.27 1.27))) (uuid "5640580ac6dc4ff59432398c1a619b52"))
+  (global_label "GND" (at 339.7000 -105.7400 0) (effects (font (size 1.27 1.27))) (uuid "ac972c0ef4184725a6741e8bd8bf4b50"))
   (sheet_instances (path "/" (page "1")))
 )
