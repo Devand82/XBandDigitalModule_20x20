@@ -70,15 +70,26 @@
   
   
   
-  (global_label "J2_PIN_1" (at 77.4600 54.9200 0) (effects (font (size 1.27 1.27))) (uuid "c50e6f2e98fe453a94c6b183533f89e1"))
-  (global_label "J2_PIN_2" (at 77.4600 57.4600 0) (effects (font (size 1.27 1.27))) (uuid "9fce75a284b2476ab62255d6925ea59c"))
-  (global_label "J2_PIN_3" (at 77.4600 62.5400 0) (effects (font (size 1.27 1.27))) (uuid "89aa2f36670b4495ac5250051b4be0d9"))
-  (global_label "J2_PIN_4" (at 77.4600 65.0800 0) (effects (font (size 1.27 1.27))) (uuid "058ef4e8ff954faf8f79ed03839f7789"))
-  (global_label "RF_IN" (at 140.0000 56.1900 0) (effects (font (size 1.27 1.27))) (uuid "f8c21634b63e414f841e734ba358a160"))
-  (global_label "ADC_INA_P" (at 140.0000 63.8100 0) (effects (font (size 1.27 1.27))) (uuid "adb5c8a34d68495b89d44e598d9253f0"))
-  (global_label "ADC_INA_P" (at 140.0000 36.1900 0) (effects (font (size 1.27 1.27))) (uuid "5103174e16b245dcb7f62b29c9caa3d6"))
-  (global_label "GND" (at 140.0000 43.8100 0) (effects (font (size 1.27 1.27))) (uuid "1b89d4931a734ba9a57ba9b9b522588e"))
-  (global_label "ADC_INA_N" (at 140.0000 76.1900 0) (effects (font (size 1.27 1.27))) (uuid "e4d31681032942e4819b46099ad592ee"))
-  (global_label "GND" (at 140.0000 83.8100 0) (effects (font (size 1.27 1.27))) (uuid "131205f7ce934fc6ad755fe18afa52cc"))
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  (global_label "J2_PIN_1" (at 77.4600 54.9200 0) (effects (font (size 1.27 1.27))) (uuid "4bb687997cd54d2caf6f67a133b37935"))
+  (global_label "J2_PIN_2" (at 77.4600 57.4600 0) (effects (font (size 1.27 1.27))) (uuid "a5724e9617f94f139fa6459a0c3e57a2"))
+  (global_label "J2_PIN_3" (at 77.4600 62.5400 0) (effects (font (size 1.27 1.27))) (uuid "e3d81174e04a4befa91e3fe766f2e557"))
+  (global_label "J2_PIN_4" (at 77.4600 65.0800 0) (effects (font (size 1.27 1.27))) (uuid "2b01a867483b44dca96cdcb8fefb477f"))
+  (global_label "RF_IN" (at 140.0000 56.1900 0) (effects (font (size 1.27 1.27))) (uuid "68247ee69ec142f4a89b10b044980d34"))
+  (global_label "ADC_INA_P" (at 140.0000 63.8100 0) (effects (font (size 1.27 1.27))) (uuid "97e38fe797e8463b8e2611856a21b03c"))
+  (global_label "ADC_INA_P" (at 140.0000 36.1900 0) (effects (font (size 1.27 1.27))) (uuid "fcd8998ee3d0415890152e968ed87a87"))
+  (global_label "GND" (at 140.0000 43.8100 0) (effects (font (size 1.27 1.27))) (uuid "3af0087c8d5243e4a300f184661d146b"))
+  (global_label "ADC_INA_N" (at 140.0000 76.1900 0) (effects (font (size 1.27 1.27))) (uuid "e8dcd1c4f138487ab50cac8fc6dee8d7"))
+  (global_label "GND" (at 140.0000 83.8100 0) (effects (font (size 1.27 1.27))) (uuid "2e5c047526304986a3f528b415845c1d"))
   (sheet_instances (path "/" (page "1")))
 )
